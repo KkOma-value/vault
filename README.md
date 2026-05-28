@@ -1,12 +1,30 @@
-# Knowledge Vault｜AI 辅助个人知识库
+<div align="center">
 
-[![Last commit](https://img.shields.io/github/last-commit/KkOma-value/vault?style=flat-square)](https://github.com/KkOma-value/vault/commits/master)
-[![Repo size](https://img.shields.io/github/repo-size/KkOma-value/vault?style=flat-square)](https://github.com/KkOma-value/vault)
-[![PowerShell](https://img.shields.io/badge/tool-PowerShell-5391FE?style=flat-square)](tools/ingest_raw.ps1)
+<h1>Knowledge Vault</h1>
+<p><strong>AI 辅助个人知识库</strong></p>
 
-Knowledge Vault 是一个面向个人知识管理的轻量仓库模板：把原始资料、AI 整理后的知识、LLM 产出分成 `raw / wiki / output` 三层，让资料从“文件堆”变成可追踪、可检索、可复用的知识系统。
+<p>
+  <a href="https://github.com/KkOma-value/vault/commits/master"><img alt="Last commit" src="https://img.shields.io/github/last-commit/KkOma-value/vault?style=for-the-badge&label=last%20commit&color=1f6feb"></a>
+  <a href="https://github.com/KkOma-value/vault"><img alt="Repo size" src="https://img.shields.io/github/repo-size/KkOma-value/vault?style=for-the-badge&label=repo%20size&color=238636"></a>
+  <a href="tools/ingest_raw.ps1"><img alt="PowerShell tool" src="https://img.shields.io/badge/tool-PowerShell-5391FE?style=for-the-badge"></a>
+</p>
 
-它适合配合 Obsidian、Git 和 AI 助手使用。你把 PDF、Markdown、Word、图片等资料放进 `raw/`，运行摄取脚本登记文件，再让 AI 按规则归档到 `wiki/`；之后所有摘要、报告、草稿都输出到 `output/`。
+<p><strong><code>raw</code> &rarr; <code>wiki</code> &rarr; <code>output</code></strong></p>
+
+<p>把原始资料、AI 整理后的知识、LLM 产出变成可追踪、可检索、可复用的个人知识系统。</p>
+
+<p>
+  <a href="#快速开始">快速开始</a> ·
+  <a href="#核心工作流">核心工作流</a> ·
+  <a href="#ai-操作协议">AI 操作协议</a> ·
+  <a href="#工具命令">工具命令</a>
+</p>
+
+</div>
+
+---
+
+Knowledge Vault 是一个面向个人知识管理的轻量仓库模板。它适合配合 Obsidian、Git 和 AI 助手使用：你把 PDF、Markdown、Word、图片等资料放进 `raw/`，运行摄取脚本登记文件，再让 AI 按规则归档到 `wiki/`；之后所有摘要、报告、草稿都输出到 `output/`。
 
 ## 30 秒看懂
 
@@ -68,6 +86,16 @@ flowchart LR
     E --> F["wiki/_master_index.md"]
     E --> G["output/ LLM 产出"]
     G --> H["output/_output_log.md"]
+
+    classDef source fill:#f6f8fa,stroke:#8c959f,color:#24292f;
+    classDef tool fill:#ddf4ff,stroke:#0969da,color:#0969da;
+    classDef knowledge fill:#dafbe1,stroke:#1a7f37,color:#116329;
+    classDef output fill:#fff8c5,stroke:#9a6700,color:#7d4e00;
+
+    class A,C source;
+    class B,D tool;
+    class E,F knowledge;
+    class G,H output;
 ```
 
 处理逻辑：
