@@ -32,22 +32,29 @@
 
 ## Architecture
 
-```
-  ┌─────────────────────────────────────────────────────────────┐
-  │                        Knowledge Vault                       │
-  │                                                              │
-  │   ┌──────────┐     ┌──────────┐     ┌──────────┐           │
-  │   │   raw/   │ ──▶ │  wiki/   │ ──▶ │ output/  │           │
-  │   │ 原始资料  │     │ 结构知识  │     │ LLM 产出  │           │
-  │   └──────────┘     └──────────┘     └──────────┘           │
-  │        │                │                  │                 │
-  │   pdf / md /        领域索引 /          摘要 / 报告 /        │
-  │   img / docx       知识文件 / 模板       草稿                │
-  │                                                              │
-  │            ┌────────────┐                                    │
-  │            │  tools/    │  ingest_raw.ps1 自动登记           │
-  │            └────────────┘                                    │
-  └─────────────────────────────────────────────────────────────┘
+```mermaid
+graph LR
+    subgraph raw["raw/ 原始资料"]
+        pdf["pdf"]
+        md["md"]
+        img["img"]
+        docx["docx"]
+    end
+
+    subgraph wiki["wiki/ 结构知识"]
+        index["领域索引"]
+        content["知识文件"]
+        taxonomy["分类规则"]
+    end
+
+    subgraph output["output/ LLM 产出"]
+        summaries["摘要"]
+        reports["报告"]
+        drafts["草稿"]
+    end
+
+    raw -->|"AI 整理"| wiki
+    wiki -->|"LLM 生成"| output
 ```
 
 ## Quick Start
