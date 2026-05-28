@@ -139,28 +139,25 @@ wiki/rag/
 
 ## 日常工作流
 
-### 步骤 1：放入原始文件
+### 1. 放入原始文件
+
+把 PDF、Markdown、Word、图片等文件放入 `raw/` 下对应的类型目录：
 
 ```text
 raw/pdf/RAG_Practical_Guide.pdf
 ```
 
-### 步骤 2：登记新文件
+### 2. 让 AI 自动登记并整理
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
-```
+告诉 AI 整理新文件即可，AI 会自动完成以下全部步骤：
 
-### 步骤 3：让 AI 整理 pending 文件
+- 扫描 `raw/` 下未登记的文件，更新 `raw/_ingestion_log.md`
+- 根据 `wiki/_taxonomy.md` 判断知识领域
+- 使用模板创建 wiki 知识文件和领域索引
+- 更新 `wiki/_master_index.md`
+- 把摄入日志状态改为 `processed`
 
-> 请处理 `raw/_ingestion_log.md` 中所有 pending 文件。
-> 根据 `wiki/_taxonomy.md` 判断应该归到哪个领域。
-> 如果已有领域合适，就更新该领域；如果没有合适领域，就创建新领域。
-> 处理完成后更新领域 `_index.md`、`wiki/_master_index.md`，并把摄入日志状态改为 processed。
-
-AI 会执行：读取 pending 条目 → 读取原始文件 → 按 taxonomy 判断领域 → 使用模板创建知识文件 → 更新索引 → 更新日志状态。
-
-### 步骤 4：基于 wiki 生成输出
+### 3. 基于 wiki 生成输出
 
 > 请基于 `wiki/rag/` 下的内容生成一份 RAG 学习报告，输出到 `output/reports/rag-learning-report.md`，并更新 `output/_output_log.md`。
 
