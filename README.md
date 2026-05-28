@@ -44,9 +44,11 @@ raw/misc/     # 其他文件
 
 登记新文件：
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
-```
+- 扫描 `raw/` 下未登记的文件，更新 `raw/_ingestion_log.md`
+- 根据 `wiki/_taxonomy.md` 判断知识领域
+- 使用模板创建 wiki 知识文件和领域索引
+- 更新 `wiki/_master_index.md`
+- 把摄入日志状态改为 `processed`
 
 然后让 AI 处理 `pending` 文件：
 
@@ -174,50 +176,30 @@ AI 处理这个仓库时应遵守以下规则：
 
 ## 工具命令
 
-登记 raw 新文件：
-
 ```powershell
+# 登记 raw 新文件
 powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
-```
 
-运行摄取脚本测试：
-
-```powershell
+# 运行摄取脚本测试
 powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\tests\test_ingest_raw.ps1
-```
 
-查看 Git 状态：
-
-```powershell
+# 查看 Git 状态
 git status
-```
 
-提交知识库变更：
-
-```powershell
+# 提交知识库变更
 git add .
 git commit -m "docs: update knowledge vault"
 ```
 
 ## 当前边界
 
-当前已经具备：
+**已具备：** 三层目录结构 | 摄取日志 | 总索引 | 分类规则 | wiki 模板 | output 日志 | raw 文件登记脚本 | 脚本测试 | Git 版本管理
 
-- 三层目录结构
-- 摄取日志
-- 总索引
-- 分类规则
-- wiki 模板
-- output 日志
-- raw 文件登记脚本
-- 脚本测试
-- Git 版本管理
+**暂不具备：** 完全自动化的后台监听能力。放入 `raw/` 后需手动运行脚本登记，然后让 AI 处理 `pending` 条目。
 
 当前还没有后台监听或全自动归档服务。新增文件后，需要手动运行：
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
-```
+<div align="center">
 
 然后再让 AI 处理 `pending` 条目。
 
