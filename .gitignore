@@ -1,0 +1,22 @@
+# Large binary files
+*.exe
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# OS generated
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor temp files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.bak
