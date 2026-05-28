@@ -1,50 +1,50 @@
-# Master Index / 总索引
+# 总索引
 
-Last updated / 最后更新: 2026-05-29
+最后更新: 2026-05-29
 
 ---
 
 <!--
-ENTRY SCHEMA / 条目格式:
-Each domain entry follows this exact structure:
+条目格式:
+每个领域条目遵循以下结构：
 
 ### [folder-name]
 
-- **Title/标题**: English Name / 中文名称
-- **Path/路径**: `wiki/folder-name/`
-- **Created/创建**: YYYY-MM-DD
-- **Updated/更新**: YYYY-MM-DD
-- **Files/文件数**: N
-- **Tags/标签**: comma, separated, bilingual, tags, 标签
-- **Summary/摘要**: One sentence in English. / 一句中文概述。
-- **Sources/来源**: List of raw source file paths.
+- **标题**:
+- **路径**: `wiki/folder-name/`
+- **创建**: YYYY-MM-DD
+- **更新**: YYYY-MM-DD
+- **文件数**: N
+- **标签**: tag-a, tag-b
+- **摘要**: 一句中文概述。
+- **来源**: 对应 raw 文件路径列表。
 
-When adding a new domain:
-1. Create the folder under wiki/
-2. Create _index.md inside the folder from wiki/_templates/domain_index_template.md
-3. Add entry here
-4. Update cross-references in related domains
+新增领域时：
+1. 在 wiki/ 下创建文件夹
+2. 用 wiki/_templates/domain_index_template.md 创建 _index.md
+3. 在此处添加条目
+4. 更新相关领域的交叉链接
 
-When updating an existing domain:
-1. Update content files
-2. Update the domain's _index.md
-3. Update the Updated/更新 date and Files/文件数 here
-4. Add new source paths if applicable
+更新领域时：
+1. 更新内容文件
+2. 更新领域 _index.md
+3. 更新此处的更新日期和文件数
+4. 如有新来源，补充来源路径
 -->
 
-## Knowledge Domains / 知识领域
+## 知识领域
 
-Classification rules / 分类规则: [Taxonomy / 知识分类规则](./_taxonomy.md)
+分类规则：[知识分类规则](./_taxonomy.md)
 
 ### [llm-ux]
 
-- **Title/标题**: LLM UX / LLM 用户体验
-- **Path/路径**: `wiki/llm-ux/`
-- **Created/创建**: 2026-05-29
-- **Updated/更新**: 2026-05-29
-- **Files/文件数**: 1
-- **Tags/标签**: llm, ux, output-format, html, interaction-design, 输出格式, 交互设计
-- **Summary/摘要**: User experience design for LLM interactions, covering output format evolution and human-AI communication bandwidth. / LLM 交互中的用户体验设计，涵盖输出格式演进和人机通信带宽。
-- **Sources/来源**: `raw/md/post-by-karpathy-on-x.md`
+- **标题**: LLM 用户体验
+- **路径**: `wiki/llm-ux/`
+- **创建**: 2026-05-29
+- **更新**: 2026-05-29
+- **文件数**: 1
+- **标签**: llm, ux, 输出格式, 交互设计
+- **摘要**: LLM 交互中的用户体验设计，涵盖输出格式演进和人机通信带宽。
+- **来源**: `raw/md/post-by-karpathy-on-x.md`
 
 ---
