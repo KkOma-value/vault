@@ -12,9 +12,15 @@ SCHEMA / 格式说明:
 | SHA-256     | First 12 chars of file hash for identity verification|
 | Ingested    | Date file was added (YYYY-MM-DD)                     |
 | Wiki Target | wiki/ folder that received the knowledge (or -- )    |
-| Status      | pending | processed | skipped                       |
+| Status      | `pending` / `processed` / `skipped`                |
 -->
+
+Run after adding files / 添加文件后运行:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
+```
 
 | Raw File | SHA-256 | Ingested | Wiki Target | Status |
 |----------|---------|----------|-------------|--------|
-| Post by @karpathy on X.md | 948d21f4e511 | 2026-05-29 | wiki/llm-ux | processed |
+| md/post-by-karpathy-on-x.md | 948d21f4e511 | 2026-05-29 | wiki/llm-ux | processed |

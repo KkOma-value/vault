@@ -9,7 +9,7 @@ SCHEMA / 格式说明:
 | Column          | Description                                        |
 |-----------------|----------------------------------------------------|
 | Output File     | Relative path from output/ root                    |
-| Type/类型       | summary | report | draft                           |
+| Type/类型       | `summary` / `report` / `draft`                    |
 | Generated/生成  | Date generated (YYYY-MM-DD)                        |
 | Source/来源     | Wiki content files or raw files used as input      |
 | Description     | Brief description of the output                    |

@@ -20,3 +20,8 @@ desktop.ini
 # Temp files
 *.tmp
 *.bak
+
+# Local agent/editor state
+.claude/
+.obsidian/
+_tmp_merge.py

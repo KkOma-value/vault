@@ -21,7 +21,7 @@ Each domain entry follows this exact structure:
 
 When adding a new domain:
 1. Create the folder under wiki/
-2. Create _index.md inside the folder
+2. Create _index.md inside the folder from wiki/_templates/domain_index_template.md
 3. Add entry here
 4. Update cross-references in related domains
 
@@ -34,6 +34,8 @@ When updating an existing domain:
 
 ## Knowledge Domains / 知识领域
 
+Classification rules / 分类规则: [Taxonomy / 知识分类规则](./_taxonomy.md)
+
 ### [llm-ux]
 
 - **Title/标题**: LLM UX / LLM 用户体验
@@ -43,6 +45,6 @@ When updating an existing domain:
 - **Files/文件数**: 1
 - **Tags/标签**: llm, ux, output-format, html, interaction-design, 输出格式, 交互设计
 - **Summary/摘要**: User experience design for LLM interactions, covering output format evolution and human-AI communication bandwidth. / LLM 交互中的用户体验设计，涵盖输出格式演进和人机通信带宽。
-- **Sources/来源**: `raw/Post by @karpathy on X.md`
+- **Sources/来源**: `raw/md/post-by-karpathy-on-x.md`
 
 ---

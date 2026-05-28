@@ -3,7 +3,7 @@
 <!--
 CONTENT METADATA / 内容元数据:
 source_raw_files:
-  - raw/Post by @karpathy on X.md
+  - raw/md/post-by-karpathy-on-x.md
 domain: llm-ux
 created: 2026-05-29
 updated: 2026-05-29
@@ -67,4 +67,4 @@ Karpathy also highlights that the input side needs evolution. Current modalities
 
 | Raw File | Location/位置 | Note/备注 |
 |----------|---------------|-----------|
-| Post by @karpathy on X.md | raw/ | Karpathy 2026-05-09 X post + community comments |
+| md/post-by-karpathy-on-x.md | raw/md/ | Karpathy 2026-05-09 X post + community comments |

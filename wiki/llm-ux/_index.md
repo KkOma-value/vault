@@ -33,7 +33,7 @@ This domain covers the design of LLM user experiences, with a focus on how AI ou
 
 | Raw File | SHA-256 | Wiki File | Processed/处理日期 | Notes/备注 |
 |----------|---------|-----------|--------------------|------------|
-| Post by @karpathy on X.md | 948d21f4e511 | output-format-evolution.md | 2026-05-29 | Karpathy X/Twitter clipping |
+| md/post-by-karpathy-on-x.md | 948d21f4e511 | output-format-evolution.md | 2026-05-29 | Karpathy X/Twitter clipping |
 
 ---
 
