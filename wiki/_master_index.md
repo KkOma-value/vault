@@ -43,6 +43,6 @@ When updating an existing domain:
 - **Files/文件数**: 1
 - **Tags/标签**: llm, ux, output-format, html, interaction-design, 输出格式, 交互设计
 - **Summary/摘要**: User experience design for LLM interactions, covering output format evolution and human-AI communication bandwidth. / LLM 交互中的用户体验设计，涵盖输出格式演进和人机通信带宽。
-- **Sources/来源**: `raw/Post by @karpathy on X.md`
+- **Sources/来源**: `raw/md/post-by-karpathy-on-x.md`
 
 ---
