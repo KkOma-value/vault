@@ -17,3 +17,4 @@ SCHEMA / 格式说明:
 
 | Raw File | SHA-256 | Ingested | Wiki Target | Status |
 |----------|---------|----------|-------------|--------|
+| Post by @karpathy on X.md | 948d21f4e511 | 2026-05-29 | wiki/llm-ux | processed |
