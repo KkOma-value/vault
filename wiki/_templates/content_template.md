@@ -10,6 +10,11 @@ updated: YYYY-MM-DD
 tags: tag-a, tag-b
 related:
   - wiki/other-domain/related-topic.md
+
+链接格式规则（Obsidian 可点击）:
+- 正文中引用其他知识文件使用 [[domain/topic-file]] 或 [[domain/topic-file|显示标题]]
+- 来源备注表中"原始文件"列使用 [[raw/path/file|显示名]] 格式
+- 禁止使用反引号包裹路径（Obsidian 不会渲染为可点击链接）
 -->
 
 ## 摘要
@@ -35,3 +40,4 @@ related:
 
 | 原始文件 | 位置 | 备注 |
 |----------|------|------|
+| [[raw/path/file\|显示名]] | raw/子目录/ | |
