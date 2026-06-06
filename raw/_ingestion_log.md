@@ -23,4 +23,3 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
 
 | Raw File | SHA-256 | Ingested | Wiki Target | Status |
 |----------|---------|----------|-------------|--------|
-| md/post-by-karpathy-on-x.md | 948d21f4e511 | 2026-05-29 | wiki/llm-ux | processed |

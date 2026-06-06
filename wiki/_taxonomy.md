@@ -57,7 +57,6 @@ If a file spans multiple domains, choose one primary domain and add cross-links 
 
 | Domain | Title/标题 | Scope/范围 | Typical Tags/常见标签 |
 |--------|------------|------------|------------------------|
-| llm-ux | LLM UX / LLM 用户体验 | LLM output formats, interaction design, human-AI communication bandwidth | html, markdown, vision, output-format, 输出格式, 交互设计 |
 
 ---
 
@@ -66,4 +65,3 @@ If a file spans multiple domains, choose one primary domain and add cross-links 
 - `pending`: registered in `raw/_ingestion_log.md`, not yet organized into wiki.
 - `processed`: content has been summarized, placed in wiki, and indexes were updated.
 - `skipped`: intentionally not processed; add a short reason in the log or commit message.
-
