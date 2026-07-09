@@ -17,8 +17,8 @@ SCHEMA / 格式说明:
 
 Run after adding files / 添加文件后运行:
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
+```bash
+./tools/ingest_raw.sh
 ```
 
 | Raw File | SHA-256 | Ingested | Wiki Target | Status |
