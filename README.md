@@ -8,7 +8,7 @@
 <p>
   <a href="https://github.com/KkOma-value/vault/commits/master"><img alt="Last commit" src="https://img.shields.io/github/last-commit/KkOma-value/vault?style=for-the-badge&label=last%20commit&color=1f6feb"></a>
   <a href="https://github.com/KkOma-value/vault"><img alt="Repo size" src="https://img.shields.io/github/repo-size/KkOma-value/vault?style=for-the-badge&label=repo%20size&color=238636"></a>
-  <a href="tools/ingest_raw.ps1"><img alt="PowerShell tool" src="https://img.shields.io/badge/tool-PowerShell-5391FE?style=for-the-badge"></a>
+  <a href="tools/ingest_raw.sh"><img alt="Bash tool" src="https://img.shields.io/badge/tool-Bash-4EAA25?style=for-the-badge"></a>
 </p>
 
 <p><strong><code>raw</code> &rarr; <code>wiki</code> &rarr; <code>output</code></strong></p>
@@ -47,7 +47,7 @@ Core goals:
 
 Clone the repository:
 
-```powershell
+```bash
 git clone https://github.com/KkOma-value/vault.git
 cd vault
 ```
@@ -64,8 +64,8 @@ raw/misc/     # Other files
 
 Register new files:
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
+```bash
+./tools/ingest_raw.sh
 ```
 
 Then ask AI to process `pending` files:
@@ -82,7 +82,7 @@ and change the ingestion log status to processed.
 
 ```mermaid
 flowchart LR
-    A["raw/ Raw Materials"] --> B["tools/ingest_raw.ps1"]
+    A["raw/ Raw Materials"] --> B["tools/ingest_raw.sh"]
     B --> C["raw/_ingestion_log.md"]
     C --> D["AI reads pending entries"]
     D --> E["wiki/ Domain Knowledge"]
@@ -104,7 +104,7 @@ flowchart LR
 Processing logic:
 
 1. `raw/` stores original files.
-2. `ingest_raw.ps1` scans for new files, computes SHA-256 prefixes, and registers them as `pending`.
+2. `ingest_raw.sh` scans for new files, computes SHA-256 prefixes, and registers them as `pending`.
 3. AI uses [`wiki/_taxonomy.md`](wiki/_taxonomy.md) to determine the domain.
 4. AI uses [`wiki/_templates/`](wiki/_templates/) to create or update knowledge files.
 5. Domain indexes and the master index are updated accordingly.
@@ -134,7 +134,7 @@ Processing logic:
 │   ├── reports/
 │   └── drafts/
 └── tools/
-    ├── ingest_raw.ps1
+    ├── ingest_raw.sh
     ├── README.md
     └── tests/
 ```
@@ -208,25 +208,25 @@ When AI processes this repository, it must follow these rules:
 
 Register new raw files:
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
+```bash
+./tools/ingest_raw.sh
 ```
 
 Run ingestion script tests:
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\tests\test_ingest_raw.ps1
+```bash
+./tools/tests/test_ingest_raw.sh
 ```
 
 Check Git status:
 
-```powershell
+```bash
 git status
 ```
 
 Commit knowledge base changes:
 
-```powershell
+```bash
 git add .
 git commit -m "docs: update knowledge vault"
 ```
@@ -247,8 +247,8 @@ What's already in place:
 
 There is currently no background watcher or fully automated archiving service. After adding new files, you need to manually run:
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
+```bash
+./tools/ingest_raw.sh
 ```
 
 Then ask AI to process the `pending` entries.
