@@ -1,6 +1,6 @@
 # Taxonomy / 知识分类规则
 
-Last updated / 最后更新: 2026-05-29
+Last updated / 最后更新: 2026-08-08
 
 ---
 
@@ -57,6 +57,18 @@ If a file spans multiple domains, choose one primary domain and add cross-links 
 
 | Domain | Title/标题 | Scope/范围 | Typical Tags/常见标签 |
 |--------|------------|------------|------------------------|
+| ai-design | AI 设计 | 用 AI 做 UI/产品设计的方法论：品味、工作流、设计技能、灵感板 | ai-design, ui-design, 品味, 工作流, 设计技能, inspiration-board |
+| claude-code | Claude Code | Claude Code 使用原理与配置：模型、努力程度、token 消耗 | claude-code, llm, 模型选择, 努力程度, token |
+| pi-agent | Pi 代理框架 | Pi 编码代理框架的原理、扩展系统与 SDK | pi, agent-framework, 扩展系统, sdk, coding-agent |
+| ai-self-media | AI 自媒体 | AI 自媒体运营方法论：起号、选题、拍剪、过审、变现 | ai-self-media, 自媒体, 内容创作, 起号, 变现, 流量 |
+| graph-engineering | Graph Engineering / 图结构 Agent 编排 | 复杂 Agent 任务的图结构设计：节点拆分、并行、验证关卡、路由、容错、Dynamic Workflows | graph-engineering, agent-orchestration, 多agent, 并行, 验证关卡, 路由, dynamic-workflows |
+| code-migration | 代码迁移 / Code Migration | 用 Claude Code + 多 agent 循环做大规模代码迁移：judge 判据、实现—审查—修复循环、对抗式审查、机械化验证 | code-migration, claude-code, 多agent, 对抗式审查, judge, loop |
+| ai-automation | AI 自动化 / AI Automation | 把 AI 嵌入工作流、无人值守自动完成重复任务的落地工具与范式：只读+定时、本地脱敏、凭据隔离、双格式产出 | ai-automation, 工作流自动化, 本地优先, 隐私脱敏, 定时任务 |
+| ai-industry | AI 行业观察 / AI Industry | AI 行业宏观观察：商业战略、定价与开源逻辑、算力格局、技术路线、组织方式 | ai-industry, deepseek, 商业战略, agi, 算力, 开源, 组织管理 |
+| algo-trading | 算法交易 / Algo Trading | 算法/量化交易策略、架构与风控：预测市场做市、套利、信号系统、执行引擎、仓位管理 | algo-trading, quantitative-trading, prediction-market, market-making, polymarket, 量化交易, 做市, 套利 |
+| ai-security | AI 安全 / AI Security | AI 驱动的安全攻防：Vibe Coding 产品漏洞扫描与修复，以及自主 Agent 攻击与防守自动化（事件复盘、群体智慧涌现、应急响应） | ai-security, codex-security, vibe-coding, 漏洞扫描, 安全审查, openai, agent-attacks, 自主agent, 群体智慧, 零日, 红队 |
+| ai-tools | AI 工具集成 / AI Tools | AI Agent 工具/插件/Skill 的接入方法与公开 API 集成指南 | ai-tools, agent-skills, api, mcp, rss, 工具集成, agent-browser, cdp, cloudflare |
+| overseas-access | 海外访问 / Overseas Access | 在中国大陆获取海外手机号、网络访问等基础设施，解决 AI 服务验证门槛 | overseas-access, esim, 美国号, 海外手机卡, beesim, saily |
 
 ---
 

@@ -21,21 +21,6 @@ desktop.ini
 *.tmp
 *.bak
 
-# AI/LLM processing artifacts
-raw/**
-!raw/**/
-!raw/_ingestion_log.md
-!raw/**/.gitkeep
-
-output/**
-!output/**/
-!output/_output_log.md
-!output/**/.gitkeep
-
-wiki/*/
-!wiki/_templates/
-!wiki/_templates/**
-
 # Local agent/editor state
 .claude/
 .codex/
