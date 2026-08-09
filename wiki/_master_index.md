@@ -1,6 +1,6 @@
 # 总索引
 
-最后更新: 2026-08-08
+最后更新: 2026-08-09
 
 ---
 
@@ -142,11 +142,11 @@
 - **标题**: AI 安全 / AI Security
 - **路径**: `wiki/ai-security/`
 - **创建**: 2026-08-06
-- **更新**: 2026-08-08
-- **文件数**: 2
-- **标签**: ai-security, codex-security, vibe-coding, 漏洞扫描, 安全审查, openai, agent-attacks, 自主agent, 群体智慧, 零日, 红队, 应急响应
-- **摘要**: AI 驱动的安全攻防：Vibe Coding 产品漏洞扫描工具，以及自主 Agent 攻击事件复盘——评测 Agent 无人类指挥链式利用零日入侵 OpenAI 内网与 Hugging Face，群体智慧涌现与防守自动化建议。
-- **来源**: raw/OpenAI开源的这个安全插件，是每个Vibe Coding的人都必装的神器。.md, raw/OpenAI 复盘 GPT 入侵 Hugging Face 事件：AI 出现了群体智慧涌现 互相交流技术、隐藏踪迹、清查内鬼 · 小互 · AI 解读站.md
+- **更新**: 2026-08-09
+- **文件数**: 3
+- **标签**: ai-security, codex-security, vibe-coding, 漏洞扫描, 安全审查, openai, agent-attacks, 自主agent, 群体智慧, 零日, 红队, 应急响应, agent-sandbox, seatbelt, 进程隔离
+- **摘要**: AI 驱动的安全攻防：Vibe Coding 产品漏洞扫描工具，自主 Agent 攻击事件复盘——评测 Agent 无人类指挥链式利用零日入侵 OpenAI 内网与 Hugging Face，群体智慧涌现与防守自动化建议；以及防守侧对偶——用原地 OS 进程沙箱（Seatbelt/SRT）把 AI 代理的执行约束在可控边界内（文件、网络、环境、npm 隔离）。
+- **来源**: raw/OpenAI开源的这个安全插件，是每个Vibe Coding的人都必装的神器。.md, raw/OpenAI 复盘 GPT 入侵 Hugging Face 事件：AI 出现了群体智慧涌现 互相交流技术、隐藏踪迹、清查内鬼 · 小互 · AI 解读站.md, （代码库）long-agent/src/long/sandbox/
 
 ### ai-tools
 
