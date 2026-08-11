@@ -1,7 +1,9 @@
 <div align="center">
 
+**English** | [中文](README_zh.md)
+
 <h1>Knowledge Vault</h1>
-<p><strong>AI 辅助个人知识库</strong></p>
+<p><strong>AI-Assisted Personal Knowledge Base</strong></p>
 
 <p>
   <a href="https://github.com/KkOma-value/vault/commits/master"><img alt="Last commit" src="https://img.shields.io/github/last-commit/KkOma-value/vault?style=for-the-badge&label=last%20commit&color=1f6feb"></a>
@@ -11,80 +13,81 @@
 
 <p><strong><code>raw</code> &rarr; <code>wiki</code> &rarr; <code>output</code></strong></p>
 
-<p>把原始资料、AI 整理后的知识、LLM 产出变成可追踪、可检索、可复用的个人知识系统。</p>
+<p>Turn raw materials, AI-curated knowledge, and LLM outputs into a trackable, searchable, reusable personal knowledge system.</p>
 
 <p>
-  <a href="#快速开始">快速开始</a> ·
-  <a href="#核心工作流">核心工作流</a> ·
-  <a href="#ai-操作协议">AI 操作协议</a> ·
-  <a href="#工具命令">工具命令</a>
+  <a href="#quick-start">Quick Start</a> ·
+  <a href="#core-workflow">Core Workflow</a> ·
+  <a href="#ai-protocol">AI Protocol</a> ·
+  <a href="#tools">Tools</a>
 </p>
 
 </div>
 
 ---
 
-Knowledge Vault 是一个面向个人知识管理的轻量仓库模板。它适合配合 Obsidian、Git 和 AI 助手使用：你把 PDF、Markdown、Word、图片等资料放进 `raw/`，运行摄取脚本登记文件，再让 AI 按规则归档到 `wiki/`；之后所有摘要、报告、草稿都输出到 `output/`。
+Knowledge Vault is a lightweight repository template for personal knowledge management. It works well with Obsidian, Git, and AI assistants: drop PDFs, Markdown files, Word documents, images, etc. into `raw/`, run the ingestion script to register files, then let AI archive them into `wiki/` following predefined rules. All summaries, reports, and drafts go into `output/`.
 
-## 30 秒看懂
+## At a Glance
 
-| 层级 | 作用 | 你会放什么 |
-|------|------|------------|
-| [`raw/`](raw/) | 原始资料层，保留事实来源 | PDF、Markdown、图片、Word、网页剪藏 |
-| [`wiki/`](wiki/) | 知识整理层，保存 AI 或人工整理后的知识 | 领域索引、主题笔记、来源追溯、相关链接 |
-| [`output/`](output/) | 产出层，保存 LLM 生成物 | 摘要、报告、文章草稿、分析结果 |
+| Layer | Purpose | What Goes Here |
+|-------|---------|----------------|
+| [`raw/`](raw/) | Raw material layer — preserves original sources | PDFs, Markdown, images, Word docs, web clippings |
+| [`wiki/`](wiki/) | Knowledge layer — AI or human-curated knowledge | Domain indexes, topic notes, source tracing, related links |
+| [`output/`](output/) | Output layer — LLM-generated artifacts | Summaries, reports, article drafts, analysis results |
 
-核心目标：
+Core goals:
 
-- 保留原始文件，不破坏来源。
-- 每个知识文件都能追溯到 raw 来源。
-- 用索引快速定位领域、主题和相关知识。
-- 让 AI 处理文件时有固定协议，而不是每次临时发挥。
+- Preserve original files without altering sources.
+- Every knowledge file traces back to its raw source.
+- Use indexes for fast lookup by domain, topic, and related knowledge.
+- Give AI a fixed protocol for processing files instead of ad-hoc behavior.
 
-## 快速开始
+## Quick Start
 
-克隆仓库：
+Clone the repository:
 
 ```powershell
 git clone https://github.com/KkOma-value/vault.git
 cd vault
 ```
 
-把原始文件放进 `raw/` 的对应目录：
+Place raw files into the appropriate `raw/` subdirectory:
 
 ```text
-raw/pdf/      # PDF
+raw/pdf/      # PDFs
 raw/md/       # Markdown
-raw/img/      # 图片
-raw/docx/     # Word 文档
-raw/misc/     # 其他文件
+raw/img/      # Images
+raw/docx/     # Word documents
+raw/misc/     # Other files
 ```
 
-登记新文件：
+Register new files:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
 ```
 
-然后让 AI 处理 `pending` 文件：
+Then ask AI to process `pending` files:
 
 ```text
-请处理 raw/_ingestion_log.md 中所有 pending 文件。
-根据 wiki/_taxonomy.md 判断领域归属。
-如果已有领域合适，就更新该领域；否则创建新领域。
-处理完成后更新领域 _index.md、wiki/_master_index.md，并把摄入日志状态改为 processed。
+Process all pending files in raw/_ingestion_log.md.
+Use wiki/_taxonomy.md to determine domain assignment.
+If an existing domain fits, update it; otherwise create a new one.
+After processing, update the domain _index.md, wiki/_master_index.md,
+and change the ingestion log status to processed.
 ```
 
-## 核心工作流
+## Core Workflow
 
 ```mermaid
 flowchart LR
-    A["raw/ 原始资料"] --> B["tools/ingest_raw.ps1"]
+    A["raw/ Raw Materials"] --> B["tools/ingest_raw.ps1"]
     B --> C["raw/_ingestion_log.md"]
-    C --> D["AI 读取 pending 条目"]
-    D --> E["wiki/ 领域知识"]
+    C --> D["AI reads pending entries"]
+    D --> E["wiki/ Domain Knowledge"]
     E --> F["wiki/_master_index.md"]
-    E --> G["output/ LLM 产出"]
+    E --> G["output/ LLM Outputs"]
     G --> H["output/_output_log.md"]
 
     classDef source fill:#f6f8fa,stroke:#8c959f,color:#24292f;
@@ -98,16 +101,16 @@ flowchart LR
     class G,H output;
 ```
 
-处理逻辑：
+Processing logic:
 
-1. `raw/` 保存原始文件。
-2. `ingest_raw.ps1` 扫描新文件，计算 SHA-256 前缀，登记为 `pending`。
-3. AI 按 [`wiki/_taxonomy.md`](wiki/_taxonomy.md) 判断领域。
-4. AI 使用 [`wiki/_templates/`](wiki/_templates/) 创建或更新知识文件。
-5. 领域索引和总索引同步更新。
-6. LLM 产出单独进入 `output/`，避免和知识源混在一起。
+1. `raw/` stores original files.
+2. `ingest_raw.ps1` scans for new files, computes SHA-256 prefixes, and registers them as `pending`.
+3. AI uses [`wiki/_taxonomy.md`](wiki/_taxonomy.md) to determine the domain.
+4. AI uses [`wiki/_templates/`](wiki/_templates/) to create or update knowledge files.
+5. Domain indexes and the master index are updated accordingly.
+6. LLM outputs go into `output/` separately, keeping them distinct from knowledge sources.
 
-## 目录结构
+## Directory Structure
 
 ```text
 .
@@ -136,15 +139,15 @@ flowchart LR
     └── tests/
 ```
 
-## 一个简单例子
+## Example
 
-假设你新增了一个 RAG 笔记：
+Suppose you add a new RAG note:
 
 ```text
 raw/md/rag-notes.md
 ```
 
-运行摄取脚本后，`raw/_ingestion_log.md` 会新增类似记录：
+After running the ingestion script, `raw/_ingestion_log.md` will have a new entry:
 
 ```markdown
 | Raw File | SHA-256 | Ingested | Wiki Target | Status |
@@ -152,7 +155,7 @@ raw/md/rag-notes.md
 | md/rag-notes.md | 9f86d081884c | 2026-05-29 | -- | pending |
 ```
 
-AI 处理后可能创建：
+After AI processing, the following may be created:
 
 ```text
 wiki/rag/
@@ -160,25 +163,26 @@ wiki/rag/
 └── rag-pipeline.md
 ```
 
-知识文件会保留来源追溯：
+The knowledge file retains source tracing:
 
 ```markdown
-# RAG 流程
+# RAG Pipeline
 
 <!--
 source_raw_files:
   - raw/md/rag-notes.md
 domain: rag
-tags: rag, retrieval, generation, 检索增强生成
+tags: rag, retrieval, generation
 -->
 
-## 摘要
+## Summary
 
-RAG 将外部知识检索与大语言模型生成结合起来。
-典型流程包括文档加载、切分、向量化、检索、重排序和生成。
+RAG combines external knowledge retrieval with large language model generation.
+A typical pipeline includes document loading, chunking, vectorization,
+retrieval, reranking, and generation.
 ```
 
-摄入日志随后更新为：
+The ingestion log is then updated:
 
 ```markdown
 | Raw File | SHA-256 | Ingested | Wiki Target | Status |
@@ -186,77 +190,77 @@ RAG 将外部知识检索与大语言模型生成结合起来。
 | md/rag-notes.md | 9f86d081884c | 2026-05-29 | wiki/rag/ | processed |
 ```
 
-## AI 操作协议
+## AI Protocol
 
-AI 处理这个仓库时应遵守以下规则：
+When AI processes this repository, it must follow these rules:
 
-- 不修改 `raw/` 中的原始文件内容。
-- 先读 [`wiki/_taxonomy.md`](wiki/_taxonomy.md)，再决定归档领域。
-- 优先更新已有领域；没有合适领域时才创建新领域。
-- 新领域必须包含 `_index.md`。
-- 新知识文件必须保留来源追溯。
-- 更新知识文件后，同步更新领域 `_index.md` 和 [`wiki/_master_index.md`](wiki/_master_index.md)。
-- 处理完 raw 文件后，同步更新 [`raw/_ingestion_log.md`](raw/_ingestion_log.md)。
-- 生成 LLM 输出后，同步更新 [`output/_output_log.md`](output/_output_log.md)。
-- 不大段复制原文到 wiki；wiki 保存整理后的知识。
+- Never modify the contents of original files in `raw/`.
+- Read [`wiki/_taxonomy.md`](wiki/_taxonomy.md) before deciding on a domain.
+- Prefer updating existing domains; only create new ones when no existing domain fits.
+- New domains must include an `_index.md`.
+- New knowledge files must retain source tracing.
+- After updating knowledge files, sync the domain `_index.md` and [`wiki/_master_index.md`](wiki/_master_index.md).
+- After processing raw files, update [`raw/_ingestion_log.md`](raw/_ingestion_log.md).
+- After generating LLM output, update [`output/_output_log.md`](output/_output_log.md).
+- Do not copy large sections of original text into wiki; wiki stores curated knowledge.
 
-## 工具命令
+## Tools
 
-登记 raw 新文件：
+Register new raw files:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
 ```
 
-运行摄取脚本测试：
+Run ingestion script tests:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\tests\test_ingest_raw.ps1
 ```
 
-查看 Git 状态：
+Check Git status:
 
 ```powershell
 git status
 ```
 
-提交知识库变更：
+Commit knowledge base changes:
 
 ```powershell
 git add .
 git commit -m "docs: update knowledge vault"
 ```
 
-## 当前边界
+## Current Scope
 
-当前已经具备：
+What's already in place:
 
-- 三层目录结构
-- 摄取日志
-- 总索引
-- 分类规则
-- wiki 模板
-- output 日志
-- raw 文件登记脚本
-- 脚本测试
-- Git 版本管理
+- Three-layer directory structure
+- Ingestion log
+- Master index
+- Taxonomy rules
+- Wiki templates
+- Output log
+- Raw file registration script
+- Script tests
+- Git version control
 
-当前还没有后台监听或全自动归档服务。新增文件后，需要手动运行：
+There is currently no background watcher or fully automated archiving service. After adding new files, you need to manually run:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
 ```
 
-然后再让 AI 处理 `pending` 条目。
+Then ask AI to process the `pending` entries.
 
-## 许可证状态
+## License
 
-当前仓库尚未声明开源许可证。虽然仓库是 public，但在添加 `LICENSE` 文件之前，默认不授予复用、分发或修改权利。
+This repository has not yet declared an open-source license. Although the repository is public, no rights to reuse, distribute, or modify are granted until a `LICENSE` file is added.
 
-## 参考
+## References
 
-这个 README 的结构参考了：
+The structure of this README draws from:
 
-- [GitHub 官方 README 建议](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-- [Google README 风格指南](https://google.github.io/styleguide/docguide/READMEs.html)
-- [React](https://github.com/facebook/react)、[Next.js](https://github.com/vercel/next.js)、[nvm](https://github.com/nvm-sh/nvm)、[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)、[freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)、[awesome](https://github.com/sindresorhus/awesome)、[free-programming-books](https://github.com/EbookFoundation/free-programming-books) 等高星仓库的常见写法。
+- [GitHub official README guidelines](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- [Google README style guide](https://google.github.io/styleguide/docguide/READMEs.html)
+- High-star repositories such as [React](https://github.com/facebook/react), [Next.js](https://github.com/vercel/next.js), [nvm](https://github.com/nvm-sh/nvm), [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh), [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp), [awesome](https://github.com/sindresorhus/awesome), and [free-programming-books](https://github.com/EbookFoundation/free-programming-books).
