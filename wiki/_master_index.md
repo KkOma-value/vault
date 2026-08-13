@@ -1,6 +1,6 @@
 # 总索引
 
-最后更新: 2026-08-09
+最后更新: 2026-08-14
 
 ---
 
@@ -65,11 +65,11 @@
 - **标题**: Pi 代理框架
 - **路径**: `wiki/pi-agent/`
 - **创建**: 2026-07-09
-- **更新**: 2026-07-09
-- **文件数**: 1
-- **标签**: pi, agent-framework, 扩展系统, sdk, coding-agent
-- **摘要**: Pi 编码代理框架的原理、扩展系统与 SDK 用法；默认极简，靠 TypeScript 扩展添加一切能力。
-- **来源**: raw/Pi 代理 101 - 如何扩展和构建自己的线束.md
+- **更新**: 2026-08-14
+- **文件数**: 2
+- **标签**: pi, agent-framework, 扩展系统, sdk, coding-agent, compaction, 上下文压缩
+- **摘要**: Pi 编码代理框架的原理、扩展系统与 SDK 用法；默认极简，靠 TypeScript 扩展添加一切能力。长会话中 Pi 用 compaction 突破上下文窗口：独立 LLM 请求把旧历史总结成结构化摘要，默认保留约 2 万 token 近期轮次，纯文本存储跨模型可移植，代价是打破 prompt cache。
+- **来源**: raw/Pi 代理 101 - 如何扩展和构建自己的线束.md, raw/How Compaction Works in Pi.md
 
 ### ai-self-media
 
@@ -169,3 +169,14 @@
 - **标签**: overseas-access, esim, 美国号, 海外手机卡, beesim, saily
 - **摘要**: 在中国大陆获取海外手机号等基础设施，解决 AI 服务注册验证门槛。首篇为 BeeSIM + Saily 最低成本美国号方案。
 - **来源**: raw/国行手机用上 eSIM + 最便宜的美国号，保姆级教程手把手带你搞定.md
+
+### indie-dev
+
+- **标题**: 独立开发 / Indie Dev
+- **路径**: `wiki/indie-dev/`
+- **创建**: 2026-08-14
+- **更新**: 2026-08-14
+- **文件数**: 1
+- **标签**: indie-dev, indie-hacking, 独立开发, 产品思维, product-engineering, 品牌, 出海, 数据分析, 高频发布
+- **摘要**: 独立开发者的产品思维与经营方法论：产品工程师定位（代码只占 30%）、需求克制、每周高频发布、个人品牌与信任经营、出海与真诚、X 脉冲 vs YouTube 长尾的渠道选择、数据分析驱动迭代。首篇为 Tw93 复盘 Mole 从开源 CLI 到 Mac 付费软件的过程。
+- **来源**: raw/Post by @HiTw93 on X.md
