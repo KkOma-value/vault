@@ -1,6 +1,6 @@
 # Ingestion Log / 文件摄入日志
 
-Last updated / 最后更新: 2026-08-08
+Last updated / 最后更新: 2026-08-14
 
 ---
 
@@ -40,3 +40,5 @@ Run after adding files / 添加文件后运行:
 | Introducing Kitesurf The agent-first browser that runs in V8 isolates on Cloudflare Workers.md | 9590a142fb4a | 2026-08-07 | wiki/ai-tools/ | processed |
 | OpenAI 复盘 GPT 入侵 Hugging Face 事件：AI 出现了群体智慧涌现 互相交流技术、隐藏踪迹、清查内鬼 · 小互 · AI 解读站.md | 9722dd268902 | 2026-08-08 | wiki/ai-security/ | processed |
 | Original Content 奖励计划.md | 8f9ea37366bd | 2026-08-08 | wiki/ai-self-media/ | processed |
+| How Compaction Works in Pi.md | 39308152a159 | 2026-08-14 | wiki/pi-agent/ | processed |
+| Post by @HiTw93 on X.md | 9c877522df04 | 2026-08-14 | wiki/indie-dev/ | processed |
