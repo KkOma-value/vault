@@ -8,7 +8,7 @@
 <p>
   <a href="https://github.com/KkOma-value/vault/commits/master"><img alt="Last commit" src="https://img.shields.io/github/last-commit/KkOma-value/vault?style=for-the-badge&label=last%20commit&color=1f6feb"></a>
   <a href="https://github.com/KkOma-value/vault"><img alt="Repo size" src="https://img.shields.io/github/repo-size/KkOma-value/vault?style=for-the-badge&label=repo%20size&color=238636"></a>
-  <a href="tools/ingest_raw.ps1"><img alt="PowerShell tool" src="https://img.shields.io/badge/tool-PowerShell-5391FE?style=for-the-badge"></a>
+  <a href="tools/ingest_raw.sh"><img alt="Bash tool" src="https://img.shields.io/badge/tool-Bash-4EAA25?style=for-the-badge"></a>
 </p>
 
 <p><strong><code>raw</code> &rarr; <code>wiki</code> &rarr; <code>output</code></strong></p>
@@ -47,7 +47,7 @@ Knowledge Vault 是一个面向个人知识管理的轻量仓库模板。它适�
 
 克隆仓库：
 
-```powershell
+```bash
 git clone https://github.com/KkOma-value/vault.git
 cd vault
 ```
@@ -64,8 +64,8 @@ raw/misc/     # 其他文件
 
 登记新文件：
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
+```bash
+./tools/ingest_raw.sh
 ```
 
 然后让 AI 处理 `pending` 文件：
@@ -81,7 +81,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
 
 ```mermaid
 flowchart LR
-    A["raw/ 原始资料"] --> B["tools/ingest_raw.ps1"]
+    A["raw/ 原始资料"] --> B["tools/ingest_raw.sh"]
     B --> C["raw/_ingestion_log.md"]
     C --> D["AI 读取 pending 条目"]
     D --> E["wiki/ 领域知识"]
@@ -103,7 +103,7 @@ flowchart LR
 处理逻辑：
 
 1. `raw/` 保存原始文件。
-2. `ingest_raw.ps1` 扫描新文件，计算 SHA-256 前缀，登记为 `pending`。
+2. `ingest_raw.sh` 扫描新文件，计算 SHA-256 前缀，登记为 `pending`。
 3. AI 按 [`wiki/_taxonomy.md`](wiki/_taxonomy.md) 判断领域。
 4. AI 使用 [`wiki/_templates/`](wiki/_templates/) 创建或更新知识文件。
 5. 领域索引和总索引同步更新。
@@ -133,7 +133,7 @@ flowchart LR
 │   ├── reports/
 │   └── drafts/
 └── tools/
-    ├── ingest_raw.ps1
+    ├── ingest_raw.sh
     ├── README.md
     └── tests/
 ```
@@ -206,25 +206,25 @@ AI 处理这个仓库时应遵守以下规则：
 
 登记 raw 新文件：
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
+```bash
+./tools/ingest_raw.sh
 ```
 
 运行摄取脚本测试：
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\tests\test_ingest_raw.ps1
+```bash
+./tools/tests/test_ingest_raw.sh
 ```
 
 查看 Git 状态：
 
-```powershell
+```bash
 git status
 ```
 
 提交知识库变更：
 
-```powershell
+```bash
 git add .
 git commit -m "docs: update knowledge vault"
 ```
@@ -245,8 +245,8 @@ git commit -m "docs: update knowledge vault"
 
 当前还没有后台监听或全自动归档服务。新增文件后，需要手动运行：
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\ingest_raw.ps1
+```bash
+./tools/ingest_raw.sh
 ```
 
 然后再让 AI 处理 `pending` 条目。
