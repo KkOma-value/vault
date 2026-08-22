@@ -1,6 +1,6 @@
 # 总索引
 
-最后更新: 2026-08-14
+最后更新: 2026-08-22
 
 ---
 
@@ -54,11 +54,11 @@
 - **标题**: Claude Code
 - **路径**: `wiki/claude-code/`
 - **创建**: 2026-07-09
-- **更新**: 2026-07-14
-- **文件数**: 2
-- **标签**: claude-code, llm, 模型选择, 努力程度, token, loops, 代理循环
-- **摘要**: Claude Code 的模型与努力两个设置如何影响输出、成本与行为；以及用循环（loops）让代理重复执行工作周期直到满足停止条件（回合制/目标驱动/时间驱动/主动式四类）。
-- **来源**: raw/《克劳德密码》中的模型与努力：知道更多还是努力更多.md, raw/Getting started with loops.md
+- **更新**: 2026-08-21
+- **文件数**: 3
+- **标签**: claude-code, llm, 模型选择, 努力程度, token, loops, 代理循环, startup, 组织实践
+- **摘要**: Claude Code 的模型与努力两个设置如何影响输出、成本与行为；循环（loops）的四类模式；以及初创公司五大规则（人人皆可交付、自动化繁琐、信任但验证、为重构而构建、原型-自用-产品化）。
+- **来源**: raw/《克劳德密码》中的模型与努力：知道更多还是努力更多.md, raw/Getting started with loops.md, raw/Claude Code 初创公司指南：五大规则与创始人洞见.md
 
 ### pi-agent
 
@@ -76,11 +76,11 @@
 - **标题**: AI 自媒体
 - **路径**: `wiki/ai-self-media/`
 - **创建**: 2026-07-21
-- **更新**: 2026-08-08
-- **文件数**: 2
-- **标签**: ai-self-media, 自媒体, 内容创作, 起号, 变现, 流量, x, 原创内容
-- **摘要**: AI 自媒体运营完整框架：为什么做（AI 厂商砸钱推广、小 KOC 收入数倍于其他赛道）、怎么起号、内容选题（技术派 vs 泛流量派）、拍剪、国内平台过审策略、三种变现路径；以及 X 平台原创内容奖励计划的变现规则（有效曝光计费、准入门槛、原创判定）。
-- **来源**: raw/写给AI 自媒体小白的第一篇教程：《从0 开始做一名AI 博主 》.md, raw/Original Content 奖励计划.md
+- **更新**: 2026-08-21
+- **文件数**: 3
+- **标签**: ai-self-media, 自媒体, 内容创作, 起号, 变现, 流量, x, 原创内容, ai-video, faceless
+- **摘要**: AI 自媒体运营完整框架：起号、选题、拍剪、过审、变现路径；X 原创内容奖励计划规则；以及用 Claude Skill + KIE.ai 零月费生成无脸 AI 视频的产品营销引擎（$0.75/条）。
+- **来源**: raw/写给AI 自媒体小白的第一篇教程：《从0 开始做一名AI 博主 》.md, raw/Original Content 奖励计划.md, raw/This 1 Claude Skill fully replaces your Higgsfield subscription (FULL BREAKDOWN).md
 
 ### graph-engineering
 
@@ -180,3 +180,69 @@
 - **标签**: indie-dev, indie-hacking, 独立开发, 产品思维, product-engineering, 品牌, 出海, 数据分析, 高频发布
 - **摘要**: 独立开发者的产品思维与经营方法论：产品工程师定位（代码只占 30%）、需求克制、每周高频发布、个人品牌与信任经营、出海与真诚、X 脉冲 vs YouTube 长尾的渠道选择、数据分析驱动迭代。首篇为 Tw93 复盘 Mole 从开源 CLI 到 Mac 付费软件的过程。
 - **来源**: raw/Post by @HiTw93 on X.md
+
+### multiagent-coordination
+
+- **标题**: 多 Agent 协作 / Multi-Agent Coordination
+- **路径**: `wiki/multiagent-coordination/`
+- **创建**: 2026-08-18
+- **更新**: 2026-08-18
+- **文件数**: 1
+- **标签**: multiagent, coordination, 分布式协作, 协议, 死锁, communication-reasoning-gap, 信息孤岛, consensus
+- **摘要**: 多 Agent 协作的基础研究与协调难题：何时需要多 agent（单 agent 等价性）、分布式协调不可消除的问题（共识、死锁、状态一致性、专家平均化）、自然语言通信的局限、必须引入分布式系统级协议。
+- **来源**: raw/multiagent 协作问题的初步整理.md
+
+### agent-fleet
+
+- **标题**: Agent 舰队 / Agent Fleet
+- **路径**: `wiki/agent-fleet/`
+- **创建**: 2026-08-18
+- **更新**: 2026-08-18
+- **文件数**: 1
+- **标签**: agent-fleet, managed-agents, 企业部署, agent-as-code, 反馈循环, harvester-tuner, 成本追踪, fleet-governance
+- **摘要**: 企业级 AI Agent 舰队的部署、治理与持续优化：agent-as-code（git 管全部）、非开发者构建生产 agent、harvester-tuner 三角色反馈循环、价值/成本效率比追踪、从推荐到自动化的信任阶梯。首篇为 ABC Legal 1100 人公司 50+ agent 舰队案例。
+- **来源**: raw/How ABC Legal turned every employee into a builder with Claude Managed Agents.md
+
+### agent-platform
+
+- **标题**: Agent 平台 / Agent Platform
+- **路径**: `wiki/agent-platform/`
+- **创建**: 2026-08-21
+- **更新**: 2026-08-22
+- **文件数**: 2
+- **标签**: agent-platform, agent-harness, codex, sdk, app-server, mcp, 嵌入式agent
+- **摘要**: Agent 运行时/线束（harness）作为平台的架构模式：将 agent 循环嵌入已有产品而非让用户搬到通用聊天框；OpenAI Codex 开源 harness 的三层集成（exec/SDK/app-server）与应用所有权分层，以及 harness 四要素（系统提示词/工具/agentic loop/翻译层）概念基础。
+- **来源**: raw/Codex as a platform build on the open agent harness.md, raw/What is a Harness?.md
+
+### agent-cost-optimization
+
+- **标题**: Agent 成本优化 / Agent Cost Optimization
+- **路径**: `wiki/agent-cost-optimization/`
+- **创建**: 2026-08-22
+- **更新**: 2026-08-22
+- **文件数**: 1
+- **标签**: agent-cost, token优化, context-engineering, prompt-cache, progressive-disclosure, cli-over-mcp, graphify, rtk, 并行调用, 多agent成本
+- **摘要**: Multi-Agent 工作流的 token 成本治理：先度量后优化，围绕“只加载需要的上下文、剔除无关上下文、消除重复上下文”三原则的工程实践——渐进式披露、稳定前缀、CLI 替代 MCP、代码图谱、工具并行化等，实测端到端 token -55.5%、全流程预估降本 50%~65%。
+- **来源**: raw/靠这10个优化点，我们把Multi-Agent工作流成本降了50%以上.md
+
+### agent-eval
+
+- **标题**: Agent 评测 / Agent Eval
+- **路径**: `wiki/agent-eval/`
+- **创建**: 2026-08-21
+- **更新**: 2026-08-21
+- **文件数**: 1
+- **标签**: agent-eval, eval-driven-development, agent-skills, firebase, llm-as-judge, 基线, hill-climb
+- **摘要**: 用评测（eval）驱动 Agent 技能开发的方法论：先写测试再写 skill，量化 agent 成功率并迭代优化。Firebase 实测 skill 使通过率从 31.7% → 78%，input tokens 降 40%。
+- **来源**: raw/Eval-driven development.md
+
+### dev-toolchain
+
+- **标题**: 开发工具链 / Dev Toolchain
+- **路径**: `wiki/dev-toolchain/`
+- **创建**: 2026-08-21
+- **更新**: 2026-08-21
+- **文件数**: 1
+- **标签**: dev-toolchain, javascript, typescript, bun, runtime, bundler, 工具链
+- **摘要**: JavaScript/TypeScript 开发工具链的重大版本与技术演进。首篇为 Bun 1.4：Zig→Rust 重写、Node.js 兼容 +1517 测试、内置 WebView/Image/cron API、并行 run/test、全局虚拟存储 7× 安装加速。
+- **来源**: raw/Bun 1.4.md

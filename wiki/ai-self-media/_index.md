@@ -1,15 +1,15 @@
 # AI 自媒体
 
-最后更新: 2026-08-08
+最后更新: 2026-08-21
 
 ---
 <!--
 领域元数据:
 domain: ai-self-media
 created: 2026-07-21
-updated: 2026-08-08
-tags: ai-self-media, 自媒体, 内容创作, 起号, 变现, 流量
-summary: AI 自媒体运营方法论：为什么做、怎么起号、内容选题、拍剪技巧、审核策略与商业变现路径。
+updated: 2026-08-21
+tags: ai-self-media, 自媒体, 内容创作, 起号, 变现, 流量, ai-video, faceless
+summary: AI 自媒体运营方法论：为什么做、怎么起号、内容选题、拍剪技巧、审核策略、商业变现路径、AI 视频生成。
 -->
 
 ## 概览
@@ -24,6 +24,7 @@ AI 自媒体是 2025-2026 年个人杠杆最大的赛道之一。AI 产品方疯
 |------|------|------|----------|------|
 | [[ai-self-media-starter\|AI 自媒体从零起步指南]] | AI 自媒体从零起步指南 | 起号, 选题, 拍剪, 审核, 变现 | 2026-07-21 | 账号搭建→内容选题→拍摄剪辑→过审技巧→五种变现路径的完整框架 |
 | [[x-original-content-rewards\|X 原创内容奖励计划]] | X 原创内容奖励计划 | x, 变现, 原创内容, 有效曝光 | 2026-08-08 | X 平台创作者变现规则：新旧计划切换时间线、有效曝光计费、准入门槛、原创内容判定与红线 |
+| [[faceless-video-engine\|无脸 AI 视频引擎]] | Claude Skill 替代 Higgsfield | ai-video, faceless, claude-skill, kie, 产品营销 | 2026-08-21 | 免费 Claude Skill + KIE.ai 生成无脸短视频，每条 $0.75，替代 Higgsfield 月费订阅，5 步工作流 |
 
 ---
 
@@ -33,6 +34,7 @@ AI 自媒体是 2025-2026 年个人杠杆最大的赛道之一。AI 产品方疯
 |----------|---------|-------------|----------|------|
 | [[raw/写给AI 自媒体小白的第一篇教程：《从0 开始做一名AI 博主 》.md\|AI博主教程]] | 39b40cc3723b | [[ai-self-media-starter]] | 2026-07-21 | Twitter 长线程，作者王大浪 @Bigwave521 |
 | [[raw/Original Content 奖励计划.md\|X 原创内容奖励计划]] | 8f9ea37366bd | [[x-original-content-rewards]] | 2026-08-08 | X Creators 官方公告，2026-08-08 |
+| [[raw/This 1 Claude Skill fully replaces your Higgsfield subscription (FULL BREAKDOWN).md\|Claude Skill 替代 Higgsfield]] | 7db8153da36e | [[faceless-video-engine]] | 2026-08-21 | @Sabrina_Ramonov X 长线程 |
 
 ---
 
