@@ -1,6 +1,6 @@
 # Taxonomy / 知识分类规则
 
-Last updated / 最后更新: 2026-08-14
+Last updated / 最后更新: 2026-08-22
 
 ---
 
@@ -70,6 +70,12 @@ If a file spans multiple domains, choose one primary domain and add cross-links 
 | ai-tools | AI 工具集成 / AI Tools | AI Agent 工具/插件/Skill 的接入方法与公开 API 集成指南 | ai-tools, agent-skills, api, mcp, rss, 工具集成, agent-browser, cdp, cloudflare |
 | overseas-access | 海外访问 / Overseas Access | 在中国大陆获取海外手机号、网络访问等基础设施，解决 AI 服务验证门槛 | overseas-access, esim, 美国号, 海外手机卡, beesim, saily |
 | indie-dev | 独立开发 / Indie Dev | 独立开发者的产品思维与经营方法论：产品工程师定位、需求克制、高频发布、个人品牌与信任、出海、渠道选择、数据分析 | indie-dev, indie-hacking, 独立开发, 产品思维, 品牌, 出海, 数据分析, 高频发布 |
+| multiagent-coordination | 多 Agent 协作 / Multi-Agent Coordination | 多 Agent 协作的基础研究与协调难题：单 agent 等价性、分布式协调不可消除的问题（共识、死锁、状态一致性）、通信协议、专家平均化 | multiagent, coordination, 分布式协作, 协议, 死锁, communication-reasoning-gap, consensus |
+| agent-fleet | Agent 舰队 / Agent Fleet | 企业级 AI Agent 舰队的部署、治理与持续优化：agent-as-code、非开发者构建、harvester-tuner 反馈循环、成本效率比、信任阶梯 | agent-fleet, managed-agents, 企业部署, agent-as-code, harvester-tuner, fleet-governance |
+| agent-platform | Agent 平台 / Agent Platform | Agent 运行时/线束（harness）作为平台嵌入已有产品的架构模式：会话状态、工具暴露、沙箱、审批流、集成层选择 | agent-platform, agent-harness, codex, sdk, app-server, mcp, 嵌入式agent |
+| agent-eval | Agent 评测 / Agent Eval | 用评测（eval）驱动 Agent 技能开发：先写测试再写 skill，量化成功率，hill-climb 迭代，eval 反哺工具改进 | agent-eval, eval-driven-development, agent-skills, firebase, llm-as-judge, 基线, hill-climb |
+| dev-toolchain | 开发工具链 / Dev Toolchain | JavaScript/TypeScript 开发工具链的重大版本与技术演进：运行时、打包器、包管理器 | dev-toolchain, javascript, typescript, bun, runtime, bundler, 工具链 |
+| agent-cost-optimization | Agent 成本优化 / Agent Cost Optimization | Multi-Agent 工作流的 token 成本治理：先度量后优化，围绕“只加载需要的上下文、剔除无关上下文、消除重复上下文”三原则的工程实践（渐进式披露、稳定前缀、CLI 替代 MCP、代码图谱、工具并行化） | agent-cost, token优化, context-engineering, prompt-cache, progressive-disclosure, cli-over-mcp, graphify, rtk, 并行调用, 多agent成本 |
 
 ---
 

@@ -1,6 +1,6 @@
 # Ingestion Log / 文件摄入日志
 
-Last updated / 最后更新: 2026-08-14
+Last updated / 最后更新: 2026-08-22
 
 ---
 
@@ -42,3 +42,12 @@ Run after adding files / 添加文件后运行:
 | Original Content 奖励计划.md | 8f9ea37366bd | 2026-08-08 | wiki/ai-self-media/ | processed |
 | How Compaction Works in Pi.md | 39308152a159 | 2026-08-14 | wiki/pi-agent/ | processed |
 | Post by @HiTw93 on X.md | 9c877522df04 | 2026-08-14 | wiki/indie-dev/ | processed |
+| multiagent 协作问题的初步整理.md | f60719571ba6 | 2026-08-18 | wiki/multiagent-coordination/ | processed |
+| How ABC Legal turned every employee into a builder with Claude Managed Agents.md | ebd62187a38e | 2026-08-18 | wiki/agent-fleet/ | processed |
+| This 1 Claude Skill fully replaces your Higgsfield subscription (FULL BREAKDOWN).md | 7db8153da36e | 2026-08-21 | wiki/ai-self-media/ | processed |
+| Eval-driven development.md | dd387ba2b3ff | 2026-08-21 | wiki/agent-eval/ | processed |
+| Codex as a platform build on the open agent harness.md | 5733a9fdf6f8 | 2026-08-21 | wiki/agent-platform/ | processed |
+| Bun 1.4.md | 96359fe83ae7 | 2026-08-21 | wiki/dev-toolchain/ | processed |
+| Claude Code 初创公司指南：五大规则与创始人洞见.md | dad316f3c556 | 2026-08-21 | wiki/claude-code/ | processed |
+| What is a Harness?.md | c6644bbb81bc | 2026-08-22 | wiki/agent-platform/ | processed |
+| 靠这10个优化点，我们把Multi-Agent工作流成本降了50%以上.md | f3ae77cbe999 | 2026-08-22 | wiki/agent-cost-optimization/ | processed |
