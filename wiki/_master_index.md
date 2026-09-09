@@ -1,6 +1,6 @@
 # 总索引
 
-最后更新: 2026-08-22
+最后更新: 2026-09-09
 
 ---
 
@@ -43,11 +43,11 @@
 - **标题**: AI 设计
 - **路径**: `wiki/ai-design/`
 - **创建**: 2026-07-15
-- **更新**: 2026-07-15
-- **文件数**: 1
-- **标签**: ai-design, ui-design, 品味, 工作流, 设计技能, inspiration-board
-- **摘要**: 用 AI 做 UI/产品设计的方法论——人给方向与品味、AI 负责执行；含设计技能、逐组件、灵感板三种路径与 10 步工作流。
-- **来源**: raw/How To Actually Design With AI.md
+- **更新**: 2026-09-09
+- **文件数**: 2
+- **标签**: ai-design, ui-design, 品味, 工作流, 设计技能, inspiration-board, agentic-design, seed-of-thought, design-critic, subagents
+- **摘要**: 用 AI 做 UI/产品设计的方法论：人给意义、方向与品味，AI 负责探索、执行和迭代；覆盖设计技能、逐组件、灵感板，以及 Discover–Define–Deliver、随机种子和独立 critic 工作流。
+- **来源**: raw/How To Actually Design With AI.md, raw/How to turn your AI into a world-class designer.md
 
 ### claude-code
 
@@ -153,11 +153,11 @@
 - **标题**: AI 工具集成 / AI Tools
 - **路径**: `wiki/ai-tools/`
 - **创建**: 2026-08-06
-- **更新**: 2026-08-07
-- **文件数**: 2
-- **标签**: ai-tools, agent-skills, api, mcp, rss, 工具集成, kitesurf, cloudflare, agent-browser, cdp
-- **摘要**: AI Agent 工具/插件/Skill 的接入方法与公开 API 集成指南。含 AI HOT Agent Skill 接入、Cloudflare Kitesurf Agent 浏览器。
-- **来源**: raw/Agent 接入.md, raw/Introducing Kitesurf The agent-first browser that runs in V8 isolates on Cloudflare Workers.md
+- **更新**: 2026-09-09
+- **文件数**: 3
+- **标签**: ai-tools, agent-skills, api, mcp, rss, 工具集成, kitesurf, cloudflare, agent-browser, cdp, openai, image-generation, gpt-image, reference-editing
+- **摘要**: AI Agent 工具、图像模型、插件、Skill 与公开 API 的接入方法和生产实践。含 AI HOT Agent Skill、Cloudflare Kitesurf Agent 浏览器，以及 ChatGPT Images 2.5 的生成、编辑和 API 能力。
+- **来源**: raw/Agent 接入.md, raw/Introducing Kitesurf The agent-first browser that runs in V8 isolates on Cloudflare Workers.md, raw/Introducing ChatGPT Images 2.5.md
 
 ### overseas-access
 
@@ -219,11 +219,11 @@
 - **标题**: Agent 成本优化 / Agent Cost Optimization
 - **路径**: `wiki/agent-cost-optimization/`
 - **创建**: 2026-08-22
-- **更新**: 2026-08-22
-- **文件数**: 1
-- **标签**: agent-cost, token优化, context-engineering, prompt-cache, progressive-disclosure, cli-over-mcp, graphify, rtk, 并行调用, 多agent成本
-- **摘要**: Multi-Agent 工作流的 token 成本治理：先度量后优化，围绕“只加载需要的上下文、剔除无关上下文、消除重复上下文”三原则的工程实践——渐进式披露、稳定前缀、CLI 替代 MCP、代码图谱、工具并行化等，实测端到端 token -55.5%、全流程预估降本 50%~65%。
-- **来源**: raw/靠这10个优化点，我们把Multi-Agent工作流成本降了50%以上.md
+- **更新**: 2026-08-31
+- **文件数**: 2
+- **标签**: agent-cost, token优化, context-engineering, prompt-cache, progressive-disclosure, cli-over-mcp, graphify, rtk, 并行调用, 多agent成本, software-factory, managed-agents, pareto-frontier, code-mode, context-graph
+- **摘要**: Multi-Agent 与软件工厂工作流的 Token 成本治理：先度量后优化（6 因子成本方程/AgentLens 拆账），围绕三原则展开工程实践——Pareto 模型选型与 Subagent 降级、分层 Prompt Cache TTL、CLI 替代 MCP 与 Tool Search、Code-Mode 批处理、AI Context Graph 消除盲搜、以及 16 种会话反模式诊断；战略重心从交互式终端全面转向 Managed Agents 舰队。
+- **来源**: raw/靠这10个优化点，我们把Multi-Agent工作流成本降了50%以上.md, raw/Running a Software Factory Efficiently at Uber Scale.md
 
 ### agent-eval
 

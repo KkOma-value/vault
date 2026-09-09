@@ -1,6 +1,6 @@
 # Ingestion Log / 文件摄入日志
 
-Last updated / 最后更新: 2026-08-22
+Last updated / 最后更新: 2026-09-09
 
 ---
 
@@ -51,3 +51,6 @@ Run after adding files / 添加文件后运行:
 | Claude Code 初创公司指南：五大规则与创始人洞见.md | dad316f3c556 | 2026-08-21 | wiki/claude-code/ | processed |
 | What is a Harness?.md | c6644bbb81bc | 2026-08-22 | wiki/agent-platform/ | processed |
 | 靠这10个优化点，我们把Multi-Agent工作流成本降了50%以上.md | f3ae77cbe999 | 2026-08-22 | wiki/agent-cost-optimization/ | processed |
+| Running a Software Factory Efficiently at Uber Scale.md | d5eeb87bbc51 | 2026-08-31 | wiki/agent-cost-optimization/ | processed |
+| How to turn your AI into a world-class designer.md | 9161040f12b6 | 2026-09-09 | wiki/ai-design/ | processed |
+| Introducing ChatGPT Images 2.5.md | a185b5727007 | 2026-09-09 | wiki/ai-tools/ | processed |

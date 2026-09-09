@@ -1,15 +1,15 @@
 # AI 设计
 
-最后更新: 2026-07-15
+最后更新: 2026-09-09
 
 ---
 <!--
 领域元数据:
 domain: ai-design
 created: 2026-07-15
-updated: 2026-07-15
-tags: ai-design, ui-design, 品味, 工作流, 设计技能, inspiration-board
-summary: 用 AI 做 UI/产品设计的方法论：人给方向与品味、AI 负责执行，含设计技能、逐组件、灵感板三种路径。
+updated: 2026-09-09
+tags: ai-design, ui-design, 品味, 工作流, 设计技能, inspiration-board, agentic-design, seed-of-thought, design-critic, subagents
+summary: 用 AI 做 UI/产品设计的方法论：人给意义、方向与品味，AI 负责探索、执行和迭代；覆盖设计技能、逐组件、灵感板，以及 Discover–Define–Deliver、随机种子和独立 critic 工作流。
 
 链接格式规则（Obsidian 可点击）:
 - 内容表中"文件"列使用 [[topic-file|显示标题]] 格式
@@ -30,6 +30,7 @@ summary: 用 AI 做 UI/产品设计的方法论：人给方向与品味、AI 负
 | 文件 | 标题 | 标签 | 更新日期 | 摘要 |
 |------|------|------|----------|------|
 | [[designing-with-ai\|用 AI 做设计：品味驱动的工作流]] | How To Actually Design With AI | ai-design, ui-design, 品味, 工作流 | 2026-07-15 | 人给方向与品味、AI 负责执行；三种路径（设计技能/逐组件/灵感板）与 10 步工作流；结论是好结果来自更好的品味而非更好的 prompt。 |
+| [[world-class-ai-design\|让 AI 成为世界级设计师]] | How to turn your AI into a world-class designer | ai-design, agentic-design, seed-of-thought, design-critic, subagents | 2026-09-09 | 将 AI 设计拆成 Discover–Define–Deliver：外部随机种子和大胆 brief 用于发散，独立 critic 与多模型循环用于收敛，交付阶段用减法去除 AI slop。 |
 
 ---
 
@@ -38,6 +39,7 @@ summary: 用 AI 做 UI/产品设计的方法论：人给方向与品味、AI 负
 | 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |
 |----------|---------|-------------|----------|------|
 | [[raw/How To Actually Design With AI\|How To Actually Design With AI]] | 4177983977fa | [[designing-with-ai]] | 2026-07-15 | x.com 剪藏，@LexnLin 撰写 |
+| [[raw/How to turn your AI into a world-class designer\|How to turn your AI into a world-class designer]] | 9161040f12b6 | [[world-class-ai-design]] | 2026-09-09 | Lenny's Newsletter 剪藏，原文作者 Anshu Chimala |
 
 ---
 
@@ -46,3 +48,4 @@ summary: 用 AI 做 UI/产品设计的方法论：人给方向与品味、AI 负
 | 领域 | 关系 | 相关度 |
 |------|------|--------|
 | [[claude-code/_index\|Claude Code]] | 同属「与 AI 协作」主题，可对照 prompt 与执行策略 | 中 |
+| [[ai-tools/_index\|AI 工具集成]] | 图像模型、图片生成和视频工具是 AI 设计工作流的执行能力 | 高 |

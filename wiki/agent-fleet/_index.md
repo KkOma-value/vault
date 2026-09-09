@@ -1,13 +1,13 @@
 # Agent 舰队 / Agent Fleet
 
-最后更新: 2026-08-18
+最后更新: 2026-08-31
 
 ---
 <!--
 领域元数据:
 domain: agent-fleet
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-31
 tags: agent-fleet, managed-agents, 企业部署, agent-as-code, 反馈循环, harvester-tuner, 成本追踪, fleet-governance
 summary: 企业级 AI Agent 舰队的部署、治理与持续优化：agent-as-code、非开发者构建、反馈循环（harvester-tuner）、成本效率比追踪、从人工审核到自动化的信任阶梯。
 -->
@@ -38,6 +38,7 @@ summary: 企业级 AI Agent 舰队的部署、治理与持续优化：agent-as-c
 
 | 领域 | 关系 | 相关度 |
 |------|------|--------|
+| [[agent-cost-optimization/_index\|Agent 成本优化]] | 托管 Agent 舰队（如 Uber Software Factory）是企业实现 Harness 控制、Pareto 模型路由与成本治理的战略归宿 | 高 |
 | [[ai-automation/_index\|AI 自动化]] | 自动化是单个 agent 维度，本领域关注舰队级治理 | 高 |
 | [[claude-code/_index\|Claude Code]] | Managed Agents 与 Claude Code 同属 Anthropic 生态 | 中 |
 | [[multiagent-coordination/_index\|多 Agent 协作]] | 舰队中 agent 间协调的理论基础 | 中 |
