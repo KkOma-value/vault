@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-09T02:25:30.141Z",
+  "generatedAt": "2026-09-13T05:17:27.660Z",
   "lastUpdated": "2026-08-22",
   "stats": {
     "domains": 19,
-    "articles": 32,
+    "articles": 33,
     "notes": 6,
-    "links": 235
+    "links": 239
   },
   "domains": [
     {
       "id": "ai-tools",
       "title": "AI 工具集成 / AI Tools",
       "summary": "各种 AI Agent 工具（Claude Code、Codex、Gemini CLI 等）支持通过 Skill/Plugin/MCP 扩展能力。本领域收录具体工具和服务的接入方法、API 用法和最佳实践。",
-      "updated": "2026-09-09",
+      "updated": "2026-09-13",
       "tags": [
         "ai-tools",
         "agent-skills",
@@ -27,10 +27,11 @@
         "openai",
         "image-generation",
         "gpt-image",
-        "reference-editing"
+        "reference-editing",
+        "image-prompting"
       ],
-      "articleCount": 3,
-      "body": "最后更新: 2026-09-09\n\n\n## 概览\n\n各种 AI Agent 工具（Claude Code、Codex、Gemini CLI 等）支持通过 Skill/Plugin/MCP 扩展能力。本领域收录具体工具和服务的接入方法、API 用法和最佳实践。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [AI HOT Agent 接入](/wiki/ai-tools/aihot-agent-skill) | AI HOT：Agent Skill 与 API 接入 | aihot, agent-skill, rss, api | 2026-08-06 | 把 AI HOT 中文 AI 资讯接进支持 Agent Skills 的工具 |\n| [Kitesurf Agent 浏览器](/wiki/ai-tools/kitesurf-agent-browser) | Kitesurf：为 AI Agent 设计的无状态浏览器 | kitesurf, cloudflare, agent-browser, cdp, mcp, wasm | 2026-08-07 | Cloudflare 专为 Agent 构建的轻量浏览器，运行在 Workers 上，兼容 CDP/MCP |\n| [ChatGPT Images 2.5](/wiki/ai-tools/chatgpt-images-2-5) | ChatGPT Images 2.5：更快生成与可控编辑的图像模型 | openai, chatgpt-images, gpt-image, image-generation, api | 2026-09-09 | 图像模型在细节、局部编辑、参考图保持和多轮一致性上的升级；含 Sketch、模板、注释、prompt 分享，以及 Flare/Sunburst API 选型。 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| Agent 接入 | fb88100b14f7 | [aihot-agent-skill](/wiki/ai-tools/aihot-agent-skill) | 2026-08-06 | |\n| Introducing Kitesurf | 9590a142fb4a | [kitesurf-agent-browser](/wiki/ai-tools/kitesurf-agent-browser) | 2026-08-07 | Cloudflare 官方博客 |\n| Introducing ChatGPT Images 2.5 | a185b5727007 | [chatgpt-images-2-5](/wiki/ai-tools/chatgpt-images-2-5) | 2026-09-09 | OpenAI 官方发布文 |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [Claude Code](/wiki/claude-code) | Agent Skill 主要运行环境 | 高 |\n| [AI 安全工具](/wiki/ai-security) | 安全插件也是 Agent 工具 | 中 |\n| [AI 设计](/wiki/ai-design) | 图像模型、图片生成和精确编辑是 AI 设计工作流的执行能力 | 高 |",
+      "articleCount": 4,
+      "body": "最后更新: 2026-09-13\n\n\n## 概览\n\n各种 AI Agent 工具（Claude Code、Codex、Gemini CLI 等）支持通过 Skill/Plugin/MCP 扩展能力。本领域收录具体工具和服务的接入方法、API 用法和最佳实践。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [AI HOT Agent 接入](/wiki/ai-tools/aihot-agent-skill) | AI HOT：Agent Skill 与 API 接入 | aihot, agent-skill, rss, api | 2026-08-06 | 把 AI HOT 中文 AI 资讯接进支持 Agent Skills 的工具 |\n| [Kitesurf Agent 浏览器](/wiki/ai-tools/kitesurf-agent-browser) | Kitesurf：为 AI Agent 设计的无状态浏览器 | kitesurf, cloudflare, agent-browser, cdp, mcp, wasm | 2026-08-07 | Cloudflare 专为 Agent 构建的轻量浏览器，运行在 Workers 上，兼容 CDP/MCP |\n| [ChatGPT Images 2.5](/wiki/ai-tools/chatgpt-images-2-5) | ChatGPT Images 2.5：更快生成与可控编辑的图像模型 | openai, chatgpt-images, gpt-image, image-generation, api | 2026-09-09 | 图像模型在细节、局部编辑、参考图保持和多轮一致性上的升级；含 Sketch、模板、注释、prompt 分享，以及 Flare/Sunburst API 选型。 |\n| [Image prompting GPT Image](/wiki/ai-tools/image-prompting-gpt-image) | Image prompting \\| OpenAI API：GPT Image 2.5 提示词与图像编辑实践 | openai, gpt-image, image-prompting, image-generation, image-editing, reference-editing, api | 2026-09-13 | GPT Image 2.5 生成/编辑/多轮精修的提示词方法论与 API 参数实践：精确文字、透明抠图、身份保持、风格转移、角色一致等。 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| Agent 接入 | fb88100b14f7 | [aihot-agent-skill](/wiki/ai-tools/aihot-agent-skill) | 2026-08-06 | |\n| Introducing Kitesurf | 9590a142fb4a | [kitesurf-agent-browser](/wiki/ai-tools/kitesurf-agent-browser) | 2026-08-07 | Cloudflare 官方博客 |\n| Introducing ChatGPT Images 2.5 | a185b5727007 | [chatgpt-images-2-5](/wiki/ai-tools/chatgpt-images-2-5) | 2026-09-09 | OpenAI 官方发布文 |\n| Image prompting \\| OpenAI API | fee96041bc77 | [image-prompting-gpt-image](/wiki/ai-tools/image-prompting-gpt-image) | 2026-09-13 | OpenAI 官方开发者文档指南 |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [Claude Code](/wiki/claude-code) | Agent Skill 主要运行环境 | 高 |\n| [AI 安全工具](/wiki/ai-security) | 安全插件也是 Agent 工具 | 中 |\n| [AI 设计](/wiki/ai-design) | 图像模型、图片生成和精确编辑是 AI 设计工作流的执行能力 | 高 |",
       "sourcePath": "wiki/ai-tools/_index.md"
     },
     {
@@ -115,24 +116,6 @@
       "sourcePath": "wiki/agent-platform/_index.md"
     },
     {
-      "id": "dev-toolchain",
-      "title": "开发工具链 / Dev Toolchain",
-      "summary": "JavaScript/TypeScript 生态的底层基础设施——运行时、打包器、包管理器——正在快速迭代。本领域追踪这些工具链的重大版本发布与技术方向变化，关注对日常开发效率有实际影响的特性。",
-      "updated": "2026-08-21",
-      "tags": [
-        "dev-toolchain",
-        "javascript",
-        "typescript",
-        "bun",
-        "runtime",
-        "bundler",
-        "工具链"
-      ],
-      "articleCount": 1,
-      "body": "最后更新: 2026-08-21\n\n\n## 概览\n\nJavaScript/TypeScript 生态的底层基础设施——运行时、打包器、包管理器——正在快速迭代。本领域追踪这些工具链的重大版本发布与技术方向变化，关注对日常开发效率有实际影响的特性。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [Bun 1.4](/wiki/dev-toolchain/bun-1-4) | Bun 1.4 发布 | bun, runtime, rust-rewrite, node-compat, webview | 2026-08-21 | Bun 用 Rust 重写，新增 WebView/Image/markdown/cron/Terminal API，Node.js 兼容 +1517 测试，并行 run/test，全局虚拟存储 7× 加速安装。 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| Bun 1.4 | 96359fe83ae7 | [bun-1-4](/wiki/dev-toolchain/bun-1-4) | 2026-08-21 | 官方博客 bun.com/blog/bun-v1.4 |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [AI 工具集成](/wiki/ai-tools) | Bun 作为 Agent 工具的执行运行时 | 低 |",
-      "sourcePath": "wiki/dev-toolchain/_index.md"
-    },
-    {
       "id": "agent-eval",
       "title": "Agent 评测 / Agent Eval",
       "summary": "Agent 技能/插件越来越多，但\"写了 skill 就能用\"是幻觉。Eval driven development 用自动化评测量化 agent 在特定任务上的成功率，先建基线再迭代 skill，把 agent 质量从\"希望能用\"变为\"可证明能用\"。本领域收录 eval 方法论、评测类型设计、以及 eval 反过来改进底层工具的实践。",
@@ -190,6 +173,24 @@
       "sourcePath": "wiki/claude-code/_index.md"
     },
     {
+      "id": "dev-toolchain",
+      "title": "开发工具链 / Dev Toolchain",
+      "summary": "JavaScript/TypeScript 生态的底层基础设施——运行时、打包器、包管理器——正在快速迭代。本领域追踪这些工具链的重大版本发布与技术方向变化，关注对日常开发效率有实际影响的特性。",
+      "updated": "2026-08-21",
+      "tags": [
+        "dev-toolchain",
+        "javascript",
+        "typescript",
+        "bun",
+        "runtime",
+        "bundler",
+        "工具链"
+      ],
+      "articleCount": 1,
+      "body": "最后更新: 2026-08-21\n\n\n## 概览\n\nJavaScript/TypeScript 生态的底层基础设施——运行时、打包器、包管理器——正在快速迭代。本领域追踪这些工具链的重大版本发布与技术方向变化，关注对日常开发效率有实际影响的特性。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [Bun 1.4](/wiki/dev-toolchain/bun-1-4) | Bun 1.4 发布 | bun, runtime, rust-rewrite, node-compat, webview | 2026-08-21 | Bun 用 Rust 重写，新增 WebView/Image/markdown/cron/Terminal API，Node.js 兼容 +1517 测试，并行 run/test，全局虚拟存储 7× 加速安装。 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| Bun 1.4 | 96359fe83ae7 | [bun-1-4](/wiki/dev-toolchain/bun-1-4) | 2026-08-21 | 官方博客 bun.com/blog/bun-v1.4 |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [AI 工具集成](/wiki/ai-tools) | Bun 作为 Agent 工具的执行运行时 | 低 |",
+      "sourcePath": "wiki/dev-toolchain/_index.md"
+    },
+    {
       "id": "multiagent-coordination",
       "title": "多 Agent 协作 / Multi-Agent Coordination",
       "summary": "研究多 Agent 系统在什么条件下才真正需要（而非只是更贵的单 agent），以及一旦进入真正的分布式协作后，面临哪些不可靠 prompt 解决的协调问题——共识崩塌、通信 推理鸿沟、死锁、专家平均化效应。核心结论：真正的 multiagent 运行时必须面对传统分布式系统的协调机制（提交协议、资源排序、锁与租约、幂等操作、终止检测），不能靠行为建议替代可执行协议。",
@@ -207,6 +208,24 @@
       "articleCount": 1,
       "body": "最后更新: 2026-08-18\n\n\n## 概览\n\n研究多 Agent 系统在什么条件下才真正需要（而非只是更贵的单 agent），以及一旦进入真正的分布式协作后，面临哪些不可靠 prompt 解决的协调问题——共识崩塌、通信-推理鸿沟、死锁、专家平均化效应。核心结论：真正的 multiagent 运行时必须面对传统分布式系统的协调机制（提交协议、资源排序、锁与租约、幂等操作、终止检测），不能靠行为建议替代可执行协议。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [多 Agent 协作问题综述](/wiki/multiagent-coordination/multiagent-problems) | 多 Agent 协作问题的初步整理 | multiagent, coordination, 论文综述, 分布式系统 | 2026-08-18 | 四级分类框架 + 8 篇 2026 年论文的核心发现：OneFlow/单 agent 等价、SILO-BENCH 通信-推理鸿沟、专家平均化、死锁率 90%+ |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| multiagent 协作问题的初步整理 | f60719571ba6 | [multiagent-problems](/wiki/multiagent-coordination/multiagent-problems) | 2026-08-18 | @chengyongru X thread |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [Graph Engineering](/wiki/graph-engineering) | 图结构编排是上层工作流设计，本领域研究底层协调可行性 | 高 |\n| [代码迁移](/wiki/code-migration) | 多 agent 循环的实际应用案例 | 中 |",
       "sourcePath": "wiki/multiagent-coordination/_index.md"
+    },
+    {
+      "id": "pi-agent",
+      "title": "Pi 代理框架",
+      "summary": "Pi 是一个高度精简、可扩展的编码代理（coding agent）框架，是 OpenClaw 的最初引擎。默认只带 bash / read / write / edit 四个工具，其余能力全部通过 TypeScript 扩展添加；除 CLI 外还提供一组可构建真实 AI 应用的 SDK 包。长会话中 Pi 用 compaction 把历史压缩成结构化摘要（默认保留约 2 万 token 近期上下文），以突破 LLM 上下文窗口限制。",
+      "updated": "2026-08-14",
+      "tags": [
+        "pi",
+        "agent-framework",
+        "扩展系统",
+        "sdk",
+        "coding-agent",
+        "compaction",
+        "上下文压缩"
+      ],
+      "articleCount": 2,
+      "body": "最后更新: 2026-08-14\n\n\n## 概览\n\nPi 是一个高度精简、可扩展的编码代理（coding agent）框架，是 OpenClaw 的最初引擎。默认只带 bash / read / write / edit 四个工具，其余能力全部通过 TypeScript 扩展添加；除 CLI 外还提供一组可构建真实 AI 应用的 SDK 包。长会话中 Pi 用 compaction 把历史压缩成结构化摘要（默认保留约 2 万 token 近期上下文），以突破 LLM 上下文窗口限制。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [扩展系统与 SDK](/wiki/pi-agent/pi-extensions-and-sdk) | Pi 代理框架：扩展系统与 SDK | pi, 扩展系统, sdk, typescript | 2026-07-09 | Pi 默认极简，靠扩展添加一切能力；三个对象暴露挂钩点，SDK 可把代理坍缩成一次函数调用。 |\n| [上下文压缩（Compaction）](/wiki/pi-agent/pi-compaction) | Pi 的上下文压缩机制 | pi, compaction, context-window, prompt-caching, 上下文压缩 | 2026-08-14 | 上下文溢出时用一次独立 LLM 请求把历史总结成换班简报式摘要；保留约 2 万 token 近期轮次；会打破 prompt cache 但可跨模型移植。 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| Pi 代理 101 | 6d678283e3e0 | [pi-extensions-and-sdk](/wiki/pi-agent/pi-extensions-and-sdk) | 2026-07-09 | x.com 剪藏，作者 @jasonzhou1993 |\n| How Compaction Works in Pi | 39308152a159 | [pi-compaction](/wiki/pi-agent/pi-compaction) | 2026-08-14 | Earendil Engineering 官方博客（earendil.com） |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [Claude Code](/wiki/claude-code) | 同为编码代理/框架，扩展与 SDK 概念可对照 | 中 |",
+      "sourcePath": "wiki/pi-agent/_index.md"
     },
     {
       "id": "indie-dev",
@@ -227,24 +246,6 @@
       "articleCount": 1,
       "body": "最后更新: 2026-08-14\n\n\n## 概览\n\n独立开发（indie hacking / indie dev）的产品思维与经营方法论：独立开发者如何把一个小工具从开源项目做成付费产品——产品工程师的复合定位（代码只占 30%）、需求克制、每周高频发布、以个人账号为载体的品牌与信任经营、出海与真诚、X 脉冲 vs YouTube 长尾的渠道选择，以及用数据分析驱动迭代。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [从开源 CLI 到付费 Mac 应用的产品思维](/wiki/indie-dev/mole-indie-dev-lessons) | 独立开发的产品思维（Tw93/Mole 复盘） | indie-dev, 产品思维, 品牌, 出海, 数据分析, 高频发布 | 2026-08-14 | Tw93 复盘 Mole 从开源 CLI 到 Mac 付费软件：产品工程师=用研+产品+工程师+运营+数据+商业；需求克制、每周发布、把自己当品牌、出海、靠 YouTube 长尾、数据分析驱动迭代。 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| Post by @HiTw93 on X | 9c877522df04 | [mole-indie-dev-lessons](/wiki/indie-dev/mole-indie-dev-lessons) | 2026-08-14 | x.com 剪藏，作者 @HiTw93（Tw93） |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [AI 自媒体](/wiki/ai-self-media) | 个人品牌与内容运营共享 X/YouTube 渠道方法论 | 中 |\n| [AI 设计](/wiki/ai-design) | 产品设计品味与\"产品漂亮精致是运营前提\"相通 | 中 |\n| [AI 行业观察](/wiki/ai-industry) | 提供独立开发者所处的宏观 AI 行业背景 | 低 |",
       "sourcePath": "wiki/indie-dev/_index.md"
-    },
-    {
-      "id": "pi-agent",
-      "title": "Pi 代理框架",
-      "summary": "Pi 是一个高度精简、可扩展的编码代理（coding agent）框架，是 OpenClaw 的最初引擎。默认只带 bash / read / write / edit 四个工具，其余能力全部通过 TypeScript 扩展添加；除 CLI 外还提供一组可构建真实 AI 应用的 SDK 包。长会话中 Pi 用 compaction 把历史压缩成结构化摘要（默认保留约 2 万 token 近期上下文），以突破 LLM 上下文窗口限制。",
-      "updated": "2026-08-14",
-      "tags": [
-        "pi",
-        "agent-framework",
-        "扩展系统",
-        "sdk",
-        "coding-agent",
-        "compaction",
-        "上下文压缩"
-      ],
-      "articleCount": 2,
-      "body": "最后更新: 2026-08-14\n\n\n## 概览\n\nPi 是一个高度精简、可扩展的编码代理（coding agent）框架，是 OpenClaw 的最初引擎。默认只带 bash / read / write / edit 四个工具，其余能力全部通过 TypeScript 扩展添加；除 CLI 外还提供一组可构建真实 AI 应用的 SDK 包。长会话中 Pi 用 compaction 把历史压缩成结构化摘要（默认保留约 2 万 token 近期上下文），以突破 LLM 上下文窗口限制。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [扩展系统与 SDK](/wiki/pi-agent/pi-extensions-and-sdk) | Pi 代理框架：扩展系统与 SDK | pi, 扩展系统, sdk, typescript | 2026-07-09 | Pi 默认极简，靠扩展添加一切能力；三个对象暴露挂钩点，SDK 可把代理坍缩成一次函数调用。 |\n| [上下文压缩（Compaction）](/wiki/pi-agent/pi-compaction) | Pi 的上下文压缩机制 | pi, compaction, context-window, prompt-caching, 上下文压缩 | 2026-08-14 | 上下文溢出时用一次独立 LLM 请求把历史总结成换班简报式摘要；保留约 2 万 token 近期轮次；会打破 prompt cache 但可跨模型移植。 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| Pi 代理 101 | 6d678283e3e0 | [pi-extensions-and-sdk](/wiki/pi-agent/pi-extensions-and-sdk) | 2026-07-09 | x.com 剪藏，作者 @jasonzhou1993 |\n| How Compaction Works in Pi | 39308152a159 | [pi-compaction](/wiki/pi-agent/pi-compaction) | 2026-08-14 | Earendil Engineering 官方博客（earendil.com） |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [Claude Code](/wiki/claude-code) | 同为编码代理/框架，扩展与 SDK 概念可对照 | 中 |",
-      "sourcePath": "wiki/pi-agent/_index.md"
     },
     {
       "id": "ai-security",
@@ -291,6 +292,24 @@
       "sourcePath": "wiki/overseas-access/_index.md"
     },
     {
+      "id": "graph-engineering",
+      "title": "Graph Engineering / 图结构 Agent 编排",
+      "summary": "Graph Engineering 是 Prompt Engineering → Loop Engineering 之后的第三阶段 Agent 工程方法论。核心主张：复杂任务不应由单个 Agent 线性执行，而应识别任务内在的依赖结构，将其展开为节点图——无依赖并行、有依赖串行、关键位置设验证关卡、不同输入走不同路由、失败局部隔离。Claude Code 的 Dynamic Workflows 是目前最直接的实现路径。",
+      "updated": "2026-07-26",
+      "tags": [
+        "graph-engineering",
+        "agent-orchestration",
+        "多agent",
+        "并行",
+        "验证关卡",
+        "路由",
+        "dynamic-workflows"
+      ],
+      "articleCount": 2,
+      "body": "最后更新: 2026-07-26\n\n\n## 概览\n\nGraph Engineering 是 Prompt Engineering → Loop Engineering 之后的第三阶段 Agent 工程方法论。核心主张：复杂任务不应由单个 Agent 线性执行，而应识别任务内在的依赖结构，将其展开为节点图——无依赖并行、有依赖串行、关键位置设验证关卡、不同输入走不同路由、失败局部隔离。Claude Code 的 Dynamic Workflows 是目前最直接的实现路径。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [Graph Engineering 概览](/wiki/graph-engineering/graph-engineering-overview) | Graph Engineering：从线性 Agent 到图结构编排 | graph-engineering, agent-orchestration, 并行, 验证关卡, 路由 | 2026-07-21 | 三阶段演进、线性 Agent 痛点、七条设计原则、交接规范、Claude Code Workflows 映射 |\n| [14 步路线图](/wiki/graph-engineering/graph-engineering-14-steps) | 从零到图架构师完整课程 | graph-engineering, dynamic-workflows, parallel, pipeline, fan-out, verifier, schema | 2026-07-26 | 14 步渐进教学：节点/边、fan-out/in、diamond、路由、验证器、循环收敛、模型分层、自路由图 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| Graph Engineering 一文读懂 | a53f50aacd71 | [graph-engineering-overview](/wiki/graph-engineering/graph-engineering-overview) | 2026-07-21 | @AISuperDomain |\n| 14-Step Graph Engineering | 6f22ec5077ff | [graph-engineering-14-steps](/wiki/graph-engineering/graph-engineering-14-steps) | 2026-07-26 | @0xCodez |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [Claude Code](/wiki/claude-code) | Graph Engineering 通过 Dynamic Workflows 在 Claude Code 中实现 | 高 |\n| [代码迁移](/wiki/code-migration) | 大规模迁移的\"实现—审查—修复\"多 agent 循环、并行 fan-out、验证关卡是 Graph Engineering 的落地形态 | 高 |",
+      "sourcePath": "wiki/graph-engineering/_index.md"
+    },
+    {
       "id": "algo-trading",
       "title": "算法交易 / Algo Trading",
       "summary": "算法交易领域覆盖用程序化方式在金融/预测市场中寻找定价偏差、自动执行交易并管理风险的知识体系。包括信号工程、公允价值建模、执行优化、仓位结构设计、风控框架与回测方法论。当前以 Polymarket 短期加密货币预测市场机器人为首个案例。",
@@ -310,40 +329,21 @@
       "sourcePath": "wiki/algo-trading/_index.md"
     },
     {
-      "id": "graph-engineering",
-      "title": "Graph Engineering / 图结构 Agent 编排",
-      "summary": "Graph Engineering 是 Prompt Engineering → Loop Engineering 之后的第三阶段 Agent 工程方法论。核心主张：复杂任务不应由单个 Agent 线性执行，而应识别任务内在的依赖结构，将其展开为节点图——无依赖并行、有依赖串行、关键位置设验证关卡、不同输入走不同路由、失败局部隔离。Claude Code 的 Dynamic Workflows 是目前最直接的实现路径。",
-      "updated": "2026-07-26",
-      "tags": [
-        "graph-engineering",
-        "agent-orchestration",
-        "多agent",
-        "并行",
-        "验证关卡",
-        "路由",
-        "dynamic-workflows"
-      ],
-      "articleCount": 2,
-      "body": "最后更新: 2026-07-26\n\n\n## 概览\n\nGraph Engineering 是 Prompt Engineering → Loop Engineering 之后的第三阶段 Agent 工程方法论。核心主张：复杂任务不应由单个 Agent 线性执行，而应识别任务内在的依赖结构，将其展开为节点图——无依赖并行、有依赖串行、关键位置设验证关卡、不同输入走不同路由、失败局部隔离。Claude Code 的 Dynamic Workflows 是目前最直接的实现路径。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [Graph Engineering 概览](/wiki/graph-engineering/graph-engineering-overview) | Graph Engineering：从线性 Agent 到图结构编排 | graph-engineering, agent-orchestration, 并行, 验证关卡, 路由 | 2026-07-21 | 三阶段演进、线性 Agent 痛点、七条设计原则、交接规范、Claude Code Workflows 映射 |\n| [14 步路线图](/wiki/graph-engineering/graph-engineering-14-steps) | 从零到图架构师完整课程 | graph-engineering, dynamic-workflows, parallel, pipeline, fan-out, verifier, schema | 2026-07-26 | 14 步渐进教学：节点/边、fan-out/in、diamond、路由、验证器、循环收敛、模型分层、自路由图 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| Graph Engineering 一文读懂 | a53f50aacd71 | [graph-engineering-overview](/wiki/graph-engineering/graph-engineering-overview) | 2026-07-21 | @AISuperDomain |\n| 14-Step Graph Engineering | 6f22ec5077ff | [graph-engineering-14-steps](/wiki/graph-engineering/graph-engineering-14-steps) | 2026-07-26 | @0xCodez |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [Claude Code](/wiki/claude-code) | Graph Engineering 通过 Dynamic Workflows 在 Claude Code 中实现 | 高 |\n| [代码迁移](/wiki/code-migration) | 大规模迁移的\"实现—审查—修复\"多 agent 循环、并行 fan-out、验证关卡是 Graph Engineering 的落地形态 | 高 |",
-      "sourcePath": "wiki/graph-engineering/_index.md"
-    },
-    {
-      "id": "code-migration",
-      "title": "代码迁移 / Code Migration",
-      "summary": "大规模代码迁移（把生产代码库移植到新语言）在 LLM 时代从多年工程压缩到数周。核心方法论： 不修代码，修产出代码的流程 。围绕一个先验证过的 judge（测试判据）展开六步流程——建规则手册与缺口清单、压测规则、全量翻译、编译、运行、行为对齐——每一步都用\"实现—审查—修复\"多 agent 循环，审查对抗化、验证机械化，大模型做审查者、小模型做实现 fan out。",
+      "id": "ai-automation",
+      "title": "AI 自动化 / AI Automation",
+      "summary": "本领域收集把 AI 嵌入日常工作流、无人值守自动完成重复性任务的落地工具与可复用范式。区别于方法论领域，这里关注 具体能跑起来的自动化 ：从本地数据源只读抓取、系统级定时器触发、敏感数据本地脱敏、API 凭据隔离、产出机器可续处理与人可直接阅读的双格式。核心理念是\"AI 的价值不在陪聊，而在替你持续完成一件原本需要人重复处理的事\"。",
       "updated": "2026-07-24",
       "tags": [
-        "code-migration",
-        "claude-code",
-        "多agent",
-        "对抗式审查",
-        "judge",
-        "loop",
-        "dynamic-workflows"
+        "ai-automation",
+        "工作流自动化",
+        "本地优先",
+        "隐私脱敏",
+        "定时任务",
+        "落地工具"
       ],
       "articleCount": 1,
-      "body": "最后更新: 2026-07-24\n\n\n## 概览\n\n大规模代码迁移（把生产代码库移植到新语言）在 LLM 时代从多年工程压缩到数周。核心方法论：**不修代码，修产出代码的流程**。围绕一个先验证过的 judge（测试判据）展开六步流程——建规则手册与缺口清单、压测规则、全量翻译、编译、运行、行为对齐——每一步都用\"实现—审查—修复\"多 agent 循环，审查对抗化、验证机械化，大模型做审查者、小模型做实现 fan-out。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [大规模代码迁移](/wiki/code-migration/large-scale-migration) | 用 Claude Code 做大规模代码迁移 | code-migration, 多agent, 对抗式审查, judge, loop | 2026-07-24 | 修流程不修代码；先建可验证 judge；六步流程；模型分层；build daemon 串行化最贵操作；缺测试套件就让 Claude 造裁判。 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| How Anthropic runs large-scale code migrations | 4fed7debbb12 | [large-scale-migration](/wiki/code-migration/large-scale-migration) | 2026-07-24 | @ClaudeDevs，Bun 与 Anthropic Labs 案例 |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [Graph Engineering](/wiki/graph-engineering) | 迁移用的\"实现—审查—修复\"多 agent 循环、并行 fan-out、验证关卡就是 Graph Engineering 的落地形态 | 高 |\n| [Claude Code](/wiki/claude-code) | 迁移通过 Claude Code 的 Dynamic Workflows / loops / 模型分层执行 | 高 |",
-      "sourcePath": "wiki/code-migration/_index.md"
+      "body": "最后更新: 2026-07-24\n\n\n## 概览\n\n本领域收集把 AI 嵌入日常工作流、无人值守自动完成重复性任务的落地工具与可复用范式。区别于方法论领域，这里关注**具体能跑起来的自动化**：从本地数据源只读抓取、系统级定时器触发、敏感数据本地脱敏、API 凭据隔离、产出机器可续处理与人可直接阅读的双格式。核心理念是\"AI 的价值不在陪聊，而在替你持续完成一件原本需要人重复处理的事\"。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [微信群日报工具](/wiki/ai-automation/wechat-group-daily) | 微信群日报工具：本地自动化把群聊变成一页 PDF | ai-automation, 本地优先, 隐私脱敏, 定时任务, 微信 | 2026-07-24 | 每晚定时只读提取群聊→本地脱敏→AI 整理→Markdown+PDF 日报；示范本地优先自动化范式；含付费中转商业推广需甄别。 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| 微信群日报工具 | a924acfdf9aa | [wechat-group-daily](/wiki/ai-automation/wechat-group-daily) | 2026-07-24 | @Leobai825，本地优先自动化工具 |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [Claude Code](/wiki/claude-code) | 定时无人值守执行与代理循环（loops）的时间驱动/主动式形态相通 | 中 |",
+      "sourcePath": "wiki/ai-automation/_index.md"
     },
     {
       "id": "ai-industry",
@@ -364,44 +364,46 @@
       "sourcePath": "wiki/ai-industry/_index.md"
     },
     {
-      "id": "ai-automation",
-      "title": "AI 自动化 / AI Automation",
-      "summary": "本领域收集把 AI 嵌入日常工作流、无人值守自动完成重复性任务的落地工具与可复用范式。区别于方法论领域，这里关注 具体能跑起来的自动化 ：从本地数据源只读抓取、系统级定时器触发、敏感数据本地脱敏、API 凭据隔离、产出机器可续处理与人可直接阅读的双格式。核心理念是\"AI 的价值不在陪聊，而在替你持续完成一件原本需要人重复处理的事\"。",
+      "id": "code-migration",
+      "title": "代码迁移 / Code Migration",
+      "summary": "大规模代码迁移（把生产代码库移植到新语言）在 LLM 时代从多年工程压缩到数周。核心方法论： 不修代码，修产出代码的流程 。围绕一个先验证过的 judge（测试判据）展开六步流程——建规则手册与缺口清单、压测规则、全量翻译、编译、运行、行为对齐——每一步都用\"实现—审查—修复\"多 agent 循环，审查对抗化、验证机械化，大模型做审查者、小模型做实现 fan out。",
       "updated": "2026-07-24",
       "tags": [
-        "ai-automation",
-        "工作流自动化",
-        "本地优先",
-        "隐私脱敏",
-        "定时任务",
-        "落地工具"
+        "code-migration",
+        "claude-code",
+        "多agent",
+        "对抗式审查",
+        "judge",
+        "loop",
+        "dynamic-workflows"
       ],
       "articleCount": 1,
-      "body": "最后更新: 2026-07-24\n\n\n## 概览\n\n本领域收集把 AI 嵌入日常工作流、无人值守自动完成重复性任务的落地工具与可复用范式。区别于方法论领域，这里关注**具体能跑起来的自动化**：从本地数据源只读抓取、系统级定时器触发、敏感数据本地脱敏、API 凭据隔离、产出机器可续处理与人可直接阅读的双格式。核心理念是\"AI 的价值不在陪聊，而在替你持续完成一件原本需要人重复处理的事\"。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [微信群日报工具](/wiki/ai-automation/wechat-group-daily) | 微信群日报工具：本地自动化把群聊变成一页 PDF | ai-automation, 本地优先, 隐私脱敏, 定时任务, 微信 | 2026-07-24 | 每晚定时只读提取群聊→本地脱敏→AI 整理→Markdown+PDF 日报；示范本地优先自动化范式；含付费中转商业推广需甄别。 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| 微信群日报工具 | a924acfdf9aa | [wechat-group-daily](/wiki/ai-automation/wechat-group-daily) | 2026-07-24 | @Leobai825，本地优先自动化工具 |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [Claude Code](/wiki/claude-code) | 定时无人值守执行与代理循环（loops）的时间驱动/主动式形态相通 | 中 |",
-      "sourcePath": "wiki/ai-automation/_index.md"
+      "body": "最后更新: 2026-07-24\n\n\n## 概览\n\n大规模代码迁移（把生产代码库移植到新语言）在 LLM 时代从多年工程压缩到数周。核心方法论：**不修代码，修产出代码的流程**。围绕一个先验证过的 judge（测试判据）展开六步流程——建规则手册与缺口清单、压测规则、全量翻译、编译、运行、行为对齐——每一步都用\"实现—审查—修复\"多 agent 循环，审查对抗化、验证机械化，大模型做审查者、小模型做实现 fan-out。\n\n\n## 内容\n\n| 文件 | 标题 | 标签 | 更新日期 | 摘要 |\n|------|------|------|----------|------|\n| [大规模代码迁移](/wiki/code-migration/large-scale-migration) | 用 Claude Code 做大规模代码迁移 | code-migration, 多agent, 对抗式审查, judge, loop | 2026-07-24 | 修流程不修代码；先建可验证 judge；六步流程；模型分层；build daemon 串行化最贵操作；缺测试套件就让 Claude 造裁判。 |\n\n\n## 来源文件\n\n| 原始文件 | SHA-256 | 对应知识文件 | 处理日期 | 备注 |\n|----------|---------|-------------|----------|------|\n| How Anthropic runs large-scale code migrations | 4fed7debbb12 | [large-scale-migration](/wiki/code-migration/large-scale-migration) | 2026-07-24 | @ClaudeDevs，Bun 与 Anthropic Labs 案例 |\n\n\n## 相关领域\n\n| 领域 | 关系 | 相关度 |\n|------|------|--------|\n| [Graph Engineering](/wiki/graph-engineering) | 迁移用的\"实现—审查—修复\"多 agent 循环、并行 fan-out、验证关卡就是 Graph Engineering 的落地形态 | 高 |\n| [Claude Code](/wiki/claude-code) | 迁移通过 Claude Code 的 Dynamic Workflows / loops / 模型分层执行 | 高 |",
+      "sourcePath": "wiki/code-migration/_index.md"
     }
   ],
   "articles": [
     {
-      "id": "ai-design/world-class-ai-design",
-      "domainId": "ai-design",
-      "slug": "world-class-ai-design",
-      "title": "让 AI 成为世界级设计师：Discover–Define–Deliver 工作流",
-      "summary": "AI 设计之所以容易产生“通用 slop”，不是模型不会执行设计规则，而是语言模型倾向于逐 token 选择最安全、最常见的方案。要获得有辨识度的结果，应把设计过程拆成 Discover（发散探索）—Define（建立独特方向）—Deliver（删减与打磨） ：用外部随机种子和大胆 brief 扩大创意空间，用独立 critic 与多模型循环建立质量反馈，再用克制、原生组件和有目的的视觉素材完成收敛。",
-      "created": "2026-09-09",
-      "updated": "2026-09-09",
+      "id": "ai-tools/image-prompting-gpt-image",
+      "domainId": "ai-tools",
+      "slug": "image-prompting-gpt-image",
+      "title": "Image prompting | OpenAI API：GPT Image 2.5 提示词与图像编辑实践指南",
+      "summary": "OpenAI 官方给出的 GPT Image（2.5）提示词与图像编辑实践指南。核心方法论： 先想清楚你要的图像，再描述主体、构图、风格与约束 ；编辑时则 明确什么要改、什么必须保持不变 ，一次只精修一个方面。文内提供从写实人像、精确文字渲染、logo 设计、漫画分镜、界面预览到科学教育视觉的生成范式，以及翻译、换装保持身份、透明抠图、草图写实化、多轮精修等编辑工作流，并给出各场景推荐的 size 、 quality 等 API 参数。",
+      "created": "2026-09-13",
+      "updated": "2026-09-13",
       "tags": [
-        "ai-design",
-        "agentic-design",
-        "design-process",
-        "seed-of-thought",
-        "design-critic",
-        "subagents",
+        "ai-tools",
+        "openai",
+        "gpt-image",
+        "image-prompting",
+        "prompt-engineering",
         "image-generation",
-        "video-generation"
+        "image-editing",
+        "reference-editing",
+        "api"
       ],
-      "body": "## 摘要\n\nAI 设计之所以容易产生“通用 slop”，不是模型不会执行设计规则，而是语言模型倾向于逐 token 选择最安全、最常见的方案。要获得有辨识度的结果，应把设计过程拆成 **Discover（发散探索）—Define（建立独特方向）—Deliver（删减与打磨）**：用外部随机种子和大胆 brief 扩大创意空间，用独立 critic 与多模型循环建立质量反馈，再用克制、原生组件和有目的的视觉素材完成收敛。\n\n\n## 要点\n\n- **随机性要从模型外部注入**：让模型自己“随机”通常只是生成看似随机的常见表达；可用 shell 生成随机字符串，把它作为色彩、构图、字体或隐喻的灵感种子。\n- **先宽后深**：先批量探索方向，再由人判断自己真正喜欢和反感什么；大胆、具体的设计 brief 比“做得独特一点”有效。\n- **把实现和评审分开**：实现 Agent 负责快速修改，新的 critic 只看当前截图和质量基准，在新上下文中指出最大缺口；昂贵模型只承担判断，不承担所有执行。\n- **用真实素材突破代码默认值**：图像生成适合补充品牌视觉，视频生成适合循环动效、物理效果和状态间过渡；素材应服务于设计方向，而不是为了堆效果。\n- **交付阶段优先删除**：去掉无意义的 glow、渐变、容器、标签和装饰，优先使用合适的原生控件；留白和克制往往比增加元素更能提升质感。\n- **循环必须有停止条件**：明确质量基准、先观察一两轮是否收敛，避免 critic 触发无限迭代和无效 token 消耗。\n\n\n## 详细内容\n\n### 1. 为什么默认结果趋同\n\n语言模型按训练数据中最可能出现的下一个 token 生成内容，因此在面对开放式设计决策时会倾向于“大家都不会反对”的方案：熟悉的布局、常见的配色和安全的装饰。直接要求“完全随机”并不能真正改变这个机制。设计者需要提供额外的探索压力，以及明确的个人审美判断。\n\n这与 [品味驱动的 AI 设计工作流](/wiki/ai-design/designing-with-ai) 相互补充：前者强调人提供意义、方向和品味，本文进一步把探索、评审和收敛组织成可重复的 Agent 流程。\n\n### 2. Discover：扩大可能性空间\n\n#### 随机种子\n\n在 brief 中要求 Agent 先通过 shell 生成较长的随机字母数字串，再从其中寻找数字、重复片段或其他模式，映射到色彩、排版、布局和视觉隐喻。种子不应出现在最终设计中，它只是一个外部扰动源，让每次运行拥有不同的创意起点。\n\n#### 大胆的设计 brief\n\n“做一个生产力产品落地页”会把模型推回熟悉模板。更有效的 brief 会提供有张力的参考方向，例如像素游戏、等距城市、工业控制台、极度不对称的布局或有意制造的不适感，同时说明仍需满足的产品目标。好的约束不是让模型更保守，而是给它足够具体的世界观。\n\n如果自己暂时没有方向，可以让 AI 先列出大量简短、低细节的方向；人先筛选并描述真实反应，再让 AI 根据这些偏好收敛，最后才请它写成用于实现的初始 prompt。不要把第一轮 AI 点子原样喂回去，否则不同人的结果仍会趋同。\n\n### 3. Define：建立个性与反馈回路\n\n初稿即使有潜力，也常保留导航栏、左文右图、CTA 等默认结构。此时可建立“实现 Agent + 设计 critic”的正反馈回路：\n\n1. 截取当前设计的截图。\n2. 在新上下文中只给 critic 截图和设计目标，不给代码、实现细节或旧的自我辩护。\n3. 要求 critic 从整体构图到细节层级，判断设计是否兑现目标风格，并列出最重要的具体缺口。\n4. 让实现 Agent 只处理高价值问题，再进入下一轮。\n\ncritic 的标准要尽量客观：提供专业参考图作为质量基线，要求识别过度使用的 AI 模式，并要求给出可比较的评分或排序。大模型适合做少量高价值判断，小模型适合执行重复修改；不要让 critic 直接重做全部页面，也不要把“达到 9/10”之类的内部停止条件写进评审标准，以免诱导评分。\n\n### 4. 用图像和视频补足视觉表达\n\n代码 Agent 容易用渐变、几何形状和基础 pattern 替代真正的视觉素材。针对具体品牌和构图生成图片，可以增加设计的独特性；循环视频则可用于玻璃、光影、物理运动等复杂效果。视频模型还可以用首帧/尾帧生成页面状态之间的过渡，并根据滚动或手势逐帧播放。\n\n生成素材时要把页面背景、色彩和用途一起提供给模型，必要时先在目标背景上生成再做抠像或 matting，以保持光影一致。API key 应使用受限额度的本地环境变量或 gitignored 文件，不能写入代码、产品或公开 prompt。\n\n### 5. Deliver：用减法达到生产质量\n\nAI 通常擅长添加内容，却不擅长删除。交付前应逐项追问每个元素是否承担信息、交互或情绪价值：\n\n- 删除只负责“看起来高级”的 glow、渐变和随机高亮。\n- 删除图片已经表达却被文字重复说明的标签和空容器。\n- 优先使用平台原生控件，不为追求独特而重造更差的按钮和输入框。\n- 保持文字更小、更紧凑，让核心视觉承担应有的表达。\n\n最终质量来自有取舍的判断，而不只是更长的 prompt 或更多的代码。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| How to turn your AI into a world-class designer | raw/ | Lenny's Newsletter 剪藏，原文作者 Anshu Chimala；围绕 AI Agent 设计流程的实践文章 |",
-      "sourcePath": "wiki/ai-design/world-class-ai-design.md"
+      "body": "## 摘要\n\nOpenAI 官方给出的 GPT Image（2.5）提示词与图像编辑实践指南。核心方法论：**先想清楚你要的图像，再描述主体、构图、风格与约束**；编辑时则**明确什么要改、什么必须保持不变**，一次只精修一个方面。文内提供从写实人像、精确文字渲染、logo 设计、漫画分镜、界面预览到科学教育视觉的生成范式，以及翻译、换装保持身份、透明抠图、草图写实化、多轮精修等编辑工作流，并给出各场景推荐的 `size`、`quality` 等 API 参数。\n\n\n## 要点\n\n- **生成三段式**：先定主体（subject）、再定构图（composition）、后定风格与约束（style & constraints）；编辑时单独声明「改动点」和「保持点」。\n- **精确文字**：原样引用要渲染的文案，说明出现次数（如 exactly once），避免额外指令。\n- **风格转移**：给参考图一个明确「角色」——只取它的调色板/纹理/媒介，新主体另行描述。\n- **身份保持**：换装时逐项固定脸型、五官、肤色、体态、姿态、表情、发型、比例，只允许衣服变化。\n- **透明抠图**：提示词要求隔离主体 + API 传 `background=\"transparent\"`、用 PNG/WebP 保留 alpha、PNG 省略 `output_compression`；棋盘格不是透明度。\n- **多轮精修**：把上一步输出当作下一步输入，每轮改动收窄到单点，便于判断哪步有效。\n- **角色一致**：为书籍插画建立可复用的「角色参考」，换场景时重复其外观约束（同服饰、同五官、同配色、同气质）。\n- **写实权衡**：追求「真实照片感」时明确要求去电影化——避免戏剧化打光、电影调色、摆拍构图，并指定自然细节与真实材质。\n\n\n## 详细内容\n\n### 生成范式与 API 参数\n\n通用建议：先从你需要的图像出发，再用提示词描述主体、构图、风格与约束。针对 `gpt-image-2`，图像输入始终以高保真（high fidelity）处理，无需传 `input_fidelity`。\n\n常见 `quality` 使用经验：信息密度高、含小字/图例/坐标轴的资产（幻灯片、图表、教学图）用 `quality=\"high\"`；一般生成与编辑用 `quality=\"medium\"` 即可。\n\n### 生成（Generate）示例范式\n\n- **写实人像**：指定面部细节（皱纹、毛孔、纹身）、拍摄手法（35mm 胶片感、50mm 镜头、齐眼平视中近景）、光照（柔和日光、浅景深、轻微颗粒）、并明确「不要美化、不要重度修图」。\n- **信息图 / 流程说明**：点出流程名、受众、要传达的信息；对图表还要校验标签与事实关系，不只关注外观。\n- **精确文字渲染**：引用要渲染的文案并说明出现次数，指定受众与视觉处理，不附加无关指令；禁用多余文字、水印、无关 logo。\n- **可复用 logo 设计**：描述品牌与构成图形的形状，给出在不同尺寸下依然清晰的构图；用 `n` 请求多套变体；配合 `background=\"transparent\"`、`output_format=\"png\"`、`n=1` 输出透明底 logo。\n- **历史 / 现实语境**：给出具体地点与日期（如 Bethel, New York, August 16, 1969）以锚定时代设定，但仍需人工检查服装、布景、环境的史实准确性。\n- **故事转漫画**：把叙事拆成一个个清晰的「视觉节拍」，一屏一板；描述要具体、以动作为导向。\n- **界面预览**：把产品当作「已经存在的成品」来描述，聚焦布局、层级、间距与真实界面元素，避免概念艺术式语言，结果更像可上线的界面而非设计稿。\n- **科学 / 教育视觉**：按教学设计稿来提示——定义受众、教学目标、视觉格式、必备标签与科学约束；要求统一的扁平图标风格、清晰箭头、易读标签、充足留白；精确度高时显式列出必备组件并说明**不要包含什么**。\n- **幻灯片 / 图表 / 图表类资产**：按「工件规格」而非插图请求来写提示词——点名交付物、画布与层级、提供真实文本或数据、描述视觉语言；添加可读排版、留白、禁装饰性杂乱等约束；用横版尺寸、`quality=\"high\"` 承载小字与坐标轴。\n\n### 编辑（Edit）工作流\n\n编辑统一走 `client.images.edit` 并传入参考输入图；需本地蒙版的场景参考「using a mask」。\n\n- **翻译且保持布局**：输入上一节的信息图，要求「把文字翻成西语，不改图像其他任何方面」，随后人工核对翻译与残留原语言文字。\n- **转移视觉风格**：给参考图指定角色（取调色板/纹理/媒介），新主体单独描述，如「沿用输入图风格，生成摩托车手于白底」。\n- **保持身份、只换服装**：把人像照片与多张服装参考作为输入，逐项固定人脸/肤色/体态/姿势等，只允许衣服变化；同一模式也适用于商品/物体必须保持可辨识的编辑。\n- **组合参考**：图 1 是场景照片、图 2 是狗的照片，指定要移动的元素、目标位置与必须保持的部分。\n- **透明产品抠图**：提示词要求隔离主体 + API 传 `background=\"transparent\"`，用 PNG/WebP 保留返回的 alpha 通道，PNG 省略 `output_compression`；提示「棋盘格不是透明」；后续编辑需重复「保持透明底」的要求。\n- **草图写实化**：把提示词当规格——保持布局与透视，再通过指定可信材质、光照、环境来「添加写实感」；加「不要新增元素/文字」防止过度再创作。\n- **移除物体**：显式点出要移除的物体并保持周边不变；人物、姿态、光照、构图均保持不变，让编辑局部化。\n- **把人插入场景**：指定自然光照、可信细节、身体取景、视线与场景交互；声明哪些五官与比例必须不变；`gpt-image-2` 省略 `input_fidelity`（图像输入总是高保真）。\n\n### 跨轮精修（Refine across turns）\n\n从一张输出开始，检查后再作为下一步输入；每轮跟进都收窄到单点，便于判断哪步改动有效。\n\n- **建起点图像**：用上一节的洗发水抠图作为输入做广告牌场景，原样引用标签文字。\n- **改变单一条件**：把上一轮广告牌输出作为下一轮输入，仅改天气（如「变成飘雪的冬日傍晚」）。\n- **保持角色一致**：为多插图书籍建立可复用的角色参考——先确立角色的外观/比例/服装/基调，再换环境与剧情并重复外观约束（同绿色兜帽衫、同五官比例配色、同温和英雄气质、不重新设计角色）。\n\n### 更多工作流\n\n- **更换房间家具**：手术式写实——只替换单一物体（如白椅换成木椅），保持机位、室内光照、地面阴影与周边物体不变；指定写实接触阴影与织物纹理，让结果像真实照片而非重新设计。\n- **节日贺卡**（原文另有案例）：描述场景、情绪基调、材质、光照与准确文案；对 3D 弹出卡或摄影卡需指定纸张层数、纤维、折痕与柔和棚拍光。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| Image prompting \\| OpenAI API | raw/ | OpenAI 官方开发者文档指南 |",
+      "sourcePath": "wiki/ai-tools/image-prompting-gpt-image.md"
     },
     {
       "id": "ai-tools/chatgpt-images-2-5",
@@ -423,6 +425,27 @@
       ],
       "body": "## 摘要\n\nOpenAI 在原文中介绍 ChatGPT Images 2.5：相较 Images 2.0，重点提升细节、光照、纹理、参考图主体保持、局部编辑和多轮编辑一致性，并宣称生成速度提升 50%。ChatGPT 端新增 Sketch、模板、图像注释和分享 prompt；API 端提供面向通用高吞吐场景的 GPT-Image-2.5 Flare，以及面向高精度创意和产品图的 GPT-Image-2.5 Sunburst。\n\n\n## 要点\n\n- **核心升级**：更清晰的细节、更自然的光照与纹理，更可靠地保留参考照片主体和原始构图。\n- **精确编辑**：可以只修改产品、背景或文字等指定元素，同时尽量保持其余内容、品牌风格和布局不变。\n- **多轮一致性**：长对话中的后续编辑更能继承之前的修改，减少反复重建导致的质量退化。\n- **创作入口**：Sketch 将手绘草图作为视觉参考；模板降低海报、传单、商品图等常见格式的起步成本；分享时可附带 prompt，方便他人用自己的照片和细节复现思路。\n- **API 选型**：Flare 是多数应用的默认选择，强调质量、编辑能力和较低延迟；Sunburst 面向需要更严格编辑控制和更高细节的生产级视觉流程，但生成更慢。\n- **安全与溯源**：原文称继续使用 prompt/图像检查、C2PA 元数据和不可见水印来识别工具生成内容；上线前仍需按业务场景核验版权、隐私和输出安全。\n\n\n## 详细内容\n\n### 模型能力\n\nImages 2.5 的改进主要集中在“保持什么不变”和“只改变用户指定内容”这两个生产痛点。参考照片中的人物或物体更容易保持可辨识，新的场景能继承原有视觉风格与构图；复杂布局、透明背景和现实世界信息的处理也更稳定。\n\n局部编辑能力适合把图像生成从一次性出图转成迭代式资产生产：营销团队可以只替换产品或背景，开发者可以在保留主体和品牌层级的同时更新文字或单个元素。多轮编辑一致性则让长对话更接近“持续修改同一份设计稿”，而不是每次重新抽样。\n\n### ChatGPT 端工作流\n\n- **Sketch**：在 ChatGPT 中直接画出房间布局、服装轮廓或粗略构图，再补充风格和细节，让模型把草图扩展成完整图像。\n- **Templates**：从 Poster、Merch 等常见格式开始，先确定信息层级和画布结构，再补充品牌、文案和视觉方向。\n- **Annotations**：在图像上直接标注需要改动的位置，减少自然语言描述局部区域时的歧义。\n- **Prompt sharing**：分享结果时可同时分享 prompt，让接收者替换自己的照片和细节，而不是机械复制原图。\n\n这些入口降低了从空白画布开始的成本，但不能替代设计判断。对于需要独特视觉的页面或产品，仍应先明确意义、受众和风格，再把生成模型当作执行与探索工具，参见 [Discover–Define–Deliver AI 设计工作流](/wiki/ai-design/world-class-ai-design)。\n\n### API 使用场景\n\n原文将 Flare 定位为大多数应用的默认模型，适合创作者和社交内容、商品体验、视觉搜索、快速原型与高频生成；Sunburst 更适合生产级 campaign creative、精修产品图等需要更紧控制的场景。实际接入时可按三个维度选择：\n\n1. **吞吐与延迟**：批量生成、交互式产品优先考虑更快的模型。\n2. **编辑控制**：需要多次局部修改且不能破坏品牌资产时，选择控制能力更强的模型。\n3. **成本与质量**：用低延迟模型覆盖大多数请求，把高精度模型留给最终稿或高价值素材，并用真实业务样本做评测。\n\n“保持主体和品牌不变”的能力尤其适合与 [品味驱动的 AI 设计工作流](/wiki/ai-design/designing-with-ai) 配合：人负责设计方向，模型负责在同一方向下快速生成变体和精确修改。\n\n### 可用性与安全边界\n\n原文称 Images 2.5 面向 ChatGPT、ChatGPT Work 和 Codex 用户，在桌面端、移动端和网页端逐步推出，Flare 与 Sunburst 同步提供 API 访问。具体套餐、价格、区域和模型限制应以产品当前页面为准。\n\n图像生成仍可能涉及真实人物、个人照片、品牌资产和受版权保护的素材。生产接入至少应保留来源信息，限制敏感图像输入，检查生成结果，并确认 C2PA/水印等溯源信息不会被后处理意外移除。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| Introducing ChatGPT Images 2.5 | raw/ | OpenAI 官方发布文，包含 ChatGPT 功能、API 模型、可用性与安全说明 |",
       "sourcePath": "wiki/ai-tools/chatgpt-images-2-5.md"
+    },
+    {
+      "id": "ai-design/world-class-ai-design",
+      "domainId": "ai-design",
+      "slug": "world-class-ai-design",
+      "title": "让 AI 成为世界级设计师：Discover–Define–Deliver 工作流",
+      "summary": "AI 设计之所以容易产生“通用 slop”，不是模型不会执行设计规则，而是语言模型倾向于逐 token 选择最安全、最常见的方案。要获得有辨识度的结果，应把设计过程拆成 Discover（发散探索）—Define（建立独特方向）—Deliver（删减与打磨） ：用外部随机种子和大胆 brief 扩大创意空间，用独立 critic 与多模型循环建立质量反馈，再用克制、原生组件和有目的的视觉素材完成收敛。",
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "tags": [
+        "ai-design",
+        "agentic-design",
+        "design-process",
+        "seed-of-thought",
+        "design-critic",
+        "subagents",
+        "image-generation",
+        "video-generation"
+      ],
+      "body": "## 摘要\n\nAI 设计之所以容易产生“通用 slop”，不是模型不会执行设计规则，而是语言模型倾向于逐 token 选择最安全、最常见的方案。要获得有辨识度的结果，应把设计过程拆成 **Discover（发散探索）—Define（建立独特方向）—Deliver（删减与打磨）**：用外部随机种子和大胆 brief 扩大创意空间，用独立 critic 与多模型循环建立质量反馈，再用克制、原生组件和有目的的视觉素材完成收敛。\n\n\n## 要点\n\n- **随机性要从模型外部注入**：让模型自己“随机”通常只是生成看似随机的常见表达；可用 shell 生成随机字符串，把它作为色彩、构图、字体或隐喻的灵感种子。\n- **先宽后深**：先批量探索方向，再由人判断自己真正喜欢和反感什么；大胆、具体的设计 brief 比“做得独特一点”有效。\n- **把实现和评审分开**：实现 Agent 负责快速修改，新的 critic 只看当前截图和质量基准，在新上下文中指出最大缺口；昂贵模型只承担判断，不承担所有执行。\n- **用真实素材突破代码默认值**：图像生成适合补充品牌视觉，视频生成适合循环动效、物理效果和状态间过渡；素材应服务于设计方向，而不是为了堆效果。\n- **交付阶段优先删除**：去掉无意义的 glow、渐变、容器、标签和装饰，优先使用合适的原生控件；留白和克制往往比增加元素更能提升质感。\n- **循环必须有停止条件**：明确质量基准、先观察一两轮是否收敛，避免 critic 触发无限迭代和无效 token 消耗。\n\n\n## 详细内容\n\n### 1. 为什么默认结果趋同\n\n语言模型按训练数据中最可能出现的下一个 token 生成内容，因此在面对开放式设计决策时会倾向于“大家都不会反对”的方案：熟悉的布局、常见的配色和安全的装饰。直接要求“完全随机”并不能真正改变这个机制。设计者需要提供额外的探索压力，以及明确的个人审美判断。\n\n这与 [品味驱动的 AI 设计工作流](/wiki/ai-design/designing-with-ai) 相互补充：前者强调人提供意义、方向和品味，本文进一步把探索、评审和收敛组织成可重复的 Agent 流程。\n\n### 2. Discover：扩大可能性空间\n\n#### 随机种子\n\n在 brief 中要求 Agent 先通过 shell 生成较长的随机字母数字串，再从其中寻找数字、重复片段或其他模式，映射到色彩、排版、布局和视觉隐喻。种子不应出现在最终设计中，它只是一个外部扰动源，让每次运行拥有不同的创意起点。\n\n#### 大胆的设计 brief\n\n“做一个生产力产品落地页”会把模型推回熟悉模板。更有效的 brief 会提供有张力的参考方向，例如像素游戏、等距城市、工业控制台、极度不对称的布局或有意制造的不适感，同时说明仍需满足的产品目标。好的约束不是让模型更保守，而是给它足够具体的世界观。\n\n如果自己暂时没有方向，可以让 AI 先列出大量简短、低细节的方向；人先筛选并描述真实反应，再让 AI 根据这些偏好收敛，最后才请它写成用于实现的初始 prompt。不要把第一轮 AI 点子原样喂回去，否则不同人的结果仍会趋同。\n\n### 3. Define：建立个性与反馈回路\n\n初稿即使有潜力，也常保留导航栏、左文右图、CTA 等默认结构。此时可建立“实现 Agent + 设计 critic”的正反馈回路：\n\n1. 截取当前设计的截图。\n2. 在新上下文中只给 critic 截图和设计目标，不给代码、实现细节或旧的自我辩护。\n3. 要求 critic 从整体构图到细节层级，判断设计是否兑现目标风格，并列出最重要的具体缺口。\n4. 让实现 Agent 只处理高价值问题，再进入下一轮。\n\ncritic 的标准要尽量客观：提供专业参考图作为质量基线，要求识别过度使用的 AI 模式，并要求给出可比较的评分或排序。大模型适合做少量高价值判断，小模型适合执行重复修改；不要让 critic 直接重做全部页面，也不要把“达到 9/10”之类的内部停止条件写进评审标准，以免诱导评分。\n\n### 4. 用图像和视频补足视觉表达\n\n代码 Agent 容易用渐变、几何形状和基础 pattern 替代真正的视觉素材。针对具体品牌和构图生成图片，可以增加设计的独特性；循环视频则可用于玻璃、光影、物理运动等复杂效果。视频模型还可以用首帧/尾帧生成页面状态之间的过渡，并根据滚动或手势逐帧播放。\n\n生成素材时要把页面背景、色彩和用途一起提供给模型，必要时先在目标背景上生成再做抠像或 matting，以保持光影一致。API key 应使用受限额度的本地环境变量或 gitignored 文件，不能写入代码、产品或公开 prompt。\n\n### 5. Deliver：用减法达到生产质量\n\nAI 通常擅长添加内容，却不擅长删除。交付前应逐项追问每个元素是否承担信息、交互或情绪价值：\n\n- 删除只负责“看起来高级”的 glow、渐变和随机高亮。\n- 删除图片已经表达却被文字重复说明的标签和空容器。\n- 优先使用平台原生控件，不为追求独特而重造更差的按钮和输入框。\n- 保持文字更小、更紧凑，让核心视觉承担应有的表达。\n\n最终质量来自有取舍的判断，而不只是更长的 prompt 或更多的代码。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| How to turn your AI into a world-class designer | raw/ | Lenny's Newsletter 剪藏，原文作者 Anshu Chimala；围绕 AI Agent 设计流程的实践文章 |",
+      "sourcePath": "wiki/ai-design/world-class-ai-design.md"
     },
     {
       "id": "agent-cost-optimization/uber-software-factory-cost-efficiency",
@@ -447,38 +470,6 @@
       ],
       "body": "## 摘要\n\nUber 工程团队在全生命周期落地 AI 软件工厂（Software Factory），在全公司（工程师与非工程师）WAU 增长 7 倍、周请求量增长 9.4 倍、>70% PR 涉及 Agent（3,600+ skills、30K+ 日执行次）的超大规模落地背景下，总 AI 支出不仅未失控反而趋于平稳，每千次请求模型成本下降 34%，单会话成本自峰值下降 52%。其核心方法论是：将 Agent 会话组织为四层架构，建立由六个乘积项构成的成本方程（`Total Spend = Users × Sessions/User × Requests/Session × Turns/Request × Tokens/Turn × Price/Token`），在保持业务采纳增长的同时，针对中间环节系统性运用 Pareto 选型、分层 Prompt Cache TTL、CLI 替代 MCP、Code-Mode 批处理、AI Context Graph 消除盲搜、以及 16 种会话反模式诊断；战略重心从分散的交互式终端会话全面转向全托管 Managed Agents。\n\n\n## 要点\n\n- **成本六因子乘积方程**：`总支出 = 活跃用户数 × 单用户会话数 × 单会话请求数 × 单请求轮次数 × 单轮Token数 × 单Token单价`。前两项代表采纳与活跃度（鼓励持续增长），中间三项代表 Agent 自身衍生工作量（核心治理目标），最后一项由模型选型与供应商单价决定。\n- **软件工厂四层架构**：从底至顶分别为：①交互式单 Agent 终端（Interactive CLI）；②Skills 与自定义 Loops；③受控 Managed Workflows；④全自主 Managed Agents（如 uReview 代码审查、自愈 CI、E2E PR 视觉验证、On-call 告警分流）。层级越高，平台对模型选型、成本与质量的控制力越强。\n- **Pareto 前沿驱动的模型选型**：用真实场景 PR 构建评测基准（如 uReview Benchmark），在统一 Harness 下横评前沿与开源模型，在\"完成成本 vs 质量 vs 延迟\"的 Pareto 前沿上动态切换模型；交互界面中默认将 Subagent 路由至廉价模型（主模型负责规划拆解与评测，Subagent 负责执行）。\n- **Token / Request 压降四大杠杆**：\n  1. **Compaction 与推理努力度默认值**：1M 上下文模型亦默认在 400k tokens 触发自动压缩；Reasoning Effort 默认设为 Medium。\n  2. **Prompt Cache TTL 分层策略**：交互式会话工程师思考间隙长（常 >5 分钟），将 TTL 从 5 分钟提升至 1 小时，避免缓存失效导致全额冷启动重算；短生命周期 Subagent 保持 5 分钟 TTL。\n  3. **CLI 替代 MCP + Tool Search**：统一 MCP Gateway 汇聚 1,000+ 工具，将 MCP 投影为 Shell CLI 与动态按需搜索（Tool Search），彻底消除 50k~70k tokens 的 Schema 常驻开销。\n  4. **Code-Mode（代码模式）**：将传统 MCP 逐次交互+轮询重构为 Python 子进程批处理脚本，大模型只看最终汇总，单任务 token -50% 以上，批量流降幅达 90% 以上。\n- **Requests / Turn 治理（AI Context Graph）**：未经图谱接地的 Agent 容易陷入多轮代码翻找与盲搜；构建 2400 万节点、8000 万边、集成 30+ 内部系统的企业上下文知识图谱，使 Agent 从 20 分钟多轮报错缩短至 38 秒精准定位。\n- **从交互式转向 Managed Agents**：优化分散在数千名工程师终端里的单次会话 ROI 极低，将 SDLC 工作流迁移至受控的 Managed Agents 舰队，平台拥有 100% 的 Harness 与模型路由控制权。\n\n\n## 详细内容\n\n### 1. 软件工厂四层架构与成本方程\n\n```\n【Layer 4】自主 Managed Agents（uReview 代码审查、自愈 CI、E2E PR 验证、On-call 分流）  ▲ 控制力最高\n【Layer 3】受控 Managed Workflows（固定模板、自动化流水线）                          │\n【Layer 2】Skills 与自定义 Loops（工程师编排的工作流）                                │\n【Layer 1】交互式单 Agent 终端（Interactive CLI / Chat）                              ▼ 控制力最低\n```\n\n#### 成本拆解方程\n\n$$\\text{Total Spend} = \\underbrace{\\text{Users} \\times \\frac{\\text{Sessions}}{\\text{User}}}_{\\text{业务采纳与渗透（鼓励增长）}} \\times \\underbrace{\\frac{\\text{Requests}}{\\text{Session}} \\times \\frac{\\text{Turns}}{\\text{Request}} \\times \\frac{\\text{Tokens}}{\\text{Turn}}}_{\\text{Agent 内部衍生开销（核心优化区间）}} \\times \\underbrace{\\frac{\\text{Price}}{\\text{Token}}}_{\\text{模型选型与计价}}$$\n\n### 2. 优化杠杆一：Price / Token（模型单价与路由）\n\n#### Benchmark 驱动的 Pareto 模型选型\n- **构建真实基准**：以实际代码库与真实任务构建 Benchmark（如将真实 PR 分为 Easy/Medium/Hard 三级），评测 Precision、Recall、F1、单次成本、延迟与噪音。\n- **通用 Harness 抽象**：在统一接口后接入 Frontier 模型与开源权重模型，绘制 Pareto 最优前沿曲线（Pareto Frontier），只要前沿发生转移（几周一次）即自动平滑切流。\n- **典型案例（uReview）**：Uber 的 AI PR 代码审查工具通过模型切换，在 F1 分数显著提升的同时，使单 PR 审查成本呈现断崖式下降。\n\n#### Subagent 默认降级路由\n- 随着多 Agent 编排能力提升，调用 Subagent 的会话比例大幅攀升。\n- Subagent 通常执行输入明确、范围清晰的子任务，并不需要 Frontier 模型的极高推理能力。\n- 策略：主模型负责任务拆解与最终评估，**Subagent 默认路由到更低成本、高吞吐的模型**（允许工程师显式覆盖）。\n\n### 3. 优化杠杆二：Tokens / Request（单请求 Token 负载）\n\n#### 默认配置约束\n- **400k Compaction 阈值**：即使底层模型支持 1M 上下文，也在达到 400k tokens 时主动触发压缩（参考 [Pi 上下文压缩机制](/wiki/pi-agent/pi-compaction)），平衡长窗口模型性能衰减与缓存抖动。\n- **Reasoning Effort 设为 Medium**：思考 Token（Thinking Tokens）单价通常是输入 Token 的数倍，对于绝大多数日常研发任务，Medium 推理努力度在质量与成本之间达到最佳平衡点（参考 [Claude Code 模型与努力度](/wiki/claude-code/model-vs-effort)）。\n\n#### 分层 Prompt Cache TTL 策略\n- **痛点**：供应商（Anthropic/OpenAI）缓存读取仅为标准输入单价的 0.1x，但缓存写入有溢价（5 分钟 1.25x，1 小时 2.0x）。\n- **策略分层**：\n  - **交互式开发者终端**：由于工程师阅读和思考常超过 5 分钟，默认 5 分钟 TTL 会频繁失效并引发全额重算；因此全面改为 **1 小时 TTL**，极大提升了缓存命中率。\n  - **Subagent 执行环境**：子 Agent 属于单次短命任务，因此保持 **5 分钟 TTL**，避免不必要的长缓存写入加价。\n\n```\n交互终端 (Interactive)   ──[ 思考间隔 > 5min ]──>  1 小时 Cache TTL（稳定命中 0.1x 读单价）\n子代理 (Subagents)       ──[ 短命单次任务    ]──>  5 分钟 Cache TTL（降低写入溢价）\n```\n\n#### CLI 替代 MCP + Tool Search（Schema 瘦身）\n- **MCP Schema 膨胀问题**：Uber 接入 1,000+ internal & SaaS MCP 工具。如果把工具 Schema 全部预装进 Prompt，初始系统上下文直接暴增 50K~70K tokens，且随每轮对话反复计费。\n- **解决方案**：\n  - **CLI Tool Resolution**：将 MCP Gateway 背后的 1,000+ 工具统一投影为终端 Shell 命令，模型按需执行 CLI，会话中完全不携带 MCP Schema（参考 [腾讯 10 点降本中的 CLI 替代 MCP 实践](/wiki/agent-cost-optimization/multi-agent-cost-optimization)）。\n  - **Tool Search 动态按需加载**：大模型通过关键词搜索工具目录，仅将命中工具的极简定义加载进上下文。\n\n#### Code-Mode（代码模式批处理）\n- **传统 MCP 的轮询浪费**：以 SQL 查询为例，传统 MCP 需要：发起查询（Turn 1）→ 轮询状态 2~5 次（Turn 2~5）→ 获取结果（Turn 6）。每一次轮询的中间状态全部滚雪球堆积在 Context 中。\n- **Code-Mode 方案**：编写预置的 Code-Mode Python 脚本，将轮询与数据清洗逻辑放在 Python 子进程中运行，模型仅需一次调用，且只接收最终 Summary。\n- **收益**：单查询 Token 减少 >50%；批量工作流（Bulk Workflows）减少 >90%。\n\n### 4. 优化杠杆三：Requests / Turn（减少无效翻找与盲搜）\n\n#### AI Context Graph（企业上下文知识图谱）\n- **问题根源**：未接地的 Agent 在庞大 monorepo 和数千张数据表中花费大量轮次做盲搜（Ungrounded Search），不仅多消耗 20+ 分钟，且极易因超长上下文引发幻觉或报错。\n- **架构**：Uber 建设了包含 **2400 万节点、8000 万边（86 类节点、117 类边）** 的 AI Context Graph，连通服务、团队、故障复盘、PR、架构设计文档、部署状态及历史表查询日志。\n- **实测对比**：\n  - **无图谱 Agent**：翻找代码库 20 分钟、派生 2 个子 Agent、触发 3 次报错，最终误判数据表不可查。\n  - **图谱接地 Agent**：查询图谱中 50+ 分析师的历史查询模式，**38 秒** 精准定位并完成任务。\n\n### 5. 可见性与反模式治理\n\n#### 实时感知与预算阶梯\n- **Statusline 实时计数器**：终端状态栏常驻当前会话与全局累计消耗金额。\n- **共享预算池（Harness Pool）**：跨工具共享梯度配额，并在 50%、80%、100% 触发 Slack 自动预警与轻量审批流。\n\n#### 会话分析看板（Session Analysis Dashboard）与 16 种反模式诊断\n运行时自动分析本地与远程 Sandbox 的 Trace 记录，精准检测 16 种高频浪费反模式：\n1. **模型路由过配**：简单任务错误使用 Opus 等超大模型。\n2. **Context 脏数据残留**：40KB 以上的单次工具原始返回残留在后续轮次反复计费。\n3. **缓存过期抖动**：长时间离开后恢复会话导致的冷启动重算。\n4. **Prompt 初始化过重**：用户尚未输入即预载 100k tokens 的系统提示词与工具定义。\n\n\n## 腾讯 vs Uber 成本治理对比\n\n| 治理维度 | 腾讯实践 ([10 个优化点](/wiki/agent-cost-optimization/multi-agent-cost-optimization)) | Uber 实践（Software Factory at Scale） |\n|---------|-----------------------------------------------------------------------------------|---------------------------------------|\n| **核心场景** | Tech-Leader 全流程研发多 Agent 编排 | 全公司规模化 Software Factory 与 Managed Agents |\n| **度量体系** | AgentLens 拆解 Wave 粒度账单 | 6 因子成本乘积方程 + 16 种会话反模式诊断看板 |\n| **MCP 治理** | CLI 替代 MCP、rtk 压缩命令行输出 | MCP Gateway CLI 投影 + Tool Search + Code-Mode |\n| **图谱应用** | graphify 代码依赖图谱（AST+语义） | AI Context Graph（2400万节点企业级知识网络） |\n| **缓存策略** | 稳定前缀、动态内容后置、状态外化 | 1 小时（交互） vs 5 分钟（Subagent）分层 TTL |\n| **战略归宿** | 提示词瘦身与 Wave 架构约束 | 全面从交互终端迁移至受控 Managed Agents 舰队 |\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| Uber Software Factory 成本效率 | raw/ | 作者 Uday Kiran (@udaykiran)，Uber Engineering，2026-08-29 |",
       "sourcePath": "wiki/agent-cost-optimization/uber-software-factory-cost-efficiency.md"
-    },
-    {
-      "id": "agent-platform/what-is-a-harness",
-      "domainId": "agent-platform",
-      "slug": "what-is-a-harness",
-      "title": "什么是 Agent Harness（线束）",
-      "summary": "Agent Harness（线束）是为 AI 模型提供运行环境的软件，即 Agent = Model + Harness 中的 Harness。文章以登山安全带作类比：harness 承托和保护用户、可挂载工具、可随场景改装且归用户所有。任何 harness 通常做四件事：提供系统提示词（System Prompt）、提供工具集（Tools）、建立 agentic loop 行为框架、以及实现对接多种模型的翻译层（Translation",
-      "created": "2026-08-22",
-      "updated": "2026-08-22",
-      "tags": [
-        "agent-harness",
-        "system-prompt",
-        "tools",
-        "agentic-loop",
-        "translation-layer",
-        "open-source",
-        "用户主权"
-      ],
-      "body": "## 摘要\n\nAgent Harness（线束）是为 AI 模型提供运行环境的软件，即 Agent = Model + Harness 中的 Harness。文章以登山安全带作类比：harness 承托和保护用户、可挂载工具、可随场景改装且归用户所有。任何 harness 通常做四件事：提供系统提示词（System Prompt）、提供工具集（Tools）、建立 agentic loop 行为框架、以及实现对接多种模型的翻译层（Translation Layer）。核心主张：与 AI 模型不同，用户可以拥有并改造自己的 harness——开源中立 harness（Pi、OpenClaw、OpenCode 等）把控制权从 AI 实验室交还给终端用户。\n\n\n## 要点\n\n- **定义**：agent harness 是为 AI 模型提供运行环境的软件；首个应用场景是编码，现已处于各类 AI agent 的核心。\n- **四要素**：\n  1. **System Prompt**——类似新员工第一天的入职须知，随每轮对话注入，约束模型在该 harness 环境中的行为；\n  2. **Tools**——用代码写成的可调用能力（搜索、写码、发邮件等），harness 只描述和提供工具，由模型自己决定何时及如何调用；\n  3. **Agentic Loop**——模型自主评估结果、决定再次调用工具或结束任务的行为框架，循环闭合即任务完成；\n  4. **Translation Layer**——让同一 harness 对接不同厂商模型，甚至在同一 loop 中混用不同模型。\n- **翻译层的战略意义**：它把权力从 AI 实验室转移给终端用户——用户可在本地运行自己的 harness，自由选择 Anthropic/OpenAI/开源权重模型，对比结果与成本（按 cost-per-task 衡量），并把会话记录保留在本地。\n- **可拥有性**：模型本身无法拥有，但 harness 可以。Pi 是极简 harness 的代表：系统提示词短、工具少、开箱即用不碍事，用户通过编写 extension 改造工作流并互相分享（已超过 5000 个）。\n- **历史脉络**：首个流行 harness Claude Code 并非中立翻译层，而是绑定 Claude 模型的编码应用；此后 OpenClaw、OpenCode、Hermes、Pi 等免费开源 harness 兴起，走向中立化。\n\n\n## 详细内容\n\n### 类比：登山安全带\n\nHarness 一词本义是登山/攀岩用的安全带系统：承托身体、连接绳索防坠落、可挂载镁粉袋等额外工具；换一座山可以带着同一副 harness 并按地形调整装备环。作者用这个类比强调 agent harness 的三个同构特征——保护与支撑、可挂载工具、**可改装且归个人所有**。\n\n### 四个组成部分详解\n\n1. **System Prompt**：与训练期固化的模型内在规则（如 Claude 的\"soul document\"）不同，system prompt 更像外部注入的行为准则，随每次请求进入上下文，保证模型在特定 harness 场景下举止得当。\n2. **Tools**：关键设计原则是 harness 不替模型决策。harness 清晰描述工具并交付执行软件，何时调用、如何组合由模型的自主判断完成——这是 agent 与传统自动化脚本的分界。\n3. **Agentic Loop**：文中给出一个完整例子——用户邮件要求比较本地小学排名与分数并给建议。模型先理解请求，构造搜索查询；评估结果不足时**自行决定再搜一轮**（loop 的第一个体现）；再用 WriteCode 工具生成电子表格做计算与格式化；对照原始请求检查是否满意，不满意则回到搜索；最后调用 ComposeEmail 汇总成邮件并附表格，审阅后闭环。整个过程数秒内完成。\n4. **Translation Layer**：除多模型兼容外，其深层价值在于用户主权——同一个请求可以分别发给不同厂商的模型，比较质量与成本，答案集中保留在一处而非分散在三个 App 里。\n\n### 把 Harness 变成自己的\n\nPi 被引为极简 harness 典范：设计哲学是\"开箱即用地让路\"，用户随后按自身工作流改造 system prompt、开发 extension 并分享（社区已有 5000+ extensions）。Pi 免费开源、运行在用户自己的笔记本上。\n\n### 开源中立 Harness 与人的能动性（agency）\n\n作者立场：面对日益集中的 AI 公司权力，中立开源 harness 是强化人类能动性的路径——用户保留工具的自由改装权与本地会话记录权。\"我们握锤子，而不是锤子握我们。\"\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| What is a Harness? | raw/ | Earendil Product 博客，2026-08-20 |",
-      "sourcePath": "wiki/agent-platform/what-is-a-harness.md"
-    },
-    {
-      "id": "ai-self-media/faceless-video-engine",
-      "domainId": "ai-self-media",
-      "slug": "faceless-video-engine",
-      "title": "无脸 AI 视频引擎：用 Claude Skill 替代 Higgsfield",
-      "summary": "用一个免费 Claude Skill + KIE.ai 生成平台替代 Higgsfield 月费订阅，每条 10 秒 1080p 视频成本约 $0.75。全流程 5 步：安装 Skill → 写 prompt → 生成图/视频 → 加字幕配乐 → 通过第三方应用发布到各平台（避免直接操作社交账号被封）。",
-      "created": "",
-      "updated": "2026-08-22",
-      "tags": [],
-      "body": "## 摘要\n\n用一个免费 Claude Skill + KIE.ai 生成平台替代 Higgsfield 月费订阅，每条 10 秒 1080p 视频成本约 $0.75。全流程 5 步：安装 Skill → 写 prompt → 生成图/视频 → 加字幕配乐 → 通过第三方应用发布到各平台（避免直接操作社交账号被封）。\n\n\n## 要点\n\n- 成本对比：KIE $0.75/条 vs Higgsfield $15-129/月，未用完额度永不过期。\n- Claude Skill 角色：生成脚本（hook/场景/CTA）→ 调用 KIE API 生成图片和视频。\n- 5 步流程：Skill 安装 → prompt 描述场景 → AI 生图/生视频 → CapCut 加字幕音乐 → Publer/Buffer 多平台分发。\n- 预设视频格式：POV 第一人称、问题→方案、Before/After、5 工具倒计时、微故事——匹配不同产品类型。\n- 发布策略：用第三方调度工具（Publer）而非官方 app 直接发布，降低因\"频繁操作\"被平台 shadow ban 的风险。\n- 作者实证：拥有 26 万粉无脸 TikTok 频道，1 亿+ 播放，全部 faceless。\n\n\n## 详细内容\n\n### 成本模型\n\n| 对比项 | KIE.ai | Higgsfield |\n|--------|--------|------------|\n| $1 能做 | 1 条 10s 1080p 成片 | 无（最低 $15/月起步） |\n| 5 条成本 | $3.75 | $15/月（720p 8s） |\n| 未用额度 | 永久保留 | 每月清零 |\n\n### 工作流\n\n1. 安装 Claude Skill（免费，管理脚本生成逻辑）。\n2. 在 Claude 中描述视频场景/产品/风格。\n3. Skill 调用 KIE 生成图片 → 图片生成视频（10s clip）。\n4. CapCut 后期：字幕、配乐、节奏剪辑。\n5. Publer 排期发布到 TikTok/Reels/Shorts。\n\n### 适用场景\n\n独立开发者/小团队产品营销——不需要露脸、不需要成为 marketer、不需要广告预算，用 AI 生成的 cinematic 短视频获取免费流量。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| Claude Skill 替代 Higgsfield | raw/ | @Sabrina_Ramonov X 长线程 2026-08-19 |",
-      "sourcePath": "wiki/ai-self-media/faceless-video-engine.md"
     },
     {
       "id": "ai-tools/aihot-agent-skill",
@@ -529,18 +520,6 @@
       "sourcePath": "wiki/claude-code/startup-guide.md"
     },
     {
-      "id": "agent-platform/codex-as-platform",
-      "domainId": "agent-platform",
-      "slug": "codex-as-platform",
-      "title": "Codex 作为平台：开放 Agent 线束",
-      "summary": "OpenAI 将 Codex 的核心——开源 agent harness——定位为平台。应用拥有界面、业务上下文和审批流，Codex harness 提供 agent 循环（上下文管理、工具调用、流式执行、沙箱）。三种集成层（codex exec / SDK / app server）覆盖从一次性脚本到持久会话的全部场景。",
-      "created": "",
-      "updated": "2026-08-22",
-      "tags": [],
-      "body": "## 摘要\n\nOpenAI 将 Codex 的核心——开源 agent harness——定位为平台。应用拥有界面、业务上下文和审批流，Codex harness 提供 agent 循环（上下文管理、工具调用、流式执行、沙箱）。三种集成层（codex exec / SDK / app-server）覆盖从一次性脚本到持久会话的全部场景。\n\n\n## 要点\n\n- Agent harness 是可复用的执行系统：管理会话状态、流式执行、工具调用、沙箱策略、审批请求。\n- 核心主张：把 agent 嵌入已有产品界面（dashboard/工单/IDE），而非要求用户搬到通用聊天框。\n- 应用三个所有权层：界面（用户看到什么）、上下文与工具（MCP 暴露给 agent 的数据和动作）、操作边界（沙箱/审批/可观测性）。\n- 在 ARC-AGI-3 上，harness 设计（retained reasoning + context compaction）让 GPT-5.6 Sol 从 13.3% → 38.3%，同时 output tokens 降 6 倍。\n- 三种集成层选择：\n  - `codex exec`：非交互一次性任务，返回结构化输出。\n  - Codex SDK：程序化 agent 工作流。\n  - Codex app-server：持久会话、流式事件、审批处理——适合 agent 是产品一部分的场景。\n\n\n## 详细内容\n\n### 架构分层\n\n```\n┌─────────────────────────────────────────┐\n│ 应用层（你的产品）                        │\n│  - 界面（dashboard/工单/IDE）            │\n│  - 业务上下文 & MCP 工具                  │\n│  - 审批 & 权限                           │\n├─────────────────────────────────────────┤\n│ Codex app-server                         │\n│  - Agent 循环 & 会话状态                  │\n│  - 沙箱执行                              │\n│  - 工具调用 & 流式事件                    │\n├─────────────────────────────────────────┤\n│ 模型层（GPT-5.x）                        │\n└─────────────────────────────────────────┘\n```\n\n### 集成层选择\n\n| 层 | 场景 | 特点 |\n|----|------|------|\n| `codex exec` | CI、脚本、后台一次性任务 | 有界执行，返回结构化输出 |\n| Codex SDK | 程序化工作流 | 直接编程接口 |\n| app-server | 产品内嵌 agent | 持久会话、流式、审批、MCP |\n\n### 实际案例\n\n- GitHub/JetBrains：IDE 内嵌 Codex 作为 agent provider。\n- Cisco：App Builder 使用 Codex SDK 构建部署流程。\n- Thrive Holdings：税务准备工作流，7000 份申报处理时间减少 1/3。\n- Relay（OpenAI 示例应用）：虚拟货运 dashboard，agent 通过 MCP 工具查询数据、提建议、需审批后才执行变更。\n\n### 关键洞察\n\nharness 设计对结果有实质影响——不只是 prompt engineering，执行系统本身（上下文保留、compaction、工具编排）能数倍改变任务成功率。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| Codex as a platform | raw/ | OpenAI 开发者博客 2026-08 |",
-      "sourcePath": "wiki/agent-platform/codex-as-platform.md"
-    },
-    {
       "id": "ai-security/codex-security",
       "domainId": "ai-security",
       "slug": "codex-security",
@@ -551,6 +530,18 @@
       "tags": [],
       "body": "## 摘要\n\nOpenAI 开源的 Codex Security（前身 Aardvark）是一个 Agentic Security Researcher，能自动阅读代码、寻找漏洞、验证风险并生成修复方案。开源后可在 Claude Code、Kimi Code 等任何 Agent 中使用，并支持通过 OpenRouter/Fireworks 接入第三方模型降低成本。\n\n\n## 要点\n\n- **演进路线**: Aardvark (2025-10) → Codex Security 研究预览版 (2026-03-06) → 深度扫描+攻击路径追踪 (2026-06-22) → 开源+OpenRouter/Fireworks 支持 (2026-08)\n- **核心能力**: 深度扫描、攻击路径追踪、威胁模型构建、漏洞验证、补丁生成\n- **不是银弹**: 只扫代码仓库内的问题，CDN/WAF/DDoS/后端基础设施不在扫描范围\n- **结果有波动**: 基于模型推理的探索路径每次不同，中低风险漏洞单次可能遗漏，建议双模型交叉扫描\n\n\n## 详细内容\n\n### 安装与认证\n\nGitHub: https://github.com/openai/codex-security\n\n三种认证方式：\n1. Codex 账号登录（用 Codex 额度）\n2. OpenAI API Key\n3. OpenRouter 接入（可调用第三方模型）\n\n### 模型选择策略\n\n| 场景 | 推荐模型 | 特点 |\n|------|----------|------|\n| 深度审查（大版本上线前） | gpt-5.6-sol (xhigh) | 最强但最贵，~$55/次 |\n| 高质量扫描 | Kimi K3 / Qwen3.8-Max | 效果好，成本适中 |\n| 高频日常扫描 | GPT-5.6 Luna / DeepSeek V4 Flash | 便宜，能挑出大问题 |\n\n### 实战案例发现的典型漏洞类型\n\n- **高风险**: 权限逻辑短路（查询了授权但未使用结果，SSO 通过即放行）\n- **中风险**: CSV 注入（导出内容被 Excel 识别为公式）、API 频率限制缺失（可烧掉额度）\n- **低风险**: 报错信息泄露内部路径、文件上传检查顺序不当\n\n### 最佳实践\n\n1. 定期扫描 + 大版本上线前深度扫描\n2. 双模型交叉验证（大漏洞稳定复现，中低风险需交叉覆盖）\n3. 扫描完让工具直接修复，再重新扫描验证\n4. 代码安全 ≠ 系统安全，DDoS/CDN/WAF 需额外处理\n5. OpenRouter BYOK 可用自己的 API Key 直连模型厂商，超 100 万次请求/月后收 5% 平台费\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| OpenAI Codex Security | raw/ | @Khazix0918 实测分享，含完整安装+使用+模型选择流程 |",
       "sourcePath": "wiki/ai-security/codex-security.md"
+    },
+    {
+      "id": "agent-platform/codex-as-platform",
+      "domainId": "agent-platform",
+      "slug": "codex-as-platform",
+      "title": "Codex 作为平台：开放 Agent 线束",
+      "summary": "OpenAI 将 Codex 的核心——开源 agent harness——定位为平台。应用拥有界面、业务上下文和审批流，Codex harness 提供 agent 循环（上下文管理、工具调用、流式执行、沙箱）。三种集成层（codex exec / SDK / app server）覆盖从一次性脚本到持久会话的全部场景。",
+      "created": "",
+      "updated": "2026-08-22",
+      "tags": [],
+      "body": "## 摘要\n\nOpenAI 将 Codex 的核心——开源 agent harness——定位为平台。应用拥有界面、业务上下文和审批流，Codex harness 提供 agent 循环（上下文管理、工具调用、流式执行、沙箱）。三种集成层（codex exec / SDK / app-server）覆盖从一次性脚本到持久会话的全部场景。\n\n\n## 要点\n\n- Agent harness 是可复用的执行系统：管理会话状态、流式执行、工具调用、沙箱策略、审批请求。\n- 核心主张：把 agent 嵌入已有产品界面（dashboard/工单/IDE），而非要求用户搬到通用聊天框。\n- 应用三个所有权层：界面（用户看到什么）、上下文与工具（MCP 暴露给 agent 的数据和动作）、操作边界（沙箱/审批/可观测性）。\n- 在 ARC-AGI-3 上，harness 设计（retained reasoning + context compaction）让 GPT-5.6 Sol 从 13.3% → 38.3%，同时 output tokens 降 6 倍。\n- 三种集成层选择：\n  - `codex exec`：非交互一次性任务，返回结构化输出。\n  - Codex SDK：程序化 agent 工作流。\n  - Codex app-server：持久会话、流式事件、审批处理——适合 agent 是产品一部分的场景。\n\n\n## 详细内容\n\n### 架构分层\n\n```\n┌─────────────────────────────────────────┐\n│ 应用层（你的产品）                        │\n│  - 界面（dashboard/工单/IDE）            │\n│  - 业务上下文 & MCP 工具                  │\n│  - 审批 & 权限                           │\n├─────────────────────────────────────────┤\n│ Codex app-server                         │\n│  - Agent 循环 & 会话状态                  │\n│  - 沙箱执行                              │\n│  - 工具调用 & 流式事件                    │\n├─────────────────────────────────────────┤\n│ 模型层（GPT-5.x）                        │\n└─────────────────────────────────────────┘\n```\n\n### 集成层选择\n\n| 层 | 场景 | 特点 |\n|----|------|------|\n| `codex exec` | CI、脚本、后台一次性任务 | 有界执行，返回结构化输出 |\n| Codex SDK | 程序化工作流 | 直接编程接口 |\n| app-server | 产品内嵌 agent | 持久会话、流式、审批、MCP |\n\n### 实际案例\n\n- GitHub/JetBrains：IDE 内嵌 Codex 作为 agent provider。\n- Cisco：App Builder 使用 Codex SDK 构建部署流程。\n- Thrive Holdings：税务准备工作流，7000 份申报处理时间减少 1/3。\n- Relay（OpenAI 示例应用）：虚拟货运 dashboard，agent 通过 MCP 工具查询数据、提建议、需审批后才执行变更。\n\n### 关键洞察\n\nharness 设计对结果有实质影响——不只是 prompt engineering，执行系统本身（上下文保留、compaction、工具编排）能数倍改变任务成功率。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| Codex as a platform | raw/ | OpenAI 开发者博客 2026-08 |",
+      "sourcePath": "wiki/agent-platform/codex-as-platform.md"
     },
     {
       "id": "agent-eval/eval-driven-development",
@@ -600,26 +591,36 @@
       "sourcePath": "wiki/ai-security/openai-hf-agent-incident.md"
     },
     {
-      "id": "multiagent-coordination/multiagent-problems",
-      "domainId": "multiagent-coordination",
-      "slug": "multiagent-problems",
-      "title": "多 Agent 协作问题综述",
-      "summary": "基于 8 篇 2026 年顶会论文，系统梳理多 Agent 协作的四级分类，以及每一级别面临的核心问题。结论：前两级（多提示词工作流 / 中央编排专家集合）可被单 agent 等价替代；后两级（分布式协作 / 开放生态）面临不可消除的协调难题，必须引入分布式系统级协议。",
-      "created": "2026-08-18",
-      "updated": "2026-08-18",
+      "id": "agent-platform/what-is-a-harness",
+      "domainId": "agent-platform",
+      "slug": "what-is-a-harness",
+      "title": "什么是 Agent Harness（线束）",
+      "summary": "Agent Harness（线束）是为 AI 模型提供运行环境的软件，即 Agent = Model + Harness 中的 Harness。文章以登山安全带作类比：harness 承托和保护用户、可挂载工具、可随场景改装且归用户所有。任何 harness 通常做四件事：提供系统提示词（System Prompt）、提供工具集（Tools）、建立 agentic loop 行为框架、以及实现对接多种模型的翻译层（Translation",
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
       "tags": [
-        "multiagent",
-        "coordination",
-        "论文综述",
-        "分布式系统",
-        "OneFlow",
-        "SILO-BENCH",
-        "MAS-BENCH",
-        "死锁",
-        "consensus"
+        "agent-harness",
+        "system-prompt",
+        "tools",
+        "agentic-loop",
+        "translation-layer",
+        "open-source",
+        "用户主权"
       ],
-      "body": "## 摘要\n\n基于 8 篇 2026 年顶会论文，系统梳理多 Agent 协作的四级分类，以及每一级别面临的核心问题。结论：前两级（多提示词工作流 / 中央编排专家集合）可被单 agent 等价替代；后两级（分布式协作 / 开放生态）面临不可消除的协调难题，必须引入分布式系统级协议。\n\n\n## 要点\n\n- **四级分类**：多提示词工作流 → 中央编排专家集合 → 分布式协作系统 → 开放式 agent 生态。前两级本质是\"复合推理/工作流优化\"，后两级才涉及真正的协调问题。\n- **单 agent 等价性**（OneFlow [1]）：同一基础模型构建的 multiagent workflow 通常可被一个 agent 多轮上下文模拟，且因 KV cache 复用成本更低。\n- **multiagent 成立条件**：必须利用单 agent 没有的条件——不同模型/工具/私有信息/权限/信任域/并行环境动作/不同所有者目标/超长状态。否则只是更贵的单 agent。\n- **Communication-Reasoning Gap**（SILO-BENCH [7]）：agent 积极沟通但无法将沟通转化为正确的分布式推理，50+ agent 时成功率降至零。\n- **沟通反而降低成功率**（SIGDIAL [8]）：具身协作中，允许对话使动作冲突降低 40-90 个百分点，但任务成功率反而更低——自然语言对话引入了过度确认的协调开销。\n- **专家平均化**（ICML [3]）：团队倾向于综合所有人意见做折中，无法正确利用专家。agent 越多平均化越严重。副作用：也能削弱恶意 agent 影响→\"利用专家 vs 抵抗恶意\"是真实权衡。\n- **信任增加一致性但不增加正确性** [4]：让 agent 更友好合作会增加 consensus 但不增加客观准确。\n- **死锁率 90-100%**（MAS-BENCH [5][6]）：顺序决策正常的模型，一旦进入资源竞争场景，默认死锁率上限 90%，minimal-prompt 下 100%。\n- **必须引入分布式系统协议**：提交协议、资源排序、锁与租约、状态版本、幂等操作、终止检测。不能靠 prompt 中\"请避免重复工作\"解决。\n\n\n## 详细内容\n\n### 四级协作分类框架\n\n| 层级 | 描述 | 核心问题类型 |\n|------|------|-------------|\n| 多提示词工作流 | 同一模型扮演 planner/critic/reviewer | 复合推理优化 |\n| 中央编排专家集合 | 编排器动态选择模型/工具/subagent | 复合推理优化 |\n| 分布式协作系统 | 各 agent 不同信息/状态/工具/权限，无全知节点 | 不可消除的协调问题 |\n| 开放式 agent 生态 | 成员/目标/联盟/角色/制度动态变化 | 不可消除的协调问题 |\n\n### 关键论文发现\n\n**前两级可被单 agent 替代：**\n\n- OneFlow [1]：7 个 benchmark 上，多 agent workflow 可被单 agent 多轮模拟，KV cache 复用更省。\n- [2]：匹配 thinking-token 上限后，单 agent 匹配或超过多 agent（2 个 multi-hop benchmark × 3 模型 × 5 MAS 架构）。multiagent 收益可能主要来自额外推理计算量。\n\n**后两级的协调崩塌：**\n\n- SILO-BENCH [7]（ACL 2026）：取消预定义角色，信息孤岛下自由协作。agent 积极沟通但推理失败，50+ agent 时成功率→0。\n- 具身协作 [8]（SIGDIAL 2026）：沟通降低动作冲突 40-90pp，但任务成功率反而低于静默协作。自然语言可能不是最佳协作协议。\n- Multi-Agent Teams Hold Experts Back [3]（ICML 2026）：团队无法正确利用专家，倾向折中所有意见。存在\"利用专家 vs 抵抗恶意节点\"权衡。\n- Relational Priors [4]：信任/友好→一致性↑，客观正确性不变。\n- When 20 Agents Fail to Sort / MAS-BENCH [5][6]：全局排序对单机trivial，但 agent 数量增加后共享状态不一致、通信约定不一致、重复提交、无法判断终止。资源竞争场景死锁率 90-100%。\n\n### 核心结论\n\n> \"很多论文其实是在研究'多个 ChatGPT 如何聊天'，而不是'多个 agent 如何协作'\"\n\n真正的 multiagent 运行时需要的不是行为建议，而是**明确、可执行、可验证的协议**：提交协议、资源排序、锁与租约、状态版本、幂等操作、终止检测。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| multiagent 协作问题的初步整理 | raw/ | @chengyongru X thread, 2026-08-17, 含 8 篇参考文献 |",
-      "sourcePath": "wiki/multiagent-coordination/multiagent-problems.md"
+      "body": "## 摘要\n\nAgent Harness（线束）是为 AI 模型提供运行环境的软件，即 Agent = Model + Harness 中的 Harness。文章以登山安全带作类比：harness 承托和保护用户、可挂载工具、可随场景改装且归用户所有。任何 harness 通常做四件事：提供系统提示词（System Prompt）、提供工具集（Tools）、建立 agentic loop 行为框架、以及实现对接多种模型的翻译层（Translation Layer）。核心主张：与 AI 模型不同，用户可以拥有并改造自己的 harness——开源中立 harness（Pi、OpenClaw、OpenCode 等）把控制权从 AI 实验室交还给终端用户。\n\n\n## 要点\n\n- **定义**：agent harness 是为 AI 模型提供运行环境的软件；首个应用场景是编码，现已处于各类 AI agent 的核心。\n- **四要素**：\n  1. **System Prompt**——类似新员工第一天的入职须知，随每轮对话注入，约束模型在该 harness 环境中的行为；\n  2. **Tools**——用代码写成的可调用能力（搜索、写码、发邮件等），harness 只描述和提供工具，由模型自己决定何时及如何调用；\n  3. **Agentic Loop**——模型自主评估结果、决定再次调用工具或结束任务的行为框架，循环闭合即任务完成；\n  4. **Translation Layer**——让同一 harness 对接不同厂商模型，甚至在同一 loop 中混用不同模型。\n- **翻译层的战略意义**：它把权力从 AI 实验室转移给终端用户——用户可在本地运行自己的 harness，自由选择 Anthropic/OpenAI/开源权重模型，对比结果与成本（按 cost-per-task 衡量），并把会话记录保留在本地。\n- **可拥有性**：模型本身无法拥有，但 harness 可以。Pi 是极简 harness 的代表：系统提示词短、工具少、开箱即用不碍事，用户通过编写 extension 改造工作流并互相分享（已超过 5000 个）。\n- **历史脉络**：首个流行 harness Claude Code 并非中立翻译层，而是绑定 Claude 模型的编码应用；此后 OpenClaw、OpenCode、Hermes、Pi 等免费开源 harness 兴起，走向中立化。\n\n\n## 详细内容\n\n### 类比：登山安全带\n\nHarness 一词本义是登山/攀岩用的安全带系统：承托身体、连接绳索防坠落、可挂载镁粉袋等额外工具；换一座山可以带着同一副 harness 并按地形调整装备环。作者用这个类比强调 agent harness 的三个同构特征——保护与支撑、可挂载工具、**可改装且归个人所有**。\n\n### 四个组成部分详解\n\n1. **System Prompt**：与训练期固化的模型内在规则（如 Claude 的\"soul document\"）不同，system prompt 更像外部注入的行为准则，随每次请求进入上下文，保证模型在特定 harness 场景下举止得当。\n2. **Tools**：关键设计原则是 harness 不替模型决策。harness 清晰描述工具并交付执行软件，何时调用、如何组合由模型的自主判断完成——这是 agent 与传统自动化脚本的分界。\n3. **Agentic Loop**：文中给出一个完整例子——用户邮件要求比较本地小学排名与分数并给建议。模型先理解请求，构造搜索查询；评估结果不足时**自行决定再搜一轮**（loop 的第一个体现）；再用 WriteCode 工具生成电子表格做计算与格式化；对照原始请求检查是否满意，不满意则回到搜索；最后调用 ComposeEmail 汇总成邮件并附表格，审阅后闭环。整个过程数秒内完成。\n4. **Translation Layer**：除多模型兼容外，其深层价值在于用户主权——同一个请求可以分别发给不同厂商的模型，比较质量与成本，答案集中保留在一处而非分散在三个 App 里。\n\n### 把 Harness 变成自己的\n\nPi 被引为极简 harness 典范：设计哲学是\"开箱即用地让路\"，用户随后按自身工作流改造 system prompt、开发 extension 并分享（社区已有 5000+ extensions）。Pi 免费开源、运行在用户自己的笔记本上。\n\n### 开源中立 Harness 与人的能动性（agency）\n\n作者立场：面对日益集中的 AI 公司权力，中立开源 harness 是强化人类能动性的路径——用户保留工具的自由改装权与本地会话记录权。\"我们握锤子，而不是锤子握我们。\"\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| What is a Harness? | raw/ | Earendil Product 博客，2026-08-20 |",
+      "sourcePath": "wiki/agent-platform/what-is-a-harness.md"
+    },
+    {
+      "id": "ai-self-media/faceless-video-engine",
+      "domainId": "ai-self-media",
+      "slug": "faceless-video-engine",
+      "title": "无脸 AI 视频引擎：用 Claude Skill 替代 Higgsfield",
+      "summary": "用一个免费 Claude Skill + KIE.ai 生成平台替代 Higgsfield 月费订阅，每条 10 秒 1080p 视频成本约 $0.75。全流程 5 步：安装 Skill → 写 prompt → 生成图/视频 → 加字幕配乐 → 通过第三方应用发布到各平台（避免直接操作社交账号被封）。",
+      "created": "",
+      "updated": "2026-08-22",
+      "tags": [],
+      "body": "## 摘要\n\n用一个免费 Claude Skill + KIE.ai 生成平台替代 Higgsfield 月费订阅，每条 10 秒 1080p 视频成本约 $0.75。全流程 5 步：安装 Skill → 写 prompt → 生成图/视频 → 加字幕配乐 → 通过第三方应用发布到各平台（避免直接操作社交账号被封）。\n\n\n## 要点\n\n- 成本对比：KIE $0.75/条 vs Higgsfield $15-129/月，未用完额度永不过期。\n- Claude Skill 角色：生成脚本（hook/场景/CTA）→ 调用 KIE API 生成图片和视频。\n- 5 步流程：Skill 安装 → prompt 描述场景 → AI 生图/生视频 → CapCut 加字幕音乐 → Publer/Buffer 多平台分发。\n- 预设视频格式：POV 第一人称、问题→方案、Before/After、5 工具倒计时、微故事——匹配不同产品类型。\n- 发布策略：用第三方调度工具（Publer）而非官方 app 直接发布，降低因\"频繁操作\"被平台 shadow ban 的风险。\n- 作者实证：拥有 26 万粉无脸 TikTok 频道，1 亿+ 播放，全部 faceless。\n\n\n## 详细内容\n\n### 成本模型\n\n| 对比项 | KIE.ai | Higgsfield |\n|--------|--------|------------|\n| $1 能做 | 1 条 10s 1080p 成片 | 无（最低 $15/月起步） |\n| 5 条成本 | $3.75 | $15/月（720p 8s） |\n| 未用额度 | 永久保留 | 每月清零 |\n\n### 工作流\n\n1. 安装 Claude Skill（免费，管理脚本生成逻辑）。\n2. 在 Claude 中描述视频场景/产品/风格。\n3. Skill 调用 KIE 生成图片 → 图片生成视频（10s clip）。\n4. CapCut 后期：字幕、配乐、节奏剪辑。\n5. Publer 排期发布到 TikTok/Reels/Shorts。\n\n### 适用场景\n\n独立开发者/小团队产品营销——不需要露脸、不需要成为 marketer、不需要广告预算，用 AI 生成的 cinematic 短视频获取免费流量。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| Claude Skill 替代 Higgsfield | raw/ | @Sabrina_Ramonov X 长线程 2026-08-19 |",
+      "sourcePath": "wiki/ai-self-media/faceless-video-engine.md"
     },
     {
       "id": "agent-fleet/abc-legal-managed-agents",
@@ -643,26 +644,26 @@
       "sourcePath": "wiki/agent-fleet/abc-legal-managed-agents.md"
     },
     {
-      "id": "indie-dev/mole-indie-dev-lessons",
-      "domainId": "indie-dev",
-      "slug": "mole-indie-dev-lessons",
-      "title": "独立开发的产品思维：从开源 CLI 到付费 Mac 应用（Tw93/Mole 复盘）",
-      "summary": "Tw93（@HiTw93，Pake/Bob/Mole 作者）复盘 Mole 从开源 CLI 成长为 Mac 付费软件的过程，给出 10 条独立开发心得。核心判断：AI 时代代码壁垒越来越小，独立开发者真正的竞争力是 产品工程师能力 ——代码只占 30%，其余是用研、产品、运营、数据与商业的综合体。配套实践包括：Token 是投资要花在刀刃上、需求上\"不做什么远比做什么重要\"、每周高频发布、把个人账号当品牌长期经营、出海与真诚、不花钱推广",
-      "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "id": "multiagent-coordination/multiagent-problems",
+      "domainId": "multiagent-coordination",
+      "slug": "multiagent-problems",
+      "title": "多 Agent 协作问题综述",
+      "summary": "基于 8 篇 2026 年顶会论文，系统梳理多 Agent 协作的四级分类，以及每一级别面临的核心问题。结论：前两级（多提示词工作流 / 中央编排专家集合）可被单 agent 等价替代；后两级（分布式协作 / 开放生态）面临不可消除的协调难题，必须引入分布式系统级协议。",
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
       "tags": [
-        "indie-dev",
-        "独立开发",
-        "产品思维",
-        "product-engineering",
-        "品牌",
-        "出海",
-        "数据分析",
-        "mole",
-        "高频发布"
+        "multiagent",
+        "coordination",
+        "论文综述",
+        "分布式系统",
+        "OneFlow",
+        "SILO-BENCH",
+        "MAS-BENCH",
+        "死锁",
+        "consensus"
       ],
-      "body": "## 摘要\n\nTw93（@HiTw93，Pake/Bob/Mole 作者）复盘 Mole 从开源 CLI 成长为 Mac 付费软件的过程，给出 10 条独立开发心得。核心判断：AI 时代代码壁垒越来越小，独立开发者真正的竞争力是**产品工程师能力**——代码只占 30%，其余是用研、产品、运营、数据与商业的综合体。配套实践包括：Token 是投资要花在刀刃上、需求上\"不做什么远比做什么重要\"、每周高频发布、把个人账号当品牌长期经营、出海与真诚、不花钱推广靠 YouTube 长尾、以及用数据分析驱动迭代。\n\n\n## 要点\n\n- **产品工程师 = 用研 + 产品 + 工程师 + 运营 + 数据 + 商业**，代码能力只占 30%；核心是把自身痛点与大众痛点结合，产出易用方案，并让用户\"发现多亏有这个产品\"。\n- **Token 是投资，要讲收益**：AI 时代代码壁垒降低，应把 Token 精确花在解决用户问题上，更多 Token 用于需求分析、数据下钻、内容易读性——多个 250 刀账号也不够挥霍。\n- **需求克制**：\"如无必要，勿增实体\"\"至繁归于至简\"；不做什么远比做什么重要，贯穿生活、工作与代码。\n- **每周发布，不憋大招**：每次发布/更新/宣发都是一次与用户沟通的机会，及时解决问题、保持真实活人的互动，也让没看过你之前消息的人持续发现产品。\n- **运营去 AI 话术**：Twitter/X 是让好东西被发现的极佳渠道，但不要蓝勾互关互推的虚假繁荣；前提是产品本身漂亮、精致，让人第一眼就想点开试用。\n- **把自己当品牌经营**：个人账号就是这个品牌的载体，思考、想法、更新、见解、评论都在给品牌加信任值；信任在\"虚假又繁荣的 AI 世界\"尤其稀缺，这个品牌是生命周期最长的产品。\n- **真诚 + 全球化**：喜欢开源、友好网络环境；产品一开始就出海、多发英文内容，用户更广、信任更早建立；力所能及帮助他人，被帮的人大概率成为未来用户。\n- **不花钱推广，靠长尾**：X 脉冲高但时效短；YouTube 衰减极慢，好产品被人推荐后可以火很久。\n- **数据分析是必修课**：从销量分维度分时间分析，结合流量、评论、与用户交流的全部内容、退款原因（开源产品还包括所有 issue）——这些都是宝贵数据，能发现漏斗与盲区。\n\n\n## 详细内容\n\n### 产品工程师定位：代码只占 30%\n\n独立开发者的核心能力不是写代码，而是**产品工程师**这一复合角色：用研 + 产品 + 工程师 + 运营 + 数据 + 商业。关键是把\"自己的痛点\"和\"大部分用户的痛点\"结合成方便易用的解决方案，并把它推荐给正确的人——让用户感到\"多亏了这个产品，解决了我一个大问题\"。\n\nAI 时代这一判断更强化：代码壁垒越来越小，因此要把 Token 恰好花在解决用户问题上，把更多 Token 投向需求分析讨论、数据下钻挖掘问题、内容友好性与易读性。即便手握多个 250 刀/月的账号也不够用——不介意多花 Token，但必须花在实处，视其为讲究收益的投资。\n\n### 需求克制：不做什么比做什么重要\n\n需求把控上，\"不做什么\"远比\"做什么\"重要。\"如无必要，勿增实体\"\"至繁归于至简\"贯穿其生活、工作与代码：讨厌繁琐与混乱，喜欢漂亮简单、无需说明书即可上手的产品。\n\n### 高频发布：每周都有 Release\n\n不需要憋大招，尽量做到**每周发布**、每周都有 Release，及时解决用户问题，与用户保持\"人与人交流\"的真实互动。每次发布、更新、宣发都是一次极好的沟通机会，也让之前没看到过你消息的人持续了解产品。\n\n### 品牌与运营：信任是硬通货\n\n- **少用 AI 话术**与真实世界交流；Twitter 是非常好的渠道，产品好用会有大量人自发帮你宣传。\n- 不要走蓝勾互关、互推的虚假繁荣路线——你的用户不在那里。\n- 运营前提是产品本身漂亮、精致，让第一次见到的人有兴趣点击试用，而非快速划走。\n- 不建议抱着强功利心做账号（会带来焦虑），而是**把自己当作品牌建设**：你本人就是品牌本身，所有输出都在给品牌加信任值。在\"虚假又繁荣的 AI 世界\"里，信任尤其稀缺；大量\"吹得天花乱坠、点进去一般\"的产品已把用户预期拉得很低。这个品牌随你在互联网上存活的时间而增值，是你生命周期最长的产品。\n- **真诚与开源**：保持真诚、喜欢开源与友好的网络环境；产品从一开始就全球化/出海，多发英文内容——世界很大，用户很广，也更容易一开始就获得信任。力所能及地帮助他人，有过真实交情的人很可能成为未来用户。\n\n### 渠道选择：X 脉冲 vs YouTube 长尾\n\n尽量不花钱推广。X 的脉冲效应很高但时效一般；更推荐把内容发到 **YouTube**——衰减极慢，只要产品够好、有人推荐，就能火很长时间，带来长线收益。\n\n### 数据分析：发现你不知道的问题\n\n数据分析是必修课：把销量数据分维度、分时间分析，结合流量数据、用户评论、与用户交流的全部内容、退款原因（开源产品还包括所有 issue）。这些数据能帮你发现大量自己不知道的问题、定位销售漏斗，进而优化产品。\n\n### 产品实例：Mole\n\nMole（mole.fit）是这次复盘的载体：一个从开源 CLI 走到 Mac 付费软件的健身记录工具，演示了上述方法论的完整闭环。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| Post by @HiTw93 on X | raw/ | X（Twitter）剪藏，作者 [@HiTw93](https://x.com/HiTw93)（Tw93，Mole/Pake 作者），含 2 条评论互动 |",
-      "sourcePath": "wiki/indie-dev/mole-indie-dev-lessons.md"
+      "body": "## 摘要\n\n基于 8 篇 2026 年顶会论文，系统梳理多 Agent 协作的四级分类，以及每一级别面临的核心问题。结论：前两级（多提示词工作流 / 中央编排专家集合）可被单 agent 等价替代；后两级（分布式协作 / 开放生态）面临不可消除的协调难题，必须引入分布式系统级协议。\n\n\n## 要点\n\n- **四级分类**：多提示词工作流 → 中央编排专家集合 → 分布式协作系统 → 开放式 agent 生态。前两级本质是\"复合推理/工作流优化\"，后两级才涉及真正的协调问题。\n- **单 agent 等价性**（OneFlow [1]）：同一基础模型构建的 multiagent workflow 通常可被一个 agent 多轮上下文模拟，且因 KV cache 复用成本更低。\n- **multiagent 成立条件**：必须利用单 agent 没有的条件——不同模型/工具/私有信息/权限/信任域/并行环境动作/不同所有者目标/超长状态。否则只是更贵的单 agent。\n- **Communication-Reasoning Gap**（SILO-BENCH [7]）：agent 积极沟通但无法将沟通转化为正确的分布式推理，50+ agent 时成功率降至零。\n- **沟通反而降低成功率**（SIGDIAL [8]）：具身协作中，允许对话使动作冲突降低 40-90 个百分点，但任务成功率反而更低——自然语言对话引入了过度确认的协调开销。\n- **专家平均化**（ICML [3]）：团队倾向于综合所有人意见做折中，无法正确利用专家。agent 越多平均化越严重。副作用：也能削弱恶意 agent 影响→\"利用专家 vs 抵抗恶意\"是真实权衡。\n- **信任增加一致性但不增加正确性** [4]：让 agent 更友好合作会增加 consensus 但不增加客观准确。\n- **死锁率 90-100%**（MAS-BENCH [5][6]）：顺序决策正常的模型，一旦进入资源竞争场景，默认死锁率上限 90%，minimal-prompt 下 100%。\n- **必须引入分布式系统协议**：提交协议、资源排序、锁与租约、状态版本、幂等操作、终止检测。不能靠 prompt 中\"请避免重复工作\"解决。\n\n\n## 详细内容\n\n### 四级协作分类框架\n\n| 层级 | 描述 | 核心问题类型 |\n|------|------|-------------|\n| 多提示词工作流 | 同一模型扮演 planner/critic/reviewer | 复合推理优化 |\n| 中央编排专家集合 | 编排器动态选择模型/工具/subagent | 复合推理优化 |\n| 分布式协作系统 | 各 agent 不同信息/状态/工具/权限，无全知节点 | 不可消除的协调问题 |\n| 开放式 agent 生态 | 成员/目标/联盟/角色/制度动态变化 | 不可消除的协调问题 |\n\n### 关键论文发现\n\n**前两级可被单 agent 替代：**\n\n- OneFlow [1]：7 个 benchmark 上，多 agent workflow 可被单 agent 多轮模拟，KV cache 复用更省。\n- [2]：匹配 thinking-token 上限后，单 agent 匹配或超过多 agent（2 个 multi-hop benchmark × 3 模型 × 5 MAS 架构）。multiagent 收益可能主要来自额外推理计算量。\n\n**后两级的协调崩塌：**\n\n- SILO-BENCH [7]（ACL 2026）：取消预定义角色，信息孤岛下自由协作。agent 积极沟通但推理失败，50+ agent 时成功率→0。\n- 具身协作 [8]（SIGDIAL 2026）：沟通降低动作冲突 40-90pp，但任务成功率反而低于静默协作。自然语言可能不是最佳协作协议。\n- Multi-Agent Teams Hold Experts Back [3]（ICML 2026）：团队无法正确利用专家，倾向折中所有意见。存在\"利用专家 vs 抵抗恶意节点\"权衡。\n- Relational Priors [4]：信任/友好→一致性↑，客观正确性不变。\n- When 20 Agents Fail to Sort / MAS-BENCH [5][6]：全局排序对单机trivial，但 agent 数量增加后共享状态不一致、通信约定不一致、重复提交、无法判断终止。资源竞争场景死锁率 90-100%。\n\n### 核心结论\n\n> \"很多论文其实是在研究'多个 ChatGPT 如何聊天'，而不是'多个 agent 如何协作'\"\n\n真正的 multiagent 运行时需要的不是行为建议，而是**明确、可执行、可验证的协议**：提交协议、资源排序、锁与租约、状态版本、幂等操作、终止检测。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| multiagent 协作问题的初步整理 | raw/ | @chengyongru X thread, 2026-08-17, 含 8 篇参考文献 |",
+      "sourcePath": "wiki/multiagent-coordination/multiagent-problems.md"
     },
     {
       "id": "pi-agent/pi-compaction",
@@ -683,6 +684,28 @@
       ],
       "body": "## 摘要\n\nLLM 的上下文窗口有限，而编码代理会话的输入（系统提示、AGENTS.md、工具定义、历史消息与工具调用结果）会随工作持续膨胀，最终超出窗口返回 `Request exceeds the maximum size`。Pi 的解法是 compaction：用一次**独立的 LLM 请求**把历史总结成换班简报式的结构化摘要，替换旧历史、保留近期轮次，让会话得以继续。Pi 默认保留约 2 万 token 的近期上下文（约 5~20 轮），可在回合结束后自动触发或 `/compact` 手动触发；摘要以纯文本存入会话，跨模型可移植。代价是 compaction 会打破 prompt cache（缓存要求前缀精确匹配），但之后的请求会重新享受缓存。\n\n\n## 要点\n\n- 上下文溢出时只有两条路：开新会话（丢弃历史，且输出质量随上下文增长而下降——context rot），或压缩（compaction）——用更小的表示保留会话。\n- Compaction 的通行实现不是确定性裁剪函数，而是一次 LLM 摘要请求：把部分历史替换为压缩表示，为后续消息腾出空间。\n- Pi 在回合结束后检查自动压缩（此前每个请求都能复用缓存前缀）；遇上下文溢出错误时也会在回合中途压缩。\n- Pi 保留最近若干条消息不压缩，保留量由可配置的 token budget 决定，默认 2 万 token ≈ 5~20 轮。\n- 压缩请求是**独立请求**：换用\"你是上下文摘要助手\"的系统提示，要求输出含目标（goal）、进展（progress）、关键决策（key decisions）的结构化摘要；因不携带历史，可以用不同的（更便宜的）模型。\n- 摘要以纯文本作为 compaction entry 追加进会话——可读、可移植，切换模型后摘要仍可用。\n- 压缩会打破 prompt cache：保留的轮次 token 虽相同，但前缀变了，必须重新计算；压缩后的新请求会再次建立缓存。\n- Pi 的压缩可被扩展替换：可以写一个带自定义压缩提示词的扩展来做实验。\n\n\n## 详细内容\n\n### 上下文为何会溢出\n\nLLM 只能\"看见\"上下文窗口内的输入。编码代理会话的每次请求都包含：系统提示、已加载文件（如 AGENTS.md）、工具定义，以及**完整的历史对话**。每一轮（assistant 工具调用 → 工具结果 → assistant 回复）都在加长这段历史，直到超过窗口上限，模型拒绝请求。\n\n### Compaction 是什么\n\n面对溢出有两种选择：\n\n1. **开新会话**：丢掉全部积累的上下文（包括既有决策和未完成工作）。有时这不失为明智之举，因为已有研究表明 LLM 输出质量随上下文增长而下降（context rot）。\n2. **压缩**：为会话生成一个更小的表示，让同一段会话继续下去。这就是 compaction。\n\n理论上压缩可以是确定性函数（保留一部分、丢弃其余），但实践中通行做法是**用一次 LLM 请求来总结历史**：把部分历史替换为压缩表示，腾出空间容纳新消息和新工具调用。\n\n### Pi 的实现\n\n- **触发时机**：当上下文规模接近窗口上限时自动触发；也可 `/compact` 手动触发。自动压缩在**回合结束之后**检查——回合内每个请求都在扩展同一段 prompt，可复用已缓存的精确前缀；若回合中途遇到上下文溢出错误，Pi 也会在回合中途压缩。\n- **保留策略**：压缩时保留最近若干条消息原样不动，之前的消息被提取、序列化后交给摘要。保留数量不固定，取决于可配置的 token budget；默认 2 万 token，约合 5~20 轮。\n- **独立的压缩请求**：压缩请求与常规对话请求有三点不同：\n  1. 系统提示不同——不再是\"你是专家编码助手\"，而是\"**你是上下文摘要助手**\"；\n  2. 用户消息不同——要求输出\"这个会话分支的结构化摘要，供稍后返回时恢复上下文\"，明确指定**目标、进展、关键决策**等分节；\n  3. 它是独立请求，不携带既有历史——因此可以用**不同的模型**来压缩，不会产生额外不必要的成本。\n- **结果处理**：摘要作为 compaction entry 追加进会话，会话继续。压缩后的上下文形如 `[system][tools][summary][recent turns][new user message]`，为后续消息腾出大量空间。\n- **可移植性**：摘要以**纯文本**存于会话中，保持压缩后上下文可读、可移植——在 Pi 中切换模型后仍可继续使用这份摘要。\n\n### Compaction 与 Prompt Caching\n\nPrompt caching 让同一会话中的重复请求更便宜，但前提是**前缀精确匹配**。压缩改变了保留轮次的前缀：那些轮次的 token 内容没变，却不再命中之前的缓存，需要重新计算。压缩后的新请求则会从新的前缀开始重新建立缓存，后续继续受益。\n\n### 可替换性\n\nPi 的压缩实现本身也可被扩展替换——写一个带自定义压缩提示词的扩展，即可实验不同的压缩机制。这正是 Pi \"一切皆可扩展\"设计哲学的又一例证。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| How Compaction Works in Pi | raw/ | Earendil Engineering 官方博客（earendil.com），英文原文，附 Pi 源码与官方文档链接 |",
       "sourcePath": "wiki/pi-agent/pi-compaction.md"
+    },
+    {
+      "id": "indie-dev/mole-indie-dev-lessons",
+      "domainId": "indie-dev",
+      "slug": "mole-indie-dev-lessons",
+      "title": "独立开发的产品思维：从开源 CLI 到付费 Mac 应用（Tw93/Mole 复盘）",
+      "summary": "Tw93（@HiTw93，Pake/Bob/Mole 作者）复盘 Mole 从开源 CLI 成长为 Mac 付费软件的过程，给出 10 条独立开发心得。核心判断：AI 时代代码壁垒越来越小，独立开发者真正的竞争力是 产品工程师能力 ——代码只占 30%，其余是用研、产品、运营、数据与商业的综合体。配套实践包括：Token 是投资要花在刀刃上、需求上\"不做什么远比做什么重要\"、每周高频发布、把个人账号当品牌长期经营、出海与真诚、不花钱推广",
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "tags": [
+        "indie-dev",
+        "独立开发",
+        "产品思维",
+        "product-engineering",
+        "品牌",
+        "出海",
+        "数据分析",
+        "mole",
+        "高频发布"
+      ],
+      "body": "## 摘要\n\nTw93（@HiTw93，Pake/Bob/Mole 作者）复盘 Mole 从开源 CLI 成长为 Mac 付费软件的过程，给出 10 条独立开发心得。核心判断：AI 时代代码壁垒越来越小，独立开发者真正的竞争力是**产品工程师能力**——代码只占 30%，其余是用研、产品、运营、数据与商业的综合体。配套实践包括：Token 是投资要花在刀刃上、需求上\"不做什么远比做什么重要\"、每周高频发布、把个人账号当品牌长期经营、出海与真诚、不花钱推广靠 YouTube 长尾、以及用数据分析驱动迭代。\n\n\n## 要点\n\n- **产品工程师 = 用研 + 产品 + 工程师 + 运营 + 数据 + 商业**，代码能力只占 30%；核心是把自身痛点与大众痛点结合，产出易用方案，并让用户\"发现多亏有这个产品\"。\n- **Token 是投资，要讲收益**：AI 时代代码壁垒降低，应把 Token 精确花在解决用户问题上，更多 Token 用于需求分析、数据下钻、内容易读性——多个 250 刀账号也不够挥霍。\n- **需求克制**：\"如无必要，勿增实体\"\"至繁归于至简\"；不做什么远比做什么重要，贯穿生活、工作与代码。\n- **每周发布，不憋大招**：每次发布/更新/宣发都是一次与用户沟通的机会，及时解决问题、保持真实活人的互动，也让没看过你之前消息的人持续发现产品。\n- **运营去 AI 话术**：Twitter/X 是让好东西被发现的极佳渠道，但不要蓝勾互关互推的虚假繁荣；前提是产品本身漂亮、精致，让人第一眼就想点开试用。\n- **把自己当品牌经营**：个人账号就是这个品牌的载体，思考、想法、更新、见解、评论都在给品牌加信任值；信任在\"虚假又繁荣的 AI 世界\"尤其稀缺，这个品牌是生命周期最长的产品。\n- **真诚 + 全球化**：喜欢开源、友好网络环境；产品一开始就出海、多发英文内容，用户更广、信任更早建立；力所能及帮助他人，被帮的人大概率成为未来用户。\n- **不花钱推广，靠长尾**：X 脉冲高但时效短；YouTube 衰减极慢，好产品被人推荐后可以火很久。\n- **数据分析是必修课**：从销量分维度分时间分析，结合流量、评论、与用户交流的全部内容、退款原因（开源产品还包括所有 issue）——这些都是宝贵数据，能发现漏斗与盲区。\n\n\n## 详细内容\n\n### 产品工程师定位：代码只占 30%\n\n独立开发者的核心能力不是写代码，而是**产品工程师**这一复合角色：用研 + 产品 + 工程师 + 运营 + 数据 + 商业。关键是把\"自己的痛点\"和\"大部分用户的痛点\"结合成方便易用的解决方案，并把它推荐给正确的人——让用户感到\"多亏了这个产品，解决了我一个大问题\"。\n\nAI 时代这一判断更强化：代码壁垒越来越小，因此要把 Token 恰好花在解决用户问题上，把更多 Token 投向需求分析讨论、数据下钻挖掘问题、内容友好性与易读性。即便手握多个 250 刀/月的账号也不够用——不介意多花 Token，但必须花在实处，视其为讲究收益的投资。\n\n### 需求克制：不做什么比做什么重要\n\n需求把控上，\"不做什么\"远比\"做什么\"重要。\"如无必要，勿增实体\"\"至繁归于至简\"贯穿其生活、工作与代码：讨厌繁琐与混乱，喜欢漂亮简单、无需说明书即可上手的产品。\n\n### 高频发布：每周都有 Release\n\n不需要憋大招，尽量做到**每周发布**、每周都有 Release，及时解决用户问题，与用户保持\"人与人交流\"的真实互动。每次发布、更新、宣发都是一次极好的沟通机会，也让之前没看到过你消息的人持续了解产品。\n\n### 品牌与运营：信任是硬通货\n\n- **少用 AI 话术**与真实世界交流；Twitter 是非常好的渠道，产品好用会有大量人自发帮你宣传。\n- 不要走蓝勾互关、互推的虚假繁荣路线——你的用户不在那里。\n- 运营前提是产品本身漂亮、精致，让第一次见到的人有兴趣点击试用，而非快速划走。\n- 不建议抱着强功利心做账号（会带来焦虑），而是**把自己当作品牌建设**：你本人就是品牌本身，所有输出都在给品牌加信任值。在\"虚假又繁荣的 AI 世界\"里，信任尤其稀缺；大量\"吹得天花乱坠、点进去一般\"的产品已把用户预期拉得很低。这个品牌随你在互联网上存活的时间而增值，是你生命周期最长的产品。\n- **真诚与开源**：保持真诚、喜欢开源与友好的网络环境；产品从一开始就全球化/出海，多发英文内容——世界很大，用户很广，也更容易一开始就获得信任。力所能及地帮助他人，有过真实交情的人很可能成为未来用户。\n\n### 渠道选择：X 脉冲 vs YouTube 长尾\n\n尽量不花钱推广。X 的脉冲效应很高但时效一般；更推荐把内容发到 **YouTube**——衰减极慢，只要产品够好、有人推荐，就能火很长时间，带来长线收益。\n\n### 数据分析：发现你不知道的问题\n\n数据分析是必修课：把销量数据分维度、分时间分析，结合流量数据、用户评论、与用户交流的全部内容、退款原因（开源产品还包括所有 issue）。这些数据能帮你发现大量自己不知道的问题、定位销售漏斗，进而优化产品。\n\n### 产品实例：Mole\n\nMole（mole.fit）是这次复盘的载体：一个从开源 CLI 走到 Mac 付费软件的健身记录工具，演示了上述方法论的完整闭环。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| Post by @HiTw93 on X | raw/ | X（Twitter）剪藏，作者 [@HiTw93](https://x.com/HiTw93)（Tw93，Mole/Pake 作者），含 2 条评论互动 |",
+      "sourcePath": "wiki/indie-dev/mole-indie-dev-lessons.md"
     },
     {
       "id": "ai-security/agent-sandbox",
@@ -795,6 +818,27 @@
       "sourcePath": "wiki/algo-trading/polymarket-bots.md"
     },
     {
+      "id": "ai-industry/deepseek-liang-wenfeng-talk",
+      "domainId": "ai-industry",
+      "slug": "deepseek-liang-wenfeng-talk",
+      "title": "DeepSeek 梁文锋投资者交流会要点",
+      "summary": "基于流传的一场约 3 小时 44 分交流会录音记录（@vista8 用 AI 整理）。梁文锋反复强调 DeepSeek \"没钱、没卡、没名气、没有最顶尖人才\"，却在两年内做出让全球紧张的东西。贯穿全场的一条底层逻辑是\" 故意少赚 \"：在一个足够大的赛道里，不精确计算眼前能拿多少，反而是拿到更多的前提——贪多的人会先被拿得更少的对手一层层挤出局。这套生存算法解释了 DeepSeek 几乎所有看似不划算的决定：主动压低利润、捡芝麻不恋战、不",
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "tags": [
+        "ai-industry",
+        "deepseek",
+        "商业战略",
+        "agi",
+        "算力",
+        "开源",
+        "组织管理",
+        "持续学习"
+      ],
+      "body": "## 摘要\n\n基于流传的一场约 3 小时 44 分交流会录音记录（@vista8 用 AI 整理）。梁文锋反复强调 DeepSeek \"没钱、没卡、没名气、没有最顶尖人才\"，却在两年内做出让全球紧张的东西。贯穿全场的一条底层逻辑是\"**故意少赚**\"：在一个足够大的赛道里，不精确计算眼前能拿多少，反而是拿到更多的前提——贪多的人会先被拿得更少的对手一层层挤出局。这套生存算法解释了 DeepSeek 几乎所有看似不划算的决定：主动压低利润、捡芝麻不恋战、不造芯片、选最省力的技术路线。**注意：本文是基于二手录音记录的转述，非官方发布。**\n\n\n## 要点\n\n- **少赚才能活**：假设 AI 吃掉全球 GDP 的 10%，谁想多拿份额，就会被愿意拿更少的对手用更低价打垮，链条一路下卷到平衡点。梁文锋更在乎\"提高做成这件事的概率\"而非\"多拿份额\"，而提高概率的方法恰恰是主动缩小想拿的部分。\n- **开源与低利润是一体两面**：DeepSeek API 按十个月回本设计（约六倍利润），主动锁死上限。把利润压到\"第三方靠开源自部署也无利可图\"，用低利润而非闭源来保住市场本身。\n- **捡芝麻 vs 西瓜**：去年 C 端流量、今年 B 端收入都是芝麻，随手捡；真正的西瓜是 AGI。做产品几乎是\"无心插柳\"——训练和 API 的出发点是通往 AGI 必经之路，用户和收入是路过的副产品。越大的愿景越能凝聚顶尖人才，人才优势溢出到产品层，形成降维打击。\n- **不造芯片、不做垂直应用**：发电厂比喻——运营电厂不必自己造发电机。盘子足够大，只吃最擅长那块，\"吃得太多反而先出局\"。愿意帮阿里/智谱/月之暗面复现开源，因为市场够大时别人做得好不是威胁，别人做坏、搞坏生态信任才是损失。\n- **技术阶梯（最省力顺序）**：思维链 → Agent → **持续学习** → 奇点（模型自迭代下一版、自己做研究，渐进非突变）→ 具身智能。当前 AI 与真正智能之间的墙是\"必须被喂完整上下文\"，跨过持续学习后 AI 能加速后续每一步研发。DeepSeek 训下一版模型**第一目标是让自己团队开发更快，而非外部用户用得好**。\n- **算力是唯一瓶颈，人才不是**：约 2 万张 H 系列等效算力（多数近一两月到货），只撑得起几十 B 激活规模实验；训 800B 级需 5 万张 GB300 或 20 万张华为最新卡。判断 CUDA 护城河正被三股力量瓦解（AI 帮写代码降低建生态门槛、TileLang 快速重写算子体系、计算卡市场已超游戏卡使专用芯片成主流），未来一年内\"国产芯片生态没问题\"会被事实证明，剩下唯一障碍是产能。\n- **半数核心研究员在标数据**：不是因为中国标注便宜（高端数据无成本优势），而是时间问题非资本问题——起步晚，预计一年内补上大部分差距。幻觉被归为可靠后训练改善的产品问题，会解决但非重点。\n- **无组织的组织**：靠愿景驱动。管理分两条线——自上而下的集体项目（如发布 V4，叫\"正式\"）+ 自下而上人人自选研究（无 KPI）。梁文锋给自己定标准：**正式工作不占员工一半以上时间**，因为研究需要松弛环境。不模仿任何公司（包括贝尔实验室，因后者不需自负盈亏）。\n\n\n## 详细内容\n\n### 一以贯之的\"生存算法\"\n\n文章末尾把所有决定归结为同一句话的不同写法：**在一个足够大的赛道里，不去精确计算眼前能拿到多少，反而是拿到更多的前提。**\n\n| 表面决定 | 底层逻辑 |\n|----------|----------|\n| 克制不追最大份额 | 足够大的市场里贪多者先被挤出局 |\n| 捡芝麻不恋战 | 盯眼前收益会耽误更大的西瓜（AGI） |\n| 不造芯片、不做垂直应用 | 吃得太多反而先出局 |\n| 技术路线选最省力顺序 | 省下的力气用在真正卡脖子处（算力） |\n| 半数研究员标数据 | 算力差距补不上，只能靠更扎实的地基 |\n\n### 追赶叙事\n\n过去中国 AI 用别人 1/20 的算力、落后一到两年做出可比的东西；未来要把\"落后时间\"从一两年压缩到三到六个月，算力差距依旧——**不靠更多资源，而靠更聪明的方法**。华为拿到约 1.6 万张卡产能（相当于 4000 张英伟达卡），不指望靠它训更大模型，而是\"帮华为把生态先跑通\"、为未来铺路。华为 950 超节点性价比可平替英伟达 GB200/GB300，代价是\"四张顶一张、落后两年\"，贵 50%~200% 都无所谓，只要买得到。\n\n### 可迁移的判断方法\n\n面对\"现在能拿多少\"和\"未来能拿多少\"的选择时，先别急着算清眼前那笔账，问一个更根本的问题：**这件事会不会因为你现在拿得太多，提前招来一个愿意拿得更少的对手？** 若答案是会，再诱人的短期收益都不值得拿它去换活下去的概率。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| Deepseek 梁文锋投资者交流会 | raw/ | @vista8 2026-07-23；基于公众号流传的录音记录用 AI 整理而成，**属二手转述，非 DeepSeek 官方发布**，具体数字与措辞可能有偏差 |",
+      "sourcePath": "wiki/ai-industry/deepseek-liang-wenfeng-talk.md"
+    },
+    {
       "id": "ai-automation/wechat-group-daily",
       "domainId": "ai-automation",
       "slug": "wechat-group-daily",
@@ -833,27 +877,6 @@
       ],
       "body": "## 摘要\n\n代码迁移（把生产代码库移植到新语言）过去是多年工程。Anthropic 内部在一个月内用 Claude Fable 5、Opus 4.8 和 Dynamic Workflows 迁移了 10 个几万到几十万行的代码包。核心洞见是：**你不修代码，你修产出代码的流程（loop）**。方法论围绕一个可信的 judge（测试判据）展开，用\"实现—审查—修复\"多 agent 循环，让对抗式审查负责判断、机械化脚本负责验证。经济账也变了——最坏情况只是删掉分支重来，迁移不再需要\"存亡级\"理由。\n\n\n## 要点\n\n- **成本重构**：百万行迁移过去要 4 年、$3~4M；现在 Bun（Zig→Rust）两周产出百万行，消耗 59 亿非缓存输入 token + 6.9 亿输出 token，约 $16.5 万。最坏情况从\"两套代码库并行数年\"变成\"删分支重来\"。\n- **为什么 AI 适合迁移**：工作天然并行（文件/crate 相互独立）；旧代码就是完整 spec；测试套件是内建裁判；编译/测试失败自动变成下一个队列项；规则违反变队列项而非静默偏差。\n- **前置条件——先建 judge**：没有可信判据就没有退出条件。给测试分类（可外部调用 vs 依赖内部实现）、把外部测试改写成能同时跑原版和移植版的断言、用对抗 agent 确认改写没削弱断言、再用\"故意改坏的代码\"验证 judge 会失败。\n- **两种迁移形态**：结构保持型（Jarred/Bun，rulebook 是类型/惯用法查找表）vs 重新设计型（Mike/Python→TS，rulebook 是设计文档）。\n- **六步流程**：① 建规则手册+依赖图+缺口清单 → ② 压测规则 → ③ 全量翻译 → ④⑤⑥ 编译、运行、行为对齐。\n- **模型分层**：大模型做审查者和\"写规则给别的 agent 遵守\"的角色；小模型（如 Sonnet）承担高并发的实现 fan-out。\n- **五条最佳实践**：别盲从指南（先和 Claude 规划）；别盯单个失败（盯模式）；审查要对抗、验证要机械；别所有环节都用最大模型；把人的时间前置到规则手册和压测。\n\n\n## 详细内容\n\n### 核心哲学：修流程，不修代码\n\n当审查者反复抓到同一类错误，修法不是逐文件手改，而是**给 rulebook 加一句话，然后重新生成受影响的那批文件**。代码永远不被\"手工打补丁对齐规则\"——rulebook 在翻译阶段持续生长，代码跟着 rulebook 重生成。\n\n### 前置：构建并验证 judge\n\n1. **给测试分类**：用 Claude 区分哪些测试可表达为外部调用、哪些依赖不会移植的内部实现。\n2. **改写为可移植**：把外部测试转成能同时对原版和移植版运行的断言；用对抗 agent 验证改写没有弱化断言。\n3. **验证 judge 本身**：先对原始代码跑一遍确认通过，再对**故意改坏的代码**跑一遍确认失败——抓不到 breakage 的 judge 不是 judge。\n\nMike 的做法略有不同：他把整个迁移端到端跑完，根据结果修订规则和工作流，再跑一遍，**每次丢弃产出，直到第三次才保留**。\n\n### 六步流程\n\n| 步骤 | 内容 | 关键决策 |\n|------|------|----------|\n| 1 规则手册+依赖图+缺口清单 | 顺序很重要：rulebook 先于 gap inventory，因为缺口正是 rulebook 默认值覆盖不到的部分 | 新代码是否沿用旧结构（决定 rulebook 是查找表还是设计文档） |\n| 2 压测规则 | 一个 agent 按 rulebook 翻译 3 个文件，一个\"像资深工程师\"翻译同样 3 个，第三个用 diff 产出新规则；提前抓出会在全量 1448 文件放大的问题 | 只适用结构保持型；重设计型改为用对抗审查直接攻击设计文档 |\n| 3 全量翻译 | 沿用\"实现—审查—修复\"多 agent 循环；工作队列机械化（脚本按磁盘上文件是否存在判断完成度，因此天然可断点续跑）；无法自信翻译的地方打 `// TODO(port): <reason>` | **编译器放哪**：Mike 每个循环内跑 TS 编译器（秒级）；Jarred 把编译器逐出循环、推迟到下一步（cargo 分钟级） |\n| 4/5/6 编译、运行、行为对齐 | 共享同一循环架构，逐步减少人工判断。机械化真值来源：编译器错误列表、冒烟测试崩溃、双代码库行为 diff | 关键错误列表要人工过一遍抓系统性问题（如 Zig 惰性编译容忍的循环导入在 Rust 里炸出上千模块错误） |\n\n### 对抗式审查与机械化验证\n\n- 两个对抗审查者用**独立上下文**评估实现者的工作，分歧交第三个 agent 裁决。\n- **build daemon** 是唯一被允许重建二进制的进程：fixer 写补丁，daemon 批量重建一次、重跑受影响测试、反馈结果——把最昂贵的操作串行化，而不是让多个 agent 各自触发。\n\n### 没有测试套件怎么办\n\nMike 让 Claude 写小脚本对新旧代码库跑 7 个真实场景并 diff 结果，每个失败场景配一个 fix agent，循环到 7 个全过。然后再进一步：Claude 自己设计端到端测试套件、连跑四晚自主修复，抓出任何场景清单都预测不到的细节 bug。**缺测试套件不阻塞迁移——继承不到裁判就让 Claude 造一个，原始代码库始终是 ground truth。**\n\n### 结果看 loop，不看代码\n\nBun 的 Rust 移植已上生产：约 4% 代码在 `unsafe` 块内（多是 C/C++ 边界的单行指针操作）；但 2000 次重复构建的内存从 6745 MB 降到 609 MB，二进制体积小 19%，HTTP 服务和真实负载快 2~5%。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| How Anthropic runs large-scale code migrations | raw/ | @ClaudeDevs 2026-07-22；案例：Jarred Sumner（Bun，Zig→Rust）、Mike Krieger（Python→16.5 万行 TS）；配套开源 code-migration-kit-with-claude-code |",
       "sourcePath": "wiki/code-migration/large-scale-migration.md"
-    },
-    {
-      "id": "ai-industry/deepseek-liang-wenfeng-talk",
-      "domainId": "ai-industry",
-      "slug": "deepseek-liang-wenfeng-talk",
-      "title": "DeepSeek 梁文锋投资者交流会要点",
-      "summary": "基于流传的一场约 3 小时 44 分交流会录音记录（@vista8 用 AI 整理）。梁文锋反复强调 DeepSeek \"没钱、没卡、没名气、没有最顶尖人才\"，却在两年内做出让全球紧张的东西。贯穿全场的一条底层逻辑是\" 故意少赚 \"：在一个足够大的赛道里，不精确计算眼前能拿多少，反而是拿到更多的前提——贪多的人会先被拿得更少的对手一层层挤出局。这套生存算法解释了 DeepSeek 几乎所有看似不划算的决定：主动压低利润、捡芝麻不恋战、不",
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "tags": [
-        "ai-industry",
-        "deepseek",
-        "商业战略",
-        "agi",
-        "算力",
-        "开源",
-        "组织管理",
-        "持续学习"
-      ],
-      "body": "## 摘要\n\n基于流传的一场约 3 小时 44 分交流会录音记录（@vista8 用 AI 整理）。梁文锋反复强调 DeepSeek \"没钱、没卡、没名气、没有最顶尖人才\"，却在两年内做出让全球紧张的东西。贯穿全场的一条底层逻辑是\"**故意少赚**\"：在一个足够大的赛道里，不精确计算眼前能拿多少，反而是拿到更多的前提——贪多的人会先被拿得更少的对手一层层挤出局。这套生存算法解释了 DeepSeek 几乎所有看似不划算的决定：主动压低利润、捡芝麻不恋战、不造芯片、选最省力的技术路线。**注意：本文是基于二手录音记录的转述，非官方发布。**\n\n\n## 要点\n\n- **少赚才能活**：假设 AI 吃掉全球 GDP 的 10%，谁想多拿份额，就会被愿意拿更少的对手用更低价打垮，链条一路下卷到平衡点。梁文锋更在乎\"提高做成这件事的概率\"而非\"多拿份额\"，而提高概率的方法恰恰是主动缩小想拿的部分。\n- **开源与低利润是一体两面**：DeepSeek API 按十个月回本设计（约六倍利润），主动锁死上限。把利润压到\"第三方靠开源自部署也无利可图\"，用低利润而非闭源来保住市场本身。\n- **捡芝麻 vs 西瓜**：去年 C 端流量、今年 B 端收入都是芝麻，随手捡；真正的西瓜是 AGI。做产品几乎是\"无心插柳\"——训练和 API 的出发点是通往 AGI 必经之路，用户和收入是路过的副产品。越大的愿景越能凝聚顶尖人才，人才优势溢出到产品层，形成降维打击。\n- **不造芯片、不做垂直应用**：发电厂比喻——运营电厂不必自己造发电机。盘子足够大，只吃最擅长那块，\"吃得太多反而先出局\"。愿意帮阿里/智谱/月之暗面复现开源，因为市场够大时别人做得好不是威胁，别人做坏、搞坏生态信任才是损失。\n- **技术阶梯（最省力顺序）**：思维链 → Agent → **持续学习** → 奇点（模型自迭代下一版、自己做研究，渐进非突变）→ 具身智能。当前 AI 与真正智能之间的墙是\"必须被喂完整上下文\"，跨过持续学习后 AI 能加速后续每一步研发。DeepSeek 训下一版模型**第一目标是让自己团队开发更快，而非外部用户用得好**。\n- **算力是唯一瓶颈，人才不是**：约 2 万张 H 系列等效算力（多数近一两月到货），只撑得起几十 B 激活规模实验；训 800B 级需 5 万张 GB300 或 20 万张华为最新卡。判断 CUDA 护城河正被三股力量瓦解（AI 帮写代码降低建生态门槛、TileLang 快速重写算子体系、计算卡市场已超游戏卡使专用芯片成主流），未来一年内\"国产芯片生态没问题\"会被事实证明，剩下唯一障碍是产能。\n- **半数核心研究员在标数据**：不是因为中国标注便宜（高端数据无成本优势），而是时间问题非资本问题——起步晚，预计一年内补上大部分差距。幻觉被归为可靠后训练改善的产品问题，会解决但非重点。\n- **无组织的组织**：靠愿景驱动。管理分两条线——自上而下的集体项目（如发布 V4，叫\"正式\"）+ 自下而上人人自选研究（无 KPI）。梁文锋给自己定标准：**正式工作不占员工一半以上时间**，因为研究需要松弛环境。不模仿任何公司（包括贝尔实验室，因后者不需自负盈亏）。\n\n\n## 详细内容\n\n### 一以贯之的\"生存算法\"\n\n文章末尾把所有决定归结为同一句话的不同写法：**在一个足够大的赛道里，不去精确计算眼前能拿到多少，反而是拿到更多的前提。**\n\n| 表面决定 | 底层逻辑 |\n|----------|----------|\n| 克制不追最大份额 | 足够大的市场里贪多者先被挤出局 |\n| 捡芝麻不恋战 | 盯眼前收益会耽误更大的西瓜（AGI） |\n| 不造芯片、不做垂直应用 | 吃得太多反而先出局 |\n| 技术路线选最省力顺序 | 省下的力气用在真正卡脖子处（算力） |\n| 半数研究员标数据 | 算力差距补不上，只能靠更扎实的地基 |\n\n### 追赶叙事\n\n过去中国 AI 用别人 1/20 的算力、落后一到两年做出可比的东西；未来要把\"落后时间\"从一两年压缩到三到六个月，算力差距依旧——**不靠更多资源，而靠更聪明的方法**。华为拿到约 1.6 万张卡产能（相当于 4000 张英伟达卡），不指望靠它训更大模型，而是\"帮华为把生态先跑通\"、为未来铺路。华为 950 超节点性价比可平替英伟达 GB200/GB300，代价是\"四张顶一张、落后两年\"，贵 50%~200% 都无所谓，只要买得到。\n\n### 可迁移的判断方法\n\n面对\"现在能拿多少\"和\"未来能拿多少\"的选择时，先别急着算清眼前那笔账，问一个更根本的问题：**这件事会不会因为你现在拿得太多，提前招来一个愿意拿得更少的对手？** 若答案是会，再诱人的短期收益都不值得拿它去换活下去的概率。\n\n\n## 来源备注\n\n| 原始文件 | 位置 | 备注 |\n|----------|------|------|\n| Deepseek 梁文锋投资者交流会 | raw/ | @vista8 2026-07-23；基于公众号流传的录音记录用 AI 整理而成，**属二手转述，非 DeepSeek 官方发布**，具体数字与措辞可能有偏差 |",
-      "sourcePath": "wiki/ai-industry/deepseek-liang-wenfeng-talk.md"
     },
     {
       "id": "ai-self-media/ai-self-media-starter",

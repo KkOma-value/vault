@@ -1,6 +1,6 @@
 # Ingestion Log / 文件摄入日志
 
-Last updated / 最后更新: 2026-09-09
+Last updated / 最后更新: 2026-09-13
 
 ---
 
@@ -54,3 +54,4 @@ Run after adding files / 添加文件后运行:
 | Running a Software Factory Efficiently at Uber Scale.md | d5eeb87bbc51 | 2026-08-31 | wiki/agent-cost-optimization/ | processed |
 | How to turn your AI into a world-class designer.md | 9161040f12b6 | 2026-09-09 | wiki/ai-design/ | processed |
 | Introducing ChatGPT Images 2.5.md | a185b5727007 | 2026-09-09 | wiki/ai-tools/ | processed |
+| Image prompting  OpenAI API.md | fee96041bc77 | 2026-09-13 | wiki/ai-tools/ | processed |

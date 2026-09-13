@@ -153,11 +153,11 @@
 - **标题**: AI 工具集成 / AI Tools
 - **路径**: `wiki/ai-tools/`
 - **创建**: 2026-08-06
-- **更新**: 2026-09-09
-- **文件数**: 3
-- **标签**: ai-tools, agent-skills, api, mcp, rss, 工具集成, kitesurf, cloudflare, agent-browser, cdp, openai, image-generation, gpt-image, reference-editing
-- **摘要**: AI Agent 工具、图像模型、插件、Skill 与公开 API 的接入方法和生产实践。含 AI HOT Agent Skill、Cloudflare Kitesurf Agent 浏览器，以及 ChatGPT Images 2.5 的生成、编辑和 API 能力。
-- **来源**: raw/Agent 接入.md, raw/Introducing Kitesurf The agent-first browser that runs in V8 isolates on Cloudflare Workers.md, raw/Introducing ChatGPT Images 2.5.md
+- **更新**: 2026-09-13
+- **文件数**: 4
+- **标签**: ai-tools, agent-skills, api, mcp, rss, 工具集成, kitesurf, cloudflare, agent-browser, cdp, openai, image-generation, gpt-image, reference-editing, image-prompting
+- **摘要**: AI Agent 工具、图像模型、插件、Skill 与公开 API 的接入方法和生产实践。含 AI HOT Agent Skill、Cloudflare Kitesurf Agent 浏览器，以及 ChatGPT Images 2.5 的生成、编辑、API 能力和 Image prompting 提示词方法论。
+- **来源**: raw/Agent 接入.md, raw/Introducing Kitesurf The agent-first browser that runs in V8 isolates on Cloudflare Workers.md, raw/Introducing ChatGPT Images 2.5.md, raw/Image prompting  OpenAI API.md
 
 ### overseas-access
 

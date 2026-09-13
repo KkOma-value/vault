@@ -1,14 +1,14 @@
 # AI 工具集成 / AI Tools
 
-最后更新: 2026-09-09
+最后更新: 2026-09-13
 
 ---
 <!--
 领域元数据:
 domain: ai-tools
 created: 2026-08-06
-updated: 2026-09-09
-tags: ai-tools, agent-skills, api, mcp, rss, 工具集成, kitesurf, cloudflare, agent-browser, cdp, openai, image-generation, gpt-image, reference-editing
+updated: 2026-09-13
+tags: ai-tools, agent-skills, api, mcp, rss, 工具集成, kitesurf, cloudflare, agent-browser, cdp, openai, image-generation, gpt-image, reference-editing, image-prompting
 summary: AI Agent 工具、图像模型、插件、Skill 与公开 API 的接入方法和生产实践。
 -->
 
@@ -25,6 +25,7 @@ summary: AI Agent 工具、图像模型、插件、Skill 与公开 API 的接入
 | [[aihot-agent-skill\|AI HOT Agent 接入]] | AI HOT：Agent Skill 与 API 接入 | aihot, agent-skill, rss, api | 2026-08-06 | 把 AI HOT 中文 AI 资讯接进支持 Agent Skills 的工具 |
 | [[kitesurf-agent-browser\|Kitesurf Agent 浏览器]] | Kitesurf：为 AI Agent 设计的无状态浏览器 | kitesurf, cloudflare, agent-browser, cdp, mcp, wasm | 2026-08-07 | Cloudflare 专为 Agent 构建的轻量浏览器，运行在 Workers 上，兼容 CDP/MCP |
 | [[chatgpt-images-2-5\|ChatGPT Images 2.5]] | ChatGPT Images 2.5：更快生成与可控编辑的图像模型 | openai, chatgpt-images, gpt-image, image-generation, api | 2026-09-09 | 图像模型在细节、局部编辑、参考图保持和多轮一致性上的升级；含 Sketch、模板、注释、prompt 分享，以及 Flare/Sunburst API 选型。 |
+| [[image-prompting-gpt-image\|Image prompting GPT Image]] | Image prompting \| OpenAI API：GPT Image 2.5 提示词与图像编辑实践 | openai, gpt-image, image-prompting, image-generation, image-editing, reference-editing, api | 2026-09-13 | GPT Image 2.5 生成/编辑/多轮精修的提示词方法论与 API 参数实践：精确文字、透明抠图、身份保持、风格转移、角色一致等。 |
 
 ---
 
@@ -35,6 +36,7 @@ summary: AI Agent 工具、图像模型、插件、Skill 与公开 API 的接入
 | [[raw/Agent 接入.md\|Agent 接入]] | fb88100b14f7 | [[aihot-agent-skill]] | 2026-08-06 | |
 | [[raw/Introducing Kitesurf The agent-first browser that runs in V8 isolates on Cloudflare Workers.md\|Introducing Kitesurf]] | 9590a142fb4a | [[kitesurf-agent-browser]] | 2026-08-07 | Cloudflare 官方博客 |
 | [[raw/Introducing ChatGPT Images 2.5.md\|Introducing ChatGPT Images 2.5]] | a185b5727007 | [[chatgpt-images-2-5]] | 2026-09-09 | OpenAI 官方发布文 |
+| [[raw/Image prompting  OpenAI API.md\|Image prompting \| OpenAI API]] | fee96041bc77 | [[image-prompting-gpt-image]] | 2026-09-13 | OpenAI 官方开发者文档指南 |
 
 ---
 
