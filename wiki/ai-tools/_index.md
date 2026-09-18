@@ -1,14 +1,14 @@
 # AI 工具集成 / AI Tools
 
-最后更新: 2026-09-13
+最后更新: 2026-09-18
 
 ---
 <!--
 领域元数据:
 domain: ai-tools
 created: 2026-08-06
-updated: 2026-09-13
-tags: ai-tools, agent-skills, api, mcp, rss, 工具集成, kitesurf, cloudflare, agent-browser, cdp, openai, image-generation, gpt-image, reference-editing, image-prompting
+updated: 2026-09-18
+tags: ai-tools, agent-skills, api, mcp, rss, 工具集成, kitesurf, cloudflare, agent-browser, cdp, openai, image-generation, gpt-image, reference-editing, image-prompting, matt-pocock, grill-me, wayfinder, skills-workflow, pragmatic-programmer, leading-words
 summary: AI Agent 工具、图像模型、插件、Skill 与公开 API 的接入方法和生产实践。
 -->
 
@@ -26,6 +26,7 @@ summary: AI Agent 工具、图像模型、插件、Skill 与公开 API 的接入
 | [[kitesurf-agent-browser\|Kitesurf Agent 浏览器]] | Kitesurf：为 AI Agent 设计的无状态浏览器 | kitesurf, cloudflare, agent-browser, cdp, mcp, wasm | 2026-08-07 | Cloudflare 专为 Agent 构建的轻量浏览器，运行在 Workers 上，兼容 CDP/MCP |
 | [[chatgpt-images-2-5\|ChatGPT Images 2.5]] | ChatGPT Images 2.5：更快生成与可控编辑的图像模型 | openai, chatgpt-images, gpt-image, image-generation, api | 2026-09-09 | 图像模型在细节、局部编辑、参考图保持和多轮一致性上的升级；含 Sketch、模板、注释、prompt 分享，以及 Flare/Sunburst API 选型。 |
 | [[image-prompting-gpt-image\|Image prompting GPT Image]] | Image prompting \| OpenAI API：GPT Image 2.5 提示词与图像编辑实践 | openai, gpt-image, image-prompting, image-generation, image-editing, reference-editing, api | 2026-09-13 | GPT Image 2.5 生成/编辑/多轮精修的提示词方法论与 API 参数实践：精确文字、透明抠图、身份保持、风格转移、角色一致等。 |
+| [[matt-pocock-skills-interview\|Matt Pocock Skills 访谈]] | Matt Pocock Skills 访谈：grill me 与 wayfinder 工作流 | agent-skills, matt-pocock, grill-me, wayfinder, skills-workflow, pragmatic-programmer, leading-words | 2026-09-18 | grill me 拷问对齐→spec/tickets 拆会话→wayfinder 地图管超大工程；引导词激活模型深层概念，代码库即 Agent 运行环境。 |
 
 ---
 
@@ -37,6 +38,7 @@ summary: AI Agent 工具、图像模型、插件、Skill 与公开 API 的接入
 | [[raw/Introducing Kitesurf The agent-first browser that runs in V8 isolates on Cloudflare Workers.md\|Introducing Kitesurf]] | 9590a142fb4a | [[kitesurf-agent-browser]] | 2026-08-07 | Cloudflare 官方博客 |
 | [[raw/Introducing ChatGPT Images 2.5.md\|Introducing ChatGPT Images 2.5]] | a185b5727007 | [[chatgpt-images-2-5]] | 2026-09-09 | OpenAI 官方发布文 |
 | [[raw/Image prompting  OpenAI API.md\|Image prompting \| OpenAI API]] | fee96041bc77 | [[image-prompting-gpt-image]] | 2026-09-13 | OpenAI 官方开发者文档指南 |
+| [[raw/264K🌟 Skills 作者 Matt Pocock 96 分钟访谈：grill me 与 wayfinder 工作流，25 年前老书中藏着答案.md\|Matt Pocock 96 分钟访谈]] | 1cc6a455836a | [[matt-pocock-skills-interview]] | 2026-09-18 | @shao__meng 访谈纪要，访谈本体为 Matt Pocock × Gergely Orosz 对谈 |
 
 ---
 
@@ -47,3 +49,5 @@ summary: AI Agent 工具、图像模型、插件、Skill 与公开 API 的接入
 | [[claude-code/_index\|Claude Code]] | Agent Skill 主要运行环境 | 高 |
 | [[ai-security/_index\|AI 安全工具]] | 安全插件也是 Agent 工具 | 中 |
 | [[ai-design/_index\|AI 设计]] | 图像模型、图片生成和精确编辑是 AI 设计工作流的执行能力 | 高 |
+| [[agent-eval/_index\|Agent 评测]] | Skill 的效果需要用 eval 量化验证，grill me 逼持续思考与 hill-climb 迭代相通 | 高 |
+| [[graph-engineering/_index\|Graph Engineering]] | wayfinder 的决策点 DAG 地图是图结构任务编排的一种实践 | 中 |

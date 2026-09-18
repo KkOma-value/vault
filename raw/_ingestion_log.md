@@ -1,6 +1,6 @@
 # Ingestion Log / 文件摄入日志
 
-Last updated / 最后更新: 2026-09-13
+Last updated / 最后更新: 2026-09-18
 
 ---
 
@@ -55,3 +55,4 @@ Run after adding files / 添加文件后运行:
 | How to turn your AI into a world-class designer.md | 9161040f12b6 | 2026-09-09 | wiki/ai-design/ | processed |
 | Introducing ChatGPT Images 2.5.md | a185b5727007 | 2026-09-09 | wiki/ai-tools/ | processed |
 | Image prompting  OpenAI API.md | fee96041bc77 | 2026-09-13 | wiki/ai-tools/ | processed |
+| 264K🌟 Skills 作者 Matt Pocock 96 分钟访谈：grill me 与 wayfinder 工作流，25 年前老书中藏着答案.md | 1cc6a455836a | 2026-09-18 | wiki/ai-tools/ | processed |
