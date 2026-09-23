@@ -1,6 +1,6 @@
 # Taxonomy / 知识分类规则
 
-Last updated / 最后更新: 2026-05-29
+Last updated / 最后更新: 2026-09-23
 
 ---
 
@@ -57,6 +57,13 @@ If a file spans multiple domains, choose one primary domain and add cross-links 
 
 | Domain | Title/标题 | Scope/范围 | Typical Tags/常见标签 |
 |--------|------------|------------|------------------------|
+| machine-native-intelligence | 机器原生智能 | 面向机器消费的结构化决策模型、概率校准与 AI 原语 | machine-native-intelligence, decision-models, calibration, rlcd, system-one |
+| ui-ux-design | UI/UX 设计 | 界面与体验设计的概念、区别、协作与职业路径 | ui, ux, design, frontend, interaction-design, cognitive-bias |
+| self-media-growth | 自媒体成长 | 个人自媒体的选题、制作流程、效率工具与变现 | self-media, content-creation, xiaohongshu, side-business, monetization |
+| indie-product-growth | 独立产品增长 | 独立产品的自然流量留存、功能迭代与 SEO 增长 | indie-product, growth, seo, traffic, retention, vibe-coding |
+| ai-assisted-workflow | AI 辅助工作流 | 用 AI Agent、CLI 与 Skill 搭建个人工作台与云端知识库 | ai-workflow, codex, lark-cli, skill, multi-agent, knowledge-base |
+| context-engineering | 上下文工程 | LLM 上下文窗口的管理策略与工具：注意力预算、检索、压缩、人在回路管理 | context-engineering, llm, agents, attention-budget, compaction, memory, context-editing |
+| ai-video-creation | AI 视频创作 | AI 视频生成的提示语模板、Skill 方法论与实测复现经验 | ai-video, seedance, prompt-templates, skill, video-generation, aesthetic |
 
 ---
 
