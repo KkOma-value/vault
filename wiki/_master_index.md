@@ -1,6 +1,6 @@
 # 总索引
 
-最后更新: 2026-09-23
+最后更新: 2026-09-29
 
 ---
 
@@ -87,11 +87,11 @@
 - **标题**: AI 辅助工作流
 - **路径**: `wiki/ai-assisted-workflow/`
 - **创建**: 2026-09-22
-- **更新**: 2026-09-22
-- **文件数**: 1
-- **标签**: ai-workflow, codex, lark-cli, skill, multi-agent, knowledge-base
-- **摘要**: 用 Codex、飞书 CLI 与项目级 Skill 搭建 Agent 可操作的个人工作台与云端知识库。
-- **来源**: raw/放弃手写界面后，我用 Codex 搭配飞书 CLI 搭建了创作工作台.md
+- **更新**: 2026-09-29
+- **文件数**: 2
+- **标签**: ai-workflow, codex, lark-cli, skill, multi-agent, knowledge-base, design-loop, critic-loop
+- **摘要**: 用 Codex、飞书 CLI 与项目级 Skill 搭建 Agent 可操作的个人工作台与云端知识库，以及发散-批评-收敛的多 Agent 设计工作流。
+- **来源**: raw/放弃手写界面后，我用 Codex 搭配飞书 CLI 搭建了创作工作台.md, raw/解析方法论.md
 
 ### [context-engineering]
 
