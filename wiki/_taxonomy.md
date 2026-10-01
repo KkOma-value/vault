@@ -1,6 +1,6 @@
 # Taxonomy / 知识分类规则
 
-Last updated / 最后更新: 2026-08-31
+Last updated / 最后更新: 2026-09-23
 
 ---
 
@@ -76,6 +76,13 @@ If a file spans multiple domains, choose one primary domain and add cross-links 
 | agent-eval | Agent 评测 / Agent Eval | 用评测（eval）驱动 Agent 技能开发：先写测试再写 skill，量化成功率，hill-climb 迭代，eval 反哺工具改进 | agent-eval, eval-driven-development, agent-skills, firebase, llm-as-judge, 基线, hill-climb |
 | dev-toolchain | 开发工具链 / Dev Toolchain | JavaScript/TypeScript 开发工具链的重大版本与技术演进：运行时、打包器、包管理器 | dev-toolchain, javascript, typescript, bun, runtime, bundler, 工具链 |
 | agent-cost-optimization | Agent 成本优化 / Agent Cost Optimization | Multi-Agent 与软件工厂工作流的 token 成本治理：先度量后优化（6因子方程/拆账），围绕“只加载需要的上下文、剔除无关上下文、消除重复上下文”三原则的工程实践（Pareto选型、分层Cache TTL、CLI替代MCP/Tool Search、Code-Mode、企业图谱、反模式诊断） | agent-cost, token优化, context-engineering, prompt-cache, progressive-disclosure, cli-over-mcp, graphify, rtk, 并行调用, 多agent成本, software-factory, managed-agents, pareto-frontier, code-mode, context-graph |
+| machine-native-intelligence | 机器原生智能 | 面向机器消费的结构化决策模型、概率校准与 AI 原语 | machine-native-intelligence, decision-models, calibration, rlcd, system-one |
+| ui-ux-design | UI/UX 设计 | 界面与体验设计的概念、区别、协作与职业路径 | ui, ux, design, frontend, interaction-design, cognitive-bias |
+| self-media-growth | 自媒体成长 | 个人自媒体的选题、制作流程、效率工具与变现 | self-media, content-creation, xiaohongshu, side-business, monetization |
+| indie-product-growth | 独立产品增长 | 独立产品的自然流量留存、功能迭代与 SEO 增长 | indie-product, growth, seo, traffic, retention, vibe-coding |
+| ai-assisted-workflow | AI 辅助工作流 | 用 AI Agent、CLI 与 Skill 搭建个人工作台与云端知识库 | ai-workflow, codex, lark-cli, skill, multi-agent, knowledge-base |
+| context-engineering | 上下文工程 | LLM 上下文窗口的管理策略与工具：注意力预算、检索、压缩、人在回路管理 | context-engineering, llm, agents, attention-budget, compaction, memory, context-editing |
+| ai-video-creation | AI 视频创作 | AI 视频生成的提示语模板、Skill 方法论与实测复现经验 | ai-video, seedance, prompt-templates, skill, video-generation, aesthetic |
 
 ---
 
