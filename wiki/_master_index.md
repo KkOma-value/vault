@@ -164,11 +164,11 @@
 - **标题**: 海外访问 / Overseas Access
 - **路径**: `wiki/overseas-access/`
 - **创建**: 2026-08-06
-- **更新**: 2026-08-06
-- **文件数**: 1
-- **标签**: overseas-access, esim, 美国号, 海外手机卡, beesim, saily
-- **摘要**: 在中国大陆获取海外手机号等基础设施，解决 AI 服务注册验证门槛。首篇为 BeeSIM + Saily 最低成本美国号方案。
-- **来源**: raw/国行手机用上 eSIM + 最便宜的美国号，保姆级教程手把手带你搞定.md
+- **更新**: 2026-10-02
+- **文件数**: 2
+- **标签**: overseas-access, esim, 美国号, 海外手机卡, beesim, saily, 加密支付卡, bitget-wallet, fiat24
+- **摘要**: 在中国大陆获取海外手机号、加密支付卡等基础设施，解决 AI 服务注册验证与出海支付门槛。含 BeeSIM + Saily 美国号、Bitget Wallet x Fiat24 加密支付卡两篇。
+- **来源**: raw/国行手机用上 eSIM + 最便宜的美国号，保姆级教程手把手带你搞定.md, raw/2026 Bitget Wallet x Fiat24 全套开卡攻略 (含绑定教程).note.md
 
 ### indie-dev
 

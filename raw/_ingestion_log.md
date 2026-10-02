@@ -1,6 +1,6 @@
 # Ingestion Log / 文件摄入日志
 
-Last updated / 最后更新: 2026-09-29
+Last updated / 最后更新: 2026-10-02
 
 ---
 
@@ -68,3 +68,4 @@ Run after adding files / 添加文件后运行:
 | 上下文编辑.md | 9a372e1235c9 | 2026-09-23 | wiki/context-engineering/ | processed |
 | 我把 463 个 AI 视频做成了 Skill 和提示语模版，全都开源！.md | d484f1c8e36b | 2026-09-23 | wiki/ai-video-creation/ | processed |
 | 解析方法论.md | 66d078f3516e | 2026-09-29 | wiki/ai-assisted-workflow/ | processed |
+| 2026 Bitget Wallet x Fiat24 全套开卡攻略 (含绑定教程).note.md | 475b32ae99f1 | 2026-10-02 | wiki/overseas-access/ | processed |
