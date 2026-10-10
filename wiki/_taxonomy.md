@@ -67,7 +67,7 @@ If a file spans multiple domains, choose one primary domain and add cross-links 
 | ai-industry | AI 行业观察 / AI Industry | AI 行业宏观观察：商业战略、定价与开源逻辑、算力格局、技术路线、组织方式 | ai-industry, deepseek, 商业战略, agi, 算力, 开源, 组织管理 |
 | algo-trading | 算法交易 / Algo Trading | 算法/量化交易策略、架构与风控：预测市场做市、套利、信号系统、执行引擎、仓位管理 | algo-trading, quantitative-trading, prediction-market, market-making, polymarket, 量化交易, 做市, 套利 |
 | ai-security | AI 安全 / AI Security | AI 驱动的安全攻防：Vibe Coding 产品漏洞扫描与修复，自主 Agent 攻击与防守自动化（事件复盘、群体智慧涌现、应急响应），以及约束 Agent 执行的防守侧——原地进程沙箱（Seatbelt/SRT、文件/网络/环境/npm 隔离） | ai-security, codex-security, vibe-coding, 漏洞扫描, 安全审查, openai, agent-attacks, 自主agent, 群体智慧, 零日, 红队, agent-sandbox, seatbelt, 进程隔离 |
-| ai-tools | AI 工具集成 / AI Tools | AI Agent 工具/插件/Skill 的接入方法与公开 API 集成指南 | ai-tools, agent-skills, api, mcp, rss, 工具集成, agent-browser, cdp, cloudflare |
+| ai-tools | AI 工具集成 / AI Tools | AI Agent 工具/插件/Skill 的接入方法与公开 API 集成指南 | ai-tools, agent-skills, api, mcp, rss, 工具集成, agent-browser, cdp, cloudflare, cf-cli, workers-ai, clef |
 | overseas-access | 海外访问 / Overseas Access | 在中国大陆获取海外手机号、网络访问等基础设施，解决 AI 服务验证门槛 | overseas-access, esim, 美国号, 海外手机卡, beesim, saily |
 | indie-dev | 独立开发 / Indie Dev | 独立开发者的产品思维与经营方法论：产品工程师定位、需求克制、高频发布、个人品牌与信任、出海、渠道选择、数据分析 | indie-dev, indie-hacking, 独立开发, 产品思维, 品牌, 出海, 数据分析, 高频发布 |
 | multiagent-coordination | 多 Agent 协作 / Multi-Agent Coordination | 多 Agent 协作的基础研究与协调难题：单 agent 等价性、分布式协调不可消除的问题（共识、死锁、状态一致性）、通信协议、专家平均化 | multiagent, coordination, 分布式协作, 协议, 死锁, communication-reasoning-gap, consensus |

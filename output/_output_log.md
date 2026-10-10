@@ -1,6 +1,6 @@
 # Output Log / 输出日志
 
-Last updated / 最后更新: 2026-08-14
+Last updated / 最后更新: 2026-10-09
 
 ---
 
@@ -23,3 +23,4 @@ SCHEMA / 格式说明:
 | reports/local-first-ai-toolchain-report.md | report | 2026-08-14 | wiki/ai-automation/, wiki/pi-agent/, wiki/ai-security/, wiki/ai-tools/, wiki/overseas-access/ | 报告：本地优先 AI 工具链落地——自动化范式、执行沙箱、Agent 内核、Skill/浏览器接入、参考架构与检查清单 |
 | drafts/draft-context-compaction.md | draft | 2026-08-14 | wiki/pi-agent/pi-compaction.md, wiki/claude-code/ | 文章草稿 v1：上下文压缩机制解读（溢出原因、LLM 摘要式压缩、prompt cache 账单），面向开发者 |
 | drafts/draft-graph-engineering-intro.md | draft | 2026-08-14 | wiki/graph-engineering/, wiki/code-migration/ | 文章草稿 v1：Graph Engineering 入门（演进、七原则、五问、14 步核心武器、迁移案例、反模式清单） |
+| drafts/draft-ai-image-models-guide.md | draft | 2026-10-09 | wiki/ai-tools/chatgpt-images-2-5.md, wiki/ai-tools/image-prompting-gpt-image.md | 文章草稿 v1：2026 AI 生图入门与选型指南（GPT Image / Nano Banana / Seedream / Qwen Image），经 humanizer-zh 去模板化润色 |

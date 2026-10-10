@@ -31,6 +31,7 @@ summary: 用 Codex、飞书 CLI 与项目级 Skill 搭建 Agent 个人工作台�
 |------|------|------|----------|------|
 | [[codex-lark-workbench\|用 Codex + 飞书 CLI 搭建创作工作台]] | 用 Codex + 飞书 CLI 搭建创作工作台 | ai-workflow, codex, lark-cli, skill, multi-agent | 2026-09-22 | 用飞书多维表格替代自建前端，用项目级 Skill 做意图路由，并把工作台升级为 Agent 云端知识库。 |
 | [[ai-design-loop\|AI 设计循环：发散 → Critic 反馈 → 收敛打磨]] | AI 设计循环：发散 → Critic 反馈 → 收敛打磨 | ai-workflow, multi-agent, critic-loop, taste, ui-design | 2026-09-29 | 把 AI 设计从一次生成改造成多 Agent 工作流：外部随机性扩大搜索空间、独立 Design Critic 审美闭环、删减收尾。 |
+| [[seed-string-agent-architecture\|Seed String 策略：Discover 阶段的 Agent 架构设计笔记]] | Seed String 策略：Discover 阶段的 Agent 架构设计笔记 | seed-string, discover, agent-architecture, external-randomness, prompt-engineering | 2026-10-01 | 把 Discover 阶段 Seed String 策略翻译成工程方案：随机源、解码映射规则、Explorer 并行架构、Ordo 与 Qoder 落地场景。 |
 
 ---
 

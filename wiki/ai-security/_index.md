@@ -1,15 +1,15 @@
 # AI 安全工具 / AI Security
 
-最后更新: 2026-08-09
+最后更新: 2026-10-10
 
 ---
 <!--
 领域元数据:
 domain: ai-security
 created: 2026-08-06
-updated: 2026-08-09
-tags: ai-security, codex-security, vibe-coding, 漏洞扫描, 安全审查, openai, agent-attacks, 自主agent, 群体智慧, 零日, 红队, 应急响应, agent-sandbox, seatbelt, 进程隔离
-summary: AI 驱动的安全攻防：帮 Vibe Coding 产品发现漏洞的扫描工具，自主 Agent 攻击事件的复盘与群体智慧行为，以及约束 Agent 执行的防守侧——原地进程沙箱（Seatbelt/SRT）。
+updated: 2026-10-10
+tags: ai-security, codex-security, vibe-coding, 漏洞扫描, 安全审查, openai, agent-attacks, 自主agent, 群体智慧, 零日, 红队, 应急响应, agent-sandbox, seatbelt, 进程隔离, osint, 暴露面自查, 数字足迹
+summary: AI 驱动的安全攻防：帮 Vibe Coding 产品发现漏洞的扫描工具，自主 Agent 攻击事件的复盘与群体智慧行为，防守侧的原地进程沙箱（Seatbelt/SRT），以及个人与公司的公开暴露面自查（OSINT 工具的防守用法）。
 -->
 
 ## 概览
@@ -25,6 +25,7 @@ Vibe Coding 降低了产品开发门槛，但安全问题随之暴露；与此�
 | [[codex-security\|Codex Security 安全扫描]] | Codex Security：Vibe Coding 安全扫描神器 | codex-security, openai, vibe-coding, 漏洞扫描 | 2026-08-06 | OpenAI 开源的 Agentic Security 工具，支持多模型交叉扫描 |
 | [[openai-hf-agent-incident\|OpenAI–Hugging Face 入侵事件]] | 自主 Agent 集群的群体智慧攻击 | ai-security, agent-attacks, 自主agent, 群体智慧, 零日, 红队, 应急响应 | 2026-08-08 | 评测 Agent 无人类指挥链式利用零日入侵内网与 Hugging Face；群体智慧涌现与防守自动化建议 |
 | [[agent-sandbox\|Long Agent 原地沙箱]] | 把 AI 代理执行约束在可控边界内 | ai-security, agent-sandbox, seatbelt, srt, 进程隔离, npm隔离, fail-closed | 2026-08-09 | 原地 OS 进程沙箱（Seatbelt/SRT）：可信程序 + 隔离数据；工作区写、网络白名单、合成 HOME、每 turn fail-closed 探测 |
+| [[osint-exposure-audit\|OSINT 暴露面自查]] | 用公开信息工具自查个人足迹与公司暴露面 | ai-security, osint, 暴露面自查, 数字足迹, shodan, theharvester, spiderfoot | 2026-10-10 | 五个开源 OSINT 工具（Blackbird、Maigret、SpiderFoot、theHarvester、Shodan）的防守侧用法；仅收录自查场景 |
 
 ---
 
@@ -35,6 +36,7 @@ Vibe Coding 降低了产品开发门槛，但安全问题随之暴露；与此�
 | [[raw/OpenAI开源的这个安全插件，是每个Vibe Coding的人都必装的神器。.md\|OpenAI Codex Security]] | 946a04ee3f25 | [[codex-security]] | 2026-08-06 | |
 | [[raw/OpenAI 复盘 GPT 入侵 Hugging Face 事件：AI 出现了群体智慧涌现 互相交流技术、隐藏踪迹、清查内鬼 · 小互 · AI 解读站.md\|OpenAI 复盘 GPT 入侵 Hugging Face 事件]] | 9722dd268902 | [[openai-hf-agent-incident]] | 2026-08-08 | 小互解读站，基于 Black Hat USA 2026 演讲录像整理 |
 | （代码库）long-agent/src/long/sandbox/ | — | [[agent-sandbox]] | 2026-08-09 | 非 raw 剪藏；源码梳理 + npm guest-vs-host 实测验证 |
+| [[raw/网警同款开盒思路，查人查公司查设备，五个免费开源工具.md\|网警同款开盒思路，查人查公司查设备，五个免费开源工具]] | ce49f2ed700c | [[osint-exposure-audit]] | 2026-10-10 | 原文为个人侦察教程，仅保留工具介绍与防守侧自查用法 |
 
 ---
 

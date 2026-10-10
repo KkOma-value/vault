@@ -6,7 +6,7 @@ source_raw_files:
   - raw/解析方法论.md
 domain: ai-assisted-workflow
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 tags: ai-workflow, multi-agent, critic-loop, taste, ui-design, design-quality
 related:
   - wiki/ui-ux-design/ui-vs-ux.md

@@ -1,6 +1,6 @@
 # 总索引
 
-最后更新: 2026-09-29
+最后更新: 2026-10-10
 
 ---
 
@@ -142,22 +142,22 @@
 - **标题**: AI 安全 / AI Security
 - **路径**: `wiki/ai-security/`
 - **创建**: 2026-08-06
-- **更新**: 2026-08-09
-- **文件数**: 3
-- **标签**: ai-security, codex-security, vibe-coding, 漏洞扫描, 安全审查, openai, agent-attacks, 自主agent, 群体智慧, 零日, 红队, 应急响应, agent-sandbox, seatbelt, 进程隔离
-- **摘要**: AI 驱动的安全攻防：Vibe Coding 产品漏洞扫描工具，自主 Agent 攻击事件复盘——评测 Agent 无人类指挥链式利用零日入侵 OpenAI 内网与 Hugging Face，群体智慧涌现与防守自动化建议；以及防守侧对偶——用原地 OS 进程沙箱（Seatbelt/SRT）把 AI 代理的执行约束在可控边界内（文件、网络、环境、npm 隔离）。
-- **来源**: raw/OpenAI开源的这个安全插件，是每个Vibe Coding的人都必装的神器。.md, raw/OpenAI 复盘 GPT 入侵 Hugging Face 事件：AI 出现了群体智慧涌现 互相交流技术、隐藏踪迹、清查内鬼 · 小互 · AI 解读站.md, （代码库）long-agent/src/long/sandbox/
+- **更新**: 2026-10-10
+- **文件数**: 4
+- **标签**: ai-security, codex-security, vibe-coding, 漏洞扫描, 安全审查, openai, agent-attacks, 自主agent, 群体智慧, 零日, 红队, 应急响应, agent-sandbox, seatbelt, 进程隔离, osint, 暴露面自查, 数字足迹
+- **摘要**: AI 驱动的安全攻防：Vibe Coding 产品漏洞扫描工具，自主 Agent 攻击事件复盘——评测 Agent 无人类指挥链式利用零日入侵 OpenAI 内网与 Hugging Face，群体智慧涌现与防守自动化建议；防守侧的原地 OS 进程沙箱（Seatbelt/SRT）；以及个人与公司公开暴露面的 OSINT 自查（Blackbird、Maigret、SpiderFoot、theHarvester、Shodan 的防守用法）。
+- **来源**: raw/OpenAI开源的这个安全插件，是每个Vibe Coding的人都必装的神器。.md, raw/OpenAI 复盘 GPT 入侵 Hugging Face 事件：AI 出现了群体智慧涌现 互相交流技术、隐藏踪迹、清查内鬼 · 小互 · AI 解读站.md, （代码库）long-agent/src/long/sandbox/, raw/网警同款开盒思路，查人查公司查设备，五个免费开源工具.md
 
 ### ai-tools
 
 - **标题**: AI 工具集成 / AI Tools
 - **路径**: `wiki/ai-tools/`
 - **创建**: 2026-08-06
-- **更新**: 2026-09-18
-- **文件数**: 5
-- **标签**: ai-tools, agent-skills, api, mcp, rss, 工具集成, kitesurf, cloudflare, agent-browser, cdp, openai, image-generation, gpt-image, reference-editing, image-prompting, matt-pocock, grill-me, wayfinder, skills-workflow
-- **摘要**: AI Agent 工具、图像模型、插件、Skill 与公开 API 的接入方法和生产实践。含 AI HOT Agent Skill、Cloudflare Kitesurf Agent 浏览器、ChatGPT Images 2.5 的生成编辑与 API 能力、Image prompting 提示词方法论，以及 Matt Pocock 的 grill me / wayfinder Skills 协作工作流。
-- **来源**: raw/Agent 接入.md, raw/Introducing Kitesurf The agent-first browser that runs in V8 isolates on Cloudflare Workers.md, raw/Introducing ChatGPT Images 2.5.md, raw/Image prompting  OpenAI API.md, raw/264K🌟 Skills 作者 Matt Pocock 96 分钟访谈：grill me 与 wayfinder 工作流，25 年前老书中藏着答案.md
+- **更新**: 2026-10-09
+- **文件数**: 6
+- **标签**: ai-tools, agent-skills, api, mcp, rss, 工具集成, kitesurf, cloudflare, agent-browser, cdp, openai, image-generation, gpt-image, reference-editing, image-prompting, matt-pocock, grill-me, wayfinder, skills-workflow, cf-cli, r2, email-routing, workers-ai, clef
+- **摘要**: AI Agent 工具、云端基础设施与 CLI、图像模型、插件、Skill 与公开 API 的接入方法和生产实践。含 AI HOT Agent Skill、Cloudflare Kitesurf Agent 浏览器、ChatGPT Images 2.5 的生成编辑与 API 能力、Image prompting 提示词方法论、Matt Pocock 的 grill me / wayfinder Skills 协作工作流，以及 Cloudflare 全栈实战（域名/DNS/HTTPS、Workers 建站、Email Routing、R2 存储、Workers AI/Clef 决策模型与 cf CLI Agent 运维）。
+- **来源**: raw/Agent 接入.md, raw/Introducing Kitesurf The agent-first browser that runs in V8 isolates on Cloudflare Workers.md, raw/Introducing ChatGPT Images 2.5.md, raw/Image prompting  OpenAI API.md, raw/264K🌟 Skills 作者 Matt Pocock 96 分钟访谈：grill me 与 wayfinder 工作流，25 年前老书中藏着答案.md, raw/万字长文｜Cloudflare 从入门到精通，一个域名搞定建站、邮箱、存储和 AI 后端.md
 
 ### overseas-access
 
@@ -296,11 +296,11 @@
 - **标题**: AI 辅助工作流
 - **路径**: `wiki/ai-assisted-workflow/`
 - **创建**: 2026-09-22
-- **更新**: 2026-09-29
-- **文件数**: 2
-- **标签**: ai-workflow, codex, lark-cli, skill, multi-agent, knowledge-base, design-loop, critic-loop
-- **摘要**: 用 Codex、飞书 CLI 与项目级 Skill 搭建 Agent 可操作的个人工作台与云端知识库，以及发散-批评-收敛的多 Agent 设计工作流。
-- **来源**: raw/放弃手写界面后，我用 Codex 搭配飞书 CLI 搭建了创作工作台.md, raw/解析方法论.md
+- **更新**: 2026-10-01
+- **文件数**: 3
+- **标签**: ai-workflow, codex, lark-cli, skill, multi-agent, knowledge-base, design-loop, critic-loop, seed-string, agent-architecture
+- **摘要**: 用 Codex、飞书 CLI 与项目级 Skill 搭建 Agent 可操作的个人工作台与云端知识库，发散-批评-收敛的多 Agent 设计工作流，以及 Discover 阶段 Seed String 外部随机性策略架构。
+- **来源**: raw/放弃手写界面后，我用 Codex 搭配飞书 CLI 搭建了创作工作台.md, raw/解析方法论.md, raw/How to turn your AI into a world-class designer.md
 
 ### [context-engineering]
 
