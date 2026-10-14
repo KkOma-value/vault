@@ -1,6 +1,7 @@
 # Bitget Wallet x Fiat24 加密支付卡开卡攻略
 
 <!--
+元数据:
 source_raw_files:
   - raw/2026 Bitget Wallet x Fiat24 全套开卡攻略 (含绑定教程).note.md
 domain: overseas-access

@@ -1,6 +1,7 @@
 # Codex Security：Vibe Coding 安全扫描神器
 
 <!--
+元数据:
 source_raw_files:
   - raw/OpenAI开源的这个安全插件，是每个Vibe Coding的人都必装的神器。.md
 domain: ai-security

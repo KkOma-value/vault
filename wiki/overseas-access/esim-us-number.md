@@ -1,6 +1,7 @@
 # BeeSIM + Saily：国行手机最低成本美国号
 
 <!--
+元数据:
 source_raw_files:
   - raw/国行手机用上 eSIM + 最便宜的美国号，保姆级教程手把手带你搞定.md
 domain: overseas-access

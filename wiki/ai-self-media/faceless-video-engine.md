@@ -1,6 +1,7 @@
 # 无脸 AI 视频引擎：用 Claude Skill 替代 Higgsfield
 
 <!--
+元数据:
 source_raw_files:
   - raw/This 1 Claude Skill fully replaces your Higgsfield subscription (FULL BREAKDOWN).md
 domain: ai-self-media

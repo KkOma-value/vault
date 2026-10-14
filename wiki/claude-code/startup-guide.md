@@ -1,6 +1,7 @@
 # Claude Code 初创公司指南
 
 <!--
+元数据:
 source_raw_files:
   - raw/Claude Code 初创公司指南：五大规则与创始人洞见.md
 domain: claude-code

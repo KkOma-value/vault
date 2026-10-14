@@ -1,6 +1,7 @@
 # Matt Pocock Skills 访谈：grill me 与 wayfinder 工作流
 
 <!--
+元数据:
 source_raw_files:
   - raw/264K🌟 Skills 作者 Matt Pocock 96 分钟访谈：grill me 与 wayfinder 工作流，25 年前老书中藏着答案.md
 domain: ai-tools

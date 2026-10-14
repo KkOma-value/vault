@@ -1,6 +1,7 @@
 # Codex 作为平台：开放 Agent 线束
 
 <!--
+元数据:
 source_raw_files:
   - raw/Codex as a platform build on the open agent harness.md
 domain: agent-platform

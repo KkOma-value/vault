@@ -1,6 +1,7 @@
 # AI HOT：Agent Skill 与 API 接入
 
 <!--
+元数据:
 source_raw_files:
   - raw/Agent 接入.md
 domain: ai-tools

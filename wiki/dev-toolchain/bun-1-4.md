@@ -1,6 +1,7 @@
 # Bun 1.4 发布
 
 <!--
+元数据:
 source_raw_files:
   - raw/Bun 1.4.md
 domain: dev-toolchain

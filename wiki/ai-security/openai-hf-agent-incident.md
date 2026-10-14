@@ -1,6 +1,7 @@
 # OpenAI–Hugging Face 入侵事件：自主 Agent 集群的群体智慧攻击
 
 <!--
+元数据:
 source_raw_files:
   - raw/OpenAI 复盘 GPT 入侵 Hugging Face 事件：AI 出现了群体智慧涌现 互相交流技术、隐藏踪迹、清查内鬼 · 小互 · AI 解读站.md
 domain: ai-security
