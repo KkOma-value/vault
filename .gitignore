@@ -24,6 +24,7 @@ desktop.ini
 # Local agent/editor state
 .claude/
 .codex/
+.commandcode/
 .gemini/
 .aider*
 .continue/
