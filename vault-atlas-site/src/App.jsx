@@ -7,6 +7,7 @@ import {
   MagnifyingGlass, NotePencil, Tag, X,
 } from "@phosphor-icons/react";
 import { GraphView } from "./GraphView.jsx";
+import { NarrativeHero } from "./NarrativeHero.jsx";
 import {
   articlesForDomain, buildArticleGraph, buildDomainGraph, buildGlobalGraph,
   content, extractHeadings, findArticle, findDomain, findNote, headingId,
@@ -108,7 +109,9 @@ function Home({ navigate }) {
   const neighbors = neighboringDomains(domain.id, 4);
   const mini = useMemo(() => buildDomainGraph(domain.id), [domain.id]);
   const global = useMemo(() => buildGlobalGraph(), []);
+  const scrollToStation = () => document.querySelector(".observatory")?.scrollIntoView({ behavior: "smooth" });
   return <main>
+    <NarrativeHero kicker="VAULT ATLAS / THE KNOWLEDGE RENAISSANCE" giant="Knowledge Renaissance" accent="把读过，变成可再次找到、可以继续连接。" copy={`本地 Obsidian  vault 里的 ${content.stats.domains} 个领域与 ${content.stats.articles} 篇整理文章，在此被重新编排成一张持续生长的认知地图。`} chapters={orderedDomains.map((d) => ({ id: d.id, label: shortTitle(d.title) }))} activeId={domain.id} onSelect={(id) => { setSelected(id); scrollToStation(); }} cta="进入观测站" onCta={scrollToStation} />
     <section className="observatory">
       <FieldRail selected={domain.id} onSelect={setSelected} navigate={navigate}/>
       <section className="field-focus">
@@ -139,7 +142,7 @@ function Domain({ domain, navigate }) {
   const articles = articlesForDomain(domain.id);
   const neighbors = neighboringDomains(domain.id, 6);
   const graph = useMemo(() => buildDomainGraph(domain.id), [domain.id]);
-  return <main className="domain-page"><FieldRail selected={domain.id} navigate={navigate} compact/><section className="domain-main"><button className="back" onClick={() => navigate("/")}><ArrowLeft/> 返回观测站</button><header className="domain-hero"><small>KNOWLEDGE FIELD / {domain.id.toUpperCase()}</small><h1>{domain.title}</h1><p>{domain.summary}</p><div><span><BookOpenText/> {articles.length} 篇 Wiki</span><span><CalendarBlank/> 更新 {fmt(domain.updated)}</span><span><Tag/> {domain.tags.length} 个标签</span></div></header><section className="domain-articles"><Title kicker="PROCESSED ARTICLES" title="已处理文章" copy="从原始资料到结构化观点，每篇文章保留来源与关联。"/>{articles.map((a,i) => <ArticleRow key={a.id} article={a} index={i} navigate={navigate}/>)}</section><section className="domain-notes"><Title kicker="FIELD NOTES" title="领域脉络"/><Markdown body={domain.body} navigate={navigate} compact/></section></section><aside className="domain-aside"><div className="panel-head"><b>关系坐标</b><small>{neighbors.length} 个相关领域</small></div><GraphView data={graph} height={360} compact onNavigate={navigate}/>{neighbors.map((d) => <button key={d.id} onClick={() => navigate(`/wiki/${d.id}`)}>{shortTitle(d.title)} <ArrowRight size={16}/></button>)}</aside></main>;
+  return <><NarrativeHero kicker={`KNOWLEDGE FIELD / ${domain.id.toUpperCase()}`} giant={shortTitle(domain.title)} accent={domain.tags.slice(0, 3).join(" · ")} copy={domain.summary} chapters={orderedDomains.map((d) => ({ id: d.id, label: shortTitle(d.title) }))} activeId={domain.id} onSelect={(id) => navigate(`/wiki/${id}`)} cta="浏览已处理文章" onCta={() => document.querySelector(".domain-articles")?.scrollIntoView({ behavior: "smooth" })} /><main className="domain-page"><FieldRail selected={domain.id} navigate={navigate} compact/><section className="domain-main"><button className="back" onClick={() => navigate("/")}><ArrowLeft/> 返回观测站</button><header className="domain-hero"><div><span><BookOpenText/> {articles.length} 篇 Wiki</span><span><CalendarBlank/> 更新 {fmt(domain.updated)}</span><span><Tag/> {domain.tags.length} 个标签</span></div></header><section className="domain-articles"><Title kicker="PROCESSED ARTICLES" title="已处理文章" copy="从原始资料到结构化观点，每篇文章保留来源与关联。"/>{articles.map((a,i) => <ArticleRow key={a.id} article={a} index={i} navigate={navigate}/>)}</section><section className="domain-notes"><Title kicker="FIELD NOTES" title="领域脉络"/><Markdown body={domain.body} navigate={navigate} compact/></section></section><aside className="domain-aside"><div className="panel-head"><b>关系坐标</b><small>{neighbors.length} 个相关领域</small></div><GraphView data={graph} height={360} compact onNavigate={navigate}/>{neighbors.map((d) => <button key={d.id} onClick={() => navigate(`/wiki/${d.id}`)}>{shortTitle(d.title)} <ArrowRight size={16}/></button>)}</aside></main></>;
 }
 
 const childText = (c) => typeof c === "string" || typeof c === "number" ? String(c) : Array.isArray(c) ? c.map(childText).join("") : c?.props ? childText(c.props.children) : "";

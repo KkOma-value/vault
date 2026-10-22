@@ -273,3 +273,72 @@ footer button { display: flex; align-items: center; gap: 6px; color: #85a1ae; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* ---- Renaissance-edition narrative hero (Shopify Winter'26 平替, 深色画廊版) ---- */
+.narrative-hero {
+  --hero-p: 0;
+  position: relative; overflow: clip; isolation: isolate;
+  border-bottom: 1px solid var(--line);
+  background:
+    radial-gradient(1100px 480px at 50% -8%, rgba(107, 216, 255, .10), transparent 62%),
+    radial-gradient(900px 520px at 88% 110%, rgba(200, 255, 56, .06), transparent 60%),
+    linear-gradient(180deg, #081824 0%, #07131d 58%, #040c13 100%);
+}
+.davinci-lines {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  color: rgba(71, 118, 139, .20); stroke-width: 1;
+  pointer-events: none; z-index: 0;
+}
+.narrative-inner {
+  position: relative; z-index: 1;
+  display: grid; grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 40px; max-width: 1440px; margin: 0 auto;
+  padding: clamp(56px, 8vh, 110px) clamp(24px, 5vw, 76px) 30px;
+}
+.narrative-kicker { color: var(--cyan); font: 10px var(--mono); letter-spacing: .14em; }
+.giant-word {
+  margin: 14px 0 0; font-weight: 800; color: #f0f5f6;
+  font-size: clamp(56px, 9.5vw, 168px); line-height: .94; letter-spacing: -.045em;
+  text-wrap: balance; will-change: transform, opacity;
+}
+.serif-accent {
+  position: relative; z-index: 2; margin: 34px 0 0; max-width: 760px;
+  font-family: Georgia, "Times New Roman", "Noto Serif SC", serif;
+  font-style: italic; font-weight: 400;
+  font-size: clamp(22px, 3vw, 40px); line-height: 1.25; letter-spacing: -.01em;
+  color: #e9f2f5;
+}
+.serif-accent em, .serif-accent i { color: var(--lime); }
+.narrative-copy { margin: 18px 0 0; max-width: 620px; color: #9fb3bd; font-size: 14px; line-height: 1.85; }
+.narrative-cta {
+  position: relative; z-index: 2; margin-top: 26px; display: inline-flex; align-items: center; gap: 8px;
+  border: 1px solid var(--lime); color: var(--lime); padding: 12px 18px; font-size: 13px;
+}
+.chapter-index {
+  align-self: start; position: sticky; top: 86px;
+  border-left: 1px solid var(--line); padding-left: 0;
+  display: flex; flex-direction: column;
+}
+.chapter-index button {
+  display: flex; align-items: baseline; gap: 10px; width: 100%;
+  padding: 7px 0 7px 18px; text-align: left; color: #8ca4af;
+}
+.chapter-index button b { font-size: 13px; font-weight: 600; white-space: nowrap; }
+.chapter-index button span { font: 10px var(--mono); color: #5b7684; }
+.chapter-index .leader { flex: 1; border-bottom: 1px dotted #33505f; transform: translateY(-3px); min-width: 12px; }
+.chapter-index button:hover { color: #fff; }
+.chapter-index button.active { color: var(--lime); }
+.chapter-index button.active span { color: var(--lime); }
+.chapter-foot { display: flex; justify-content: space-between; margin-top: 14px; padding: 10px 0 0 18px; border-top: 1px solid var(--line); color: #5b7684; font: 9px var(--mono); }
+.narrative-scroll-hint {
+  position: relative; z-index: 1;
+  display: flex; align-items: center; gap: 10px;
+  padding: 0 clamp(24px, 5vw, 76px) 26px; color: #5f7c8a; font: 10px var(--mono); letter-spacing: .1em;
+}
+.narrative-scroll-hint span { width: 44px; height: 1px; background: var(--lime); display: inline-block; }
+@media (max-width: 920px) {
+  .narrative-inner { grid-template-columns: 1fr; }
+  .chapter-index { position: static; flex-direction: row; overflow-x: auto; border-left: 0; border-top: 1px solid var(--line); padding-top: 6px; }
+  .chapter-index button { flex: 0 0 auto; padding-inline: 12px 14px; }
+  .chapter-index .leader, .chapter-foot { display: none; }
+}
