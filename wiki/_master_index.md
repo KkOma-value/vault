@@ -1,6 +1,6 @@
 # 总索引
 
-最后更新: 2026-10-10
+最后更新: 2026-10-22
 
 ---
 
@@ -208,11 +208,11 @@
 - **标题**: Agent 平台 / Agent Platform
 - **路径**: `wiki/agent-platform/`
 - **创建**: 2026-08-21
-- **更新**: 2026-08-22
-- **文件数**: 2
-- **标签**: agent-platform, agent-harness, codex, sdk, app-server, mcp, 嵌入式agent
-- **摘要**: Agent 运行时/线束（harness）作为平台的架构模式：将 agent 循环嵌入已有产品而非让用户搬到通用聊天框；OpenAI Codex 开源 harness 的三层集成（exec/SDK/app-server）与应用所有权分层，以及 harness 四要素（系统提示词/工具/agentic loop/翻译层）概念基础。
-- **来源**: raw/Codex as a platform build on the open agent harness.md, raw/What is a Harness?.md
+- **更新**: 2026-10-22
+- **文件数**: 3
+- **标签**: agent-platform, agent-harness, codex, sdk, app-server, mcp, 嵌入式agent, deepseek, dsh, plugin-architecture, cordis
+- **摘要**: Agent 运行时/线束（harness）作为平台的架构模式：将 agent 循环嵌入已有产品而非让用户搬到通用聊天框；OpenAI Codex 开源 harness 的三层集成（exec/SDK/app-server）与应用所有权分层；harness 四要素（系统提示词/工具/agentic loop/翻译层）概念基础；以及 DeepSeek Harness 把线束核心（含 agent loop）全部插件化、用 cordis.patch.yml 与 Profile 驱动的另一种平台路线。
+- **来源**: raw/Codex as a platform build on the open agent harness.md, raw/What is a Harness?.md, raw/万字长文｜DeepSeek Harness 从 0 到 1：一切皆插件的 Agent，到底强在哪、怎么上手.md
 
 ### agent-cost-optimization
 

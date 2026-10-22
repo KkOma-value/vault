@@ -1,6 +1,6 @@
 # Ingestion Log / 文件摄入日志
 
-Last updated / 最后更新: 2026-10-10
+Last updated / 最后更新: 2026-10-22
 
 ---
 
@@ -71,3 +71,4 @@ Run after adding files / 添加文件后运行:
 | 2026 Bitget Wallet x Fiat24 全套开卡攻略 (含绑定教程).note.md | 475b32ae99f1 | 2026-10-02 | wiki/overseas-access/ | processed |
 | 万字长文｜Cloudflare 从入门到精通，一个域名搞定建站、邮箱、存储和 AI 后端.md | 31912d6eebd9 | 2026-10-09 | wiki/ai-tools/ | processed |
 | 网警同款开盒思路，查人查公司查设备，五个免费开源工具.md | ce49f2ed700c | 2026-10-10 | wiki/ai-security/ | processed |
+| 万字长文｜DeepSeek Harness 从 0 到 1：一切皆插件的 Agent，到底强在哪、怎么上手.md | 9adbd91bca72 | 2026-10-22 | wiki/agent-platform/ | processed |
